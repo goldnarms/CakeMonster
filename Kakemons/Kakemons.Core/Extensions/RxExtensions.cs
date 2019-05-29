@@ -7,8 +7,8 @@ using System.Reactive.Concurrency;
 using System.Reactive.Disposables;
 using System.Reactive.Linq;
 using System.Threading;
-using Kakemons.Common.Contracts;
 using Microsoft.AppCenter.Analytics;
+using Serilog;
 
 namespace Kakemons.Core.Extensions
 {
@@ -70,7 +70,7 @@ namespace Kakemons.Core.Extensions
         public static IObservable<T> LogException<T>(this IObservable<T> @this, ILogger log, string message = null)
         {
             return @this.Catch<T, Exception>(ex => {
-                log.LogError(message ?? ex.Message, ex);
+                log.Error(message ?? ex.Message, ex);
                 return @this;
             });
         }

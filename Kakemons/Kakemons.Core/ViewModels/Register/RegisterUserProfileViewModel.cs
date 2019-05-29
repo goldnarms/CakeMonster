@@ -5,7 +5,7 @@ using Kakemons.Core.NavigationModels;
 using Kakemons.Core.ViewModels.Login;
 using ReactiveUI;
 using Splat;
-using ILogger = Kakemons.Common.Contracts.ILogger;
+using ILogger = Serilog.ILogger;
 
 namespace Kakemons.Core.ViewModels.Register
 {
@@ -52,14 +52,14 @@ namespace Kakemons.Core.ViewModels.Register
 
         private async Task GoToLoginUser()
         {
-            await _navigationService.Navigate<LoginViewModel>();
+            await HostScreen.Router.Navigate.Execute(new LoginViewModel(_hostScreen, logger: _logger));
         }
 
         public ReactiveCommand<Unit, Unit> CancelCommand { get; set; }
 
         private async Task Cancel()
         {
-            await _navigationService.Navigate<LoginViewModel>();
+            await HostScreen.Router.Navigate.Execute(new LoginViewModel(_hostScreen, logger: _logger));
         }
 
         public void Prepare(UserProfileNavigation parameter)

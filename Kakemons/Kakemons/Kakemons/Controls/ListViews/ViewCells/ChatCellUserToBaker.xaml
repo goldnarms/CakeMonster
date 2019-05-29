@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<viewCells:NoSelectionStateViewCell xmlns="http://xamarin.com/schemas/2014/forms"
+          xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+          xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+          xmlns:transformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+          xmlns:viewCells="clr-namespace:Kakemons.UI.Controls.ListViews.ViewCells;assembly=Kakemons.UI"
+          x:Class="Kakemons.UI.Controls.ListViews.ViewCells.ChatCellUserToBaker">
+    <ViewCell.View>
+        <Grid ColumnSpacing="2" Padding="5" Margin="20, 0, 20, 0" BackgroundColor="Transparent">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="60" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="20" />
+            </Grid.RowDefinitions>
+            <Frame HasShadow="False" Grid.Row="0" Grid.Column="0" BackgroundColor="{DynamicResource PrimaryLight}" HorizontalOptions="FillAndExpand" Padding="10">
+                <Label Style="{StaticResource SmallLabel}" Text="{Binding Message}" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />
+            </Frame>
+            <Label Style="{StaticResource VerySmallLabel}" Grid.Row="1" Grid.Column="0" Text="{Binding DateSent, Converter={StaticResource TimeAgo}}" />
+            <forms:CachedImage Grid.Row="0" Grid.Column="1" HorizontalOptions="End" VerticalOptions="Center"
+                               WidthRequest="40" HeightRequest="40"
+                               DownsampleToViewSize="true"
+                               Source="{Binding AvatarUrl}" Aspect="AspectFit">
+                <forms:CachedImage.Transformations>
+                    <transformations:CircleTransformation />
+                </forms:CachedImage.Transformations>
+            </forms:CachedImage>
+        </Grid>
+    </ViewCell.View>
+</viewCells:NoSelectionStateViewCell>

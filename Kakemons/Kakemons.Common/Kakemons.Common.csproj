@@ -10,4 +10,8 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Contracts\" />
+  </ItemGroup>
+
 </Project>

@@ -14,7 +14,7 @@ namespace Kakemons.UI.Pages.Search {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Search\\SearchPage.xaml")]
-    public partial class SearchPage : global::MvvmCross.Forms.Views.MvxContentPage<global::Kakemons.Core.ViewModels.Search.SearchViewModel> {
+    public partial class SearchPage : global::Kakemons.UI.Views.ContentPageBase<global::Kakemons.Core.ViewModels.Search.SearchViewModel> {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::PanCardView.CarouselView PopularSearchesCarousel;

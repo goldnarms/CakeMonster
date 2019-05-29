@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<views:MvxContentPage x:TypeArguments="search:SearchViewModel" xmlns="http://xamarin.com/schemas/2014/forms"
+<views:ContentPageBase x:TypeArguments="search:SearchViewModel" xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
              xmlns:search="clr-namespace:Kakemons.Core.ViewModels.Search;assembly=Kakemons.Core"
              xmlns:entries="clr-namespace:Kakemons.UI.Controls.Entries;assembly=Kakemons.UI"
              xmlns:panCardView="clr-namespace:PanCardView;assembly=PanCardView"
              xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:views="clr-namespace:Kakemons.UI.Views;assembly=Kakemons.UI"
              xmlns:listViews="clr-namespace:Kakemons.UI.Controls.ListViews;assembly=Kakemons.UI"
              xmlns:viewCells="clr-namespace:Kakemons.UI.Controls.ListViews.ViewCells;assembly=Kakemons.UI"
              x:Class="Kakemons.UI.Pages.Search.SearchPage">
@@ -55,4 +55,4 @@
             </listViews:CakeSmallList>
         </Grid>
     </ContentPage.Content>
-</views:MvxContentPage>
+</views:ContentPageBase>

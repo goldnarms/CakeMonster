@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Kakemons.Core.ViewModels.Baker;
-using MvvmCross.Forms.Views;
+using Kakemons.UI.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace Kakemons.UI.Pages.Baker
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class BakerChatPage : MvxContentPage<BakerChatViewModel>
+	public partial class BakerChatPage : ContentPageBase<BakerChatViewModel>
 	{
 		public BakerChatPage ()
 		{

@@ -17,7 +17,7 @@ namespace Kakemons.Core.ViewModels
         protected readonly CompositeDisposable CompositeDisposable = new CompositeDisposable();
         protected readonly ILogger Log;
         private bool _isBusy;
-
+        private string _title;
 
         public BaseViewModel(IScreen hostScreen = null)
         {
@@ -40,6 +40,12 @@ namespace Kakemons.Core.ViewModels
         {
             get => _isBusy;
             set => this.RaiseAndSetIfChanged(ref _isBusy, value);
+        }
+
+        protected string Title
+        {
+            get => _title;
+            set => this.RaiseAndSetIfChanged(ref _title, value);
         }
 
         protected IObservable<bool> IsVisibleObservable => _isVisibleSubject;

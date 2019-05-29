@@ -14,7 +14,7 @@ namespace Kakemons.UI.Pages.Baker {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Baker\\BakerDetailPage.xaml")]
-    public partial class BakerDetailPage : global::MvvmCross.Forms.Views.MvxContentPage<global::Kakemons.Core.ViewModels.Baker.BakerProfileViewModel> {
+    public partial class BakerDetailPage : global::Kakemons.UI.Views.ContentPageBase<global::Kakemons.Core.ViewModels.Baker.BakerProfileViewModel> {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Kakemons.UI.Controls.ListViews.CakeSmallList CakeList;

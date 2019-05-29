@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "5c2002379909cf28e979f6467fae31b1d562fa08"
+    "signature": "47f6c32d5ba5a970039196ba91abfb45c064fae0"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,8 @@
     ".NETStandard,Version=v2.0/": {
       "Kakemons.Core/1.0.0": {
         "dependencies": {
+          "Acr.UserDialogs": "7.0.4",
+          "AutoMapper": "8.1.0",
           "Kakemons.Common": "1.0.0",
           "Kakemons.SDK": "1.0.0",
           "Microsoft.AppCenter": "2.0.0",
@@ -19,6 +21,14 @@
         },
         "runtime": {
           "Kakemons.Core.dll": {}
+        }
+      },
+      "Acr.UserDialogs/7.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "akavache/6.0.30": {
@@ -61,6 +71,18 @@
           }
         }
       },
+      "AutoMapper/8.1.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.0"
+          }
+        }
+      },
       "DynamicData/6.9.1.2588": {
         "dependencies": {
           "System.Reactive": "4.1.5"
@@ -99,6 +121,14 @@
           "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CSharp.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.6.26515.6"
           }
         }
       },
@@ -615,6 +645,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Acr.UserDialogs/7.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J+3+rSVtAAUqvaXC0NGZ6HAcSXMaMyqvKsV1sMoraT7g+Zv/r4QmgUUITPu875n0uO57Y87Xn6IbLVDPje6tlw==",
+      "path": "acr.userdialogs/7.0.4",
+      "hashPath": "acr.userdialogs.7.0.4.nupkg.sha512"
+    },
     "akavache/6.0.30": {
       "type": "package",
       "serviceable": true,
@@ -635,6 +672,13 @@
       "sha512": "sha512-pFU/vgCBzDf6MPyuL8oosA/TcKPszVjmrVYO41G1HydDFKsCVZDHIFsbAxMk0c2EBUP+6gt24e4cxozvPrpbHw==",
       "path": "akavache.sqlite3/6.0.30",
       "hashPath": "akavache.sqlite3.6.0.30.nupkg.sha512"
+    },
+    "AutoMapper/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Go75WXHE7p/8CtRaxZnvVEfcSh7xpE6zx9wkgN4I1BxvlzP0hoiTLHSXDYXgv9CoxaRj4ahwzCA/iwdpvyQyOA==",
+      "path": "automapper/8.1.0",
+      "hashPath": "automapper.8.1.0.nupkg.sha512"
     },
     "DynamicData/6.9.1.2588": {
       "type": "package",
@@ -664,6 +708,13 @@
       "path": "microsoft.appcenter.crashes/2.0.0",
       "hashPath": "microsoft.appcenter.crashes.2.0.0.nupkg.sha512"
     },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -674,7 +725,7 @@
     "Microsoft.NETCore.Targets/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iSZ0iDTbFcWrVEyopItHflkEH5u6kHtKw5POTZMeCUlNHHLsakqrZJ9Yqhgb8yOfXfcEpWz/tGNua6JuNQG7Pw==",
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
@@ -702,14 +753,14 @@
     "Refit/4.6.58": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kgbnL3Y625PIs2KNpk/cag4m7uVNwKByofrIEIaMV0Bzpjbu+azKug8BCRXCvDvuWJw7n+QIcQohyIdGWq3riQ==",
+      "sha512": "sha512-bkTC+ARz6bgcQmeRxzqln5xoVklUvoLMIZDoa0KUz04IWrtVYHlR46Fgfym6tuUc0i70DqRhSx3MsnbbmLpoLg==",
       "path": "refit/4.6.58",
       "hashPath": "refit.4.6.58.nupkg.sha512"
     },
     "Serilog/2.8.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3jtlNpLFGz16ZEYZ0lohfUlVLspg+DW6kRVNC2rOtie6Xy+fIibtqFSZ6lQRdRKV6ER9WLxg+Q3em6f6ZccJ3A==",
+      "sha512": "sha512-zjuKXW5IQws43IHX7VY9nURsaCiBYh2kyJCWLJRSWrTsx/syBKHV8MibWe2A+QH3Er0AiwA+OJmO3DhFJDY1+A==",
       "path": "serilog/2.8.0",
       "hashPath": "serilog.2.8.0.nupkg.sha512"
     },
@@ -765,7 +816,7 @@
     "System.Diagnostics.Contracts/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-P+gK4a1fNdrkR9nzdLVcEGRGC7nF62lT8AZBZLfqlsqLe0bJHG7aCJAP7W+uNBUJIHMagjV5Ii7gRIxJa1EC9g==",
+      "sha512": "sha512-eelRRbnm+OloiQvp9CXS0ixjNQldjjkHO4iIkR5XH2VIP8sUB/SIpa1TdUW6/+HDcQ+MlhP3pNa1u5SbzYuWGA==",
       "path": "system.diagnostics.contracts/4.3.0",
       "hashPath": "system.diagnostics.contracts.4.3.0.nupkg.sha512"
     },
@@ -786,7 +837,7 @@
     "System.Dynamic.Runtime/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XoeW6cCD1q9aze5pNekryoPOynKsXHvs63wv7fNaQYUaltlvFqvJP97A+SFHKiSez7/HwE/bstmQ3uV44Q0c6w==",
+      "sha512": "sha512-SNVi1E/vfWUAs/WYKhE9+qlS6KqK0YVhnlT0HQtr8pMIA8YX3lwy3uPMownDwdYISBdmAF/2holEIldVp85Wag==",
       "path": "system.dynamic.runtime/4.3.0",
       "hashPath": "system.dynamic.runtime.4.3.0.nupkg.sha512"
     },

@@ -6,7 +6,7 @@ using System.Reactive.Linq;
 using System.Threading.Tasks;
 using Akavache;
 using DynamicData;
-using Kakemons.Common.Contracts;
+using Serilog;
 
 namespace Kakemons.Core.Extensions
 {
@@ -28,7 +28,7 @@ namespace Kakemons.Core.Extensions
                 {
                     //log.Trace("Writing items " + items.Count + " to cache with id: " + key);
                     BlobCache.LocalMachine.InsertObject(key, items.ToList())
-                        .Catch(Observable.Return(Unit.Default).Do(unit => log.LogError("Failed to add items to cache")));
+                        .Catch(Observable.Return(Unit.Default).Do(unit => log.Error("Failed to add items to cache")));
                 }));
         }
 
@@ -47,7 +47,7 @@ namespace Kakemons.Core.Extensions
                 {
                     //log.Trace("Writing items " + items.Count + " to cache with id: " + key);
                     BlobCache.LocalMachine.InsertObject(key, items.ToList())
-                        .Catch(Observable.Return(Unit.Default).Do(unit => log.LogError("Failed to add items to cache")));
+                        .Catch(Observable.Return(Unit.Default).Do(unit => log.Error("Failed to add items to cache")));
                 }));
         }
 

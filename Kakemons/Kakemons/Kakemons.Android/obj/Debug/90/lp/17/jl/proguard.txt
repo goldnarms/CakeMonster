@@ -1,2 +1,4 @@
-# aapt2 is not (yet) keeping FQCNs defined in the appComponentFactory <application> attribute
--keep class android.support.v4.app.CoreComponentFactory
+# The following options are set by default.
+# Make sure they are always set, even if the default proguard config changes.
+-dontskipnonpubliclibraryclasses
+-verbose

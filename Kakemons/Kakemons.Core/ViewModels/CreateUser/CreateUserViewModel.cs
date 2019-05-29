@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Kakemons.Common.Contracts;
+using Serilog;
 
 namespace Kakemons.Core.ViewModels.CreateUser
 {
     public class CreateUserViewModel: BaseViewModel
     {
-        public CreateUserViewModel(ILogger log)
+        public CreateUserViewModel(ILogger logger = null)
         {
         }
     }

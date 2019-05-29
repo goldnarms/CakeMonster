@@ -1,8 +1,8 @@
 using System;
 using System.Reactive.Disposables;
 using System.Reactive.Linq;
-using Kakemons.Common.Contracts;
 using ReactiveUI;
+using Serilog;
 
 namespace Kakemons.Core.Extensions
 {
@@ -20,7 +20,7 @@ namespace Kakemons.Core.Extensions
 
                 command
                     .LogToAnalytics("Actions", cleanTitle)
-                    .Do(l => logger.Trace("Action: " + cleanTitle))
+                    .Do(l => logger.Information("Action: " + cleanTitle))
                     .Subscribe()
             };
             return cd;

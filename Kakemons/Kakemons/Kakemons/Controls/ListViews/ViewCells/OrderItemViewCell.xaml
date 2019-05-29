@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<viewCells:NoSelectionStateViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewCells="clr-namespace:Kakemons.UI.Controls.ListViews.ViewCells;assembly=Kakemons.UI"
+             xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:transformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             x:Class="Kakemons.UI.Controls.ListViews.ViewCells.OrderItemViewCell">
+    <ViewCell.View>
+        <Grid ColumnSpacing="8" Padding="5" Margin="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20" />
+                <RowDefinition Height="30" />
+            </Grid.RowDefinitions>
+            <forms:CachedImage Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" x:Name="CakeImage" VerticalOptions="FillAndExpand" HeightRequest="45" WidthRequest="45" Aspect="AspectFill" HorizontalOptions="FillAndExpand">
+                <forms:CachedImage.Transformations>
+                    <transformations:CircleTransformation BorderSize="0"></transformations:CircleTransformation>
+                </forms:CachedImage.Transformations>
+            </forms:CachedImage>
+            <Label Grid.Row="0" Grid.Column="1" x:Name="CakeNameLabel" Style="{StaticResource StrongLabel}"></Label>
+            <Label Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" x:Name="RemoveLabel" VerticalOptions="StartAndExpand" HorizontalOptions="EndAndExpand" FontFamily="{StaticResource IconFont}" Style="{StaticResource DeleteIcon}" FontSize="22" TextColor="Black" FontAttributes="Bold" />
+            <Label Grid.Row="1" Grid.Column="1" x:Name="CakePriceLabel"></Label>
+        </Grid>
+    </ViewCell.View>
+</viewCells:NoSelectionStateViewCell>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Kakemons.UI.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace Kakemons.UI.Pages.Chat
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ChatsPage : ContentPage
-	{
+    {
 		public ChatsPage ()
 		{
 			InitializeComponent ();

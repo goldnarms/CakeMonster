@@ -3,12 +3,12 @@ using System.Linq;
 using System.Reactive.Linq;
 using System.Threading.Tasks;
 using DynamicData;
-using Kakemons.Common.Contracts;
 using Kakemons.Common.Dtos;
 using Kakemons.Core.Contracts;
 using Kakemons.Core.Extensions;
 using Kakemons.SDK.ApiContracts;
 using ReactiveUI;
+using Serilog;
 
 namespace Kakemons.Core.ModelServices
 {
@@ -57,7 +57,7 @@ namespace Kakemons.Core.ModelServices
             }
             catch (Exception ex)
             {
-                _logger.LogError(nameof(DeleteChatMessage), ex);
+                _logger.Error(nameof(DeleteChatMessage), ex);
                 throw;
             }
         }
@@ -71,7 +71,7 @@ namespace Kakemons.Core.ModelServices
             }
             catch (Exception ex)
             {
-                _logger.LogError(nameof(SendChatMessage), ex);
+                _logger.Error(nameof(SendChatMessage), ex);
                 throw;
             }
         }

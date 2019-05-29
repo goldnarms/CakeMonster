@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<views:MvxContentPage x:TypeArguments="baker:BakerProfileViewModel" xmlns="http://xamarin.com/schemas/2014/forms"
+<views:ContentPageBase x:TypeArguments="baker:BakerProfileViewModel" xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="clr-namespace:Kakemons.UI.Controls;assembly=Kakemons.UI"
-             xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
              xmlns:baker="clr-namespace:Kakemons.Core.ViewModels.Baker;assembly=Kakemons.Core"
              xmlns:listViews="clr-namespace:Kakemons.UI.Controls.ListViews;assembly=Kakemons.UI"
+                       xmlns:views="clr-namespace:Kakemons.UI.Views;assembly=Kakemons.UI"
              xmlns:viewCells="clr-namespace:Kakemons.UI.Controls.ListViews.ViewCells;assembly=Kakemons.UI"
              x:Class="Kakemons.UI.Pages.Baker.BakerDetailPage">
     <ContentPage.Content>
@@ -38,4 +38,4 @@
             </Grid>
         </ScrollView>
     </ContentPage.Content>
-</views:MvxContentPage>
+</views:ContentPageBase>

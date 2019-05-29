@@ -1,13 +1,12 @@
 using Kakemons.Core.ViewModels.Search;
-using MvvmCross.Forms.Presenters.Attributes;
-using MvvmCross.Forms.Views;
+using Kakemons.UI.Views;
 using Xamarin.Forms.Xaml;
 
 namespace Kakemons.UI.Pages.Search
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	[MvxTabbedPagePresentation(WrapInNavigationPage = true, Title = "Søk", Icon = "search")]
-    public partial class SearchPage : MvxContentPage<SearchViewModel>
+	//[MvxTabbedPagePresentation(WrapInNavigationPage = true, Title = "Søk", Icon = "search")]
+    public partial class SearchPage : ContentPageBase<SearchViewModel>
 	{
 		public SearchPage ()
 		{

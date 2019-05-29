@@ -7,7 +7,6 @@ using System.Reactive.Subjects;
 using System.Threading.Tasks;
 using AutoMapper;
 using DynamicData;
-using Kakemons.Common.Contracts;
 using Kakemons.Common.Dtos;
 using Kakemons.Common.Enums;
 using Kakemons.Core.Contracts;
@@ -16,6 +15,7 @@ using Kakemons.Core.Models;
 using Kakemons.Core.ViewModels.Cake;
 using Kakemons.SDK.ApiContracts;
 using ReactiveUI;
+using Serilog;
 
 namespace Kakemons.Core.ViewModels.Baker
 {

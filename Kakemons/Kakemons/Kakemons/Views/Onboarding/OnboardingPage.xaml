@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<views:MvxContentPage x:TypeArguments="onboarding:OnboardingViewModel" xmlns="http://xamarin.com/schemas/2014/forms"
+<views:ContentPageBase x:TypeArguments="onboarding:OnboardingViewModel" xmlns="http://xamarin.com/schemas/2014/forms"
                       x:Name="OnboardingContentPage"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:Kakemons.UI.Views;assembly=Kakemons.UI"
              xmlns:controls="clr-namespace:Kakemons.UI.Controls;assembly=Kakemons.UI"
-             xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
              xmlns:onboarding="clr-namespace:Kakemons.Core.ViewModels.Onboarding;assembly=Kakemons.Core"
              xmlns:panCardView="clr-namespace:PanCardView;assembly=PanCardView"
              xmlns:controls1="clr-namespace:PanCardView.Controls;assembly=PanCardView"
@@ -40,4 +40,4 @@
             </panCardView:CarouselView>
         </controls:GradientFrame>
     </ContentPage.Content>
-</views:MvxContentPage>
+</views:ContentPageBase>

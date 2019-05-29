@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Acr.UserDialogs/7.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {}
+        }
+      },
       "akavache/6.0.30": {
         "type": "package",
         "dependencies": {
@@ -762,6 +771,34 @@
     }
   },
   "libraries": {
+    "Acr.UserDialogs/7.0.4": {
+      "sha512": "J+3+rSVtAAUqvaXC0NGZ6HAcSXMaMyqvKsV1sMoraT7g+Zv/r4QmgUUITPu875n0uO57Y87Xn6IbLVDPje6tlw==",
+      "type": "package",
+      "path": "acr.userdialogs/7.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "acr.userdialogs.7.0.4.nupkg.sha512",
+        "acr.userdialogs.nuspec",
+        "lib/monoandroid81/Acr.UserDialogs.dll",
+        "lib/monoandroid81/Acr.UserDialogs.pdb",
+        "lib/monoandroid90/Acr.UserDialogs.dll",
+        "lib/monoandroid90/Acr.UserDialogs.pdb",
+        "lib/netstandard2.0/Acr.UserDialogs.dll",
+        "lib/netstandard2.0/Acr.UserDialogs.pdb",
+        "lib/uap10.0.16299/Acr.UserDialogs.dll",
+        "lib/uap10.0.16299/Acr.UserDialogs.pdb",
+        "lib/uap10.0.16299/Acr.UserDialogs.pri",
+        "lib/uap10.0.16299/Acr.UserDialogs/Acr.UserDialogs.xr.xml",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/ActionSheetContentDialog.xbf",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/DatePickerControl.xbf",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/LoginContentDialog.xbf",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/ProgressContentDialog.xbf",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/TimePickerControl.xbf",
+        "lib/xamarinios10/Acr.UserDialogs.dll",
+        "lib/xamarinios10/Acr.UserDialogs.pdb"
+      ]
+    },
     "akavache/6.0.30": {
       "sha512": "MmzqluoB9Jie3U3IULNLdfphx3eEuRD+7NxhuJ+/wUay4IqHtLOrZtufF3IHjSFzJsuzjEIPoqM6S1K2RhmNCw==",
       "type": "package",
@@ -1026,11 +1063,12 @@
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
-      "sha512": "iSZ0iDTbFcWrVEyopItHflkEH5u6kHtKw5POTZMeCUlNHHLsakqrZJ9Yqhgb8yOfXfcEpWz/tGNua6JuNQG7Pw==",
+      "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -1229,7 +1267,7 @@
       ]
     },
     "Refit/4.6.58": {
-      "sha512": "kgbnL3Y625PIs2KNpk/cag4m7uVNwKByofrIEIaMV0Bzpjbu+azKug8BCRXCvDvuWJw7n+QIcQohyIdGWq3riQ==",
+      "sha512": "bkTC+ARz6bgcQmeRxzqln5xoVklUvoLMIZDoa0KUz04IWrtVYHlR46Fgfym6tuUc0i70DqRhSx3MsnbbmLpoLg==",
       "type": "package",
       "path": "refit/4.6.58",
       "files": [
@@ -1304,7 +1342,7 @@
       ]
     },
     "Serilog/2.8.0": {
-      "sha512": "3jtlNpLFGz16ZEYZ0lohfUlVLspg+DW6kRVNC2rOtie6Xy+fIibtqFSZ6lQRdRKV6ER9WLxg+Q3em6f6ZccJ3A==",
+      "sha512": "zjuKXW5IQws43IHX7VY9nURsaCiBYh2kyJCWLJRSWrTsx/syBKHV8MibWe2A+QH3Er0AiwA+OJmO3DhFJDY1+A==",
       "type": "package",
       "path": "serilog/2.8.0",
       "files": [
@@ -1622,11 +1660,12 @@
       ]
     },
     "System.Diagnostics.Contracts/4.3.0": {
-      "sha512": "P+gK4a1fNdrkR9nzdLVcEGRGC7nF62lT8AZBZLfqlsqLe0bJHG7aCJAP7W+uNBUJIHMagjV5Ii7gRIxJa1EC9g==",
+      "sha512": "eelRRbnm+OloiQvp9CXS0ixjNQldjjkHO4iIkR5XH2VIP8sUB/SIpa1TdUW6/+HDcQ+MlhP3pNa1u5SbzYuWGA==",
       "type": "package",
       "path": "system.diagnostics.contracts/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -1777,11 +1816,12 @@
       ]
     },
     "System.Dynamic.Runtime/4.3.0": {
-      "sha512": "XoeW6cCD1q9aze5pNekryoPOynKsXHvs63wv7fNaQYUaltlvFqvJP97A+SFHKiSez7/HwE/bstmQ3uV44Q0c6w==",
+      "sha512": "SNVi1E/vfWUAs/WYKhE9+qlS6KqK0YVhnlT0HQtr8pMIA8YX3lwy3uPMownDwdYISBdmAF/2holEIldVp85Wag==",
       "type": "package",
       "path": "system.dynamic.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3419,6 +3459,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Acr.UserDialogs >= 7.0.4",
       "AutoMapper >= 8.1.0",
       "Kakemons.Common >= 1.0.0",
       "Kakemons.SDK >= 1.0.0",
@@ -3456,13 +3497,9 @@
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Nuget": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\arjre\\.dotnet\\NuGetFallbackFolder": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://evryconsulting.pkgs.visualstudio.com/_packaging/nte/nuget/v3/index.json": {},
-        "https://itema.pkgs.visualstudio.com/_packaging/iPartyPackageFeed/nuget/v3/index.json": {},
-        "https://www.myget.org/F/imageprocessor/api/v3/index.json": {}
+        "https://evryconsulting.pkgs.visualstudio.com/_packaging/nte/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
@@ -3485,6 +3522,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "Acr.UserDialogs": {
+            "target": "Package",
+            "version": "[7.0.4, )"
+          },
           "AutoMapper": {
             "target": "Package",
             "version": "[8.1.0, )"

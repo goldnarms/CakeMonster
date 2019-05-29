@@ -9,15 +9,16 @@ using System.Text;
 using System.Threading.Tasks;
 using Acr.UserDialogs;
 using DynamicData;
-using Kakemons.Common.Contracts;
 using Kakemons.Common.Dtos;
 using Kakemons.Common.Enums;
 using Kakemons.Core.Contracts;
 using Kakemons.Core.ListView;
 using Kakemons.Core.ViewModels.Baker;
 using Kakemons.Core.ViewModels.Cake;
-using MvvmCross.Navigation;
 using ReactiveUI;
+using Serilog;
+using Splat;
+using ILogger = Serilog.ILogger;
 
 namespace Kakemons.Core.ViewModels.Search
 {
@@ -25,23 +26,26 @@ namespace Kakemons.Core.ViewModels.Search
     {
         private readonly ICakeModelService _cakeModelService;
         private readonly IAppUserModelService _appUserModelService;
+        private readonly IDialogService _dialogService;
         private readonly IUserDialogs _userDialogs;
-        private readonly IMvxNavigationService _navigationService;
+        private readonly ILogger _logger;
         private readonly CompositeDisposable _cd;
         private readonly ReadOnlyObservableCollection<CakeListItemViewModel> _popularSearches;
         private readonly ReadOnlyObservableCollection<CakeListItemViewModel> _searchResults;
 
         public SearchViewModel(
-            ICakeModelService cakeModelService,
-            IAppUserModelService appUserModelService,
-            IUserDialogs userDialogs,
-            IMvxNavigationService navigationService,
-            ILogger logger)
+            IScreen hostScreen = null,
+            ICakeModelService cakeModelService = null,
+            IAppUserModelService appUserModelService = null,
+            IDialogService dialogService = null,
+            IUserDialogs userDialogs = null,
+            ILogger logger = null):base(hostScreen)
         {
-            _cakeModelService = cakeModelService;
-            _appUserModelService = appUserModelService;
-            _userDialogs = userDialogs;
-            _navigationService = navigationService;
+            _cakeModelService = cakeModelService ?? Locator.Current.GetService<ICakeModelService>();
+            _appUserModelService = appUserModelService ?? Locator.Current.GetService<IAppUserModelService>();
+            _dialogService = dialogService ?? Locator.Current.GetService<IDialogService>();
+            _userDialogs = userDialogs ?? Locator.Current.GetService<IUserDialogs>();
+            _logger = logger ?? Locator.Current.GetService<ILogger>();
             _cd = new CompositeDisposable();
 
             var searchFilter = this.ObservableForProperty(vm => vm.Query)
@@ -147,12 +151,12 @@ namespace Kakemons.Core.ViewModels.Search
 
         private async Task GoToDetails(int id)
         {
-            await _navigationService.Navigate<CakeDetailViewModel, int>(id);
+            await HostScreen.Router.Navigate.Execute(new CakeDetailViewModel(id, _cakeModelService, _appUserModelService, HostScreen, _logger));
         }
 
         private async Task GoToBaker(string id)
         {
-            await _navigationService.Navigate<BakerProfileViewModel, string>(id);
+            await HostScreen.Router.Navigate.Execute(new BakerProfileViewModel(id, HostScreen, _cakeModelService, _appUserModelService, logger: _logger));
         }
 
         private CakeListItemViewModel TransformToListItem(CakeDto cakeDto)

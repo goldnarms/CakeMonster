@@ -1,0 +1,8 @@
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons.iOS\obj\iPhoneSimulator\Debug\Kakemons.iOS.csprojAssemblyReference.cache
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons.iOS\obj\iPhoneSimulator\Debug\Kakemons.iOS.csproj.CoreCompileInputs.cache

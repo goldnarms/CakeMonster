@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Acr.UserDialogs/7.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {}
+        }
+      },
       "akavache/6.5.1": {
         "type": "package",
         "dependencies": {
@@ -62,6 +71,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "CardsView/2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/PanCardView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PanCardView.dll": {}
         }
       },
       "DynamicData/6.9.1.2588": {
@@ -215,6 +236,21 @@
         },
         "runtime": {
           "lib/netstandard2.0/ReactiveUI.XamForms.dll": {}
+        }
+      },
+      "Refit/4.6.58": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Refit.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Refit.dll": {}
+        },
+        "build": {
+          "build/netstandard1.4/_._": {}
         }
       },
       "Serilog/2.8.0": {
@@ -739,6 +775,42 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
+      "Xamarin.FFImageLoading/2.4.11.982": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/FFImageLoading.Platform.dll": {},
+          "lib/netstandard1.0/FFImageLoading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Platform.dll": {},
+          "lib/netstandard1.0/FFImageLoading.dll": {}
+        }
+      },
+      "Xamarin.FFImageLoading.Forms/2.4.11.982": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.11.982",
+          "Xamarin.Forms": "3.3.0.912540"
+        },
+        "compile": {
+          "lib/netstandard1.0/FFImageLoading.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Forms.dll": {}
+        }
+      },
+      "Xamarin.FFImageLoading.Transformations/2.4.11.982": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.11.982"
+        },
+        "compile": {
+          "lib/netstandard1.0/FFImageLoading.Transformations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Transformations.dll": {}
+        }
+      },
       "Xamarin.Forms/4.0.0.425677": {
         "type": "package",
         "compile": {
@@ -755,10 +827,99 @@
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
         }
+      },
+      "Xamarin.Forms.Maps/4.0.0.425677": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.0.0.425677"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {}
+        }
+      },
+      "Kakemons.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Essentials": "1.0.0",
+          "akavache": "6.0.30"
+        },
+        "compile": {
+          "bin/placeholder/Kakemons.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kakemons.Common.dll": {}
+        }
+      },
+      "Kakemons.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Acr.UserDialogs": "7.0.4",
+          "AutoMapper": "8.1.0",
+          "Kakemons.Common": "1.0.0",
+          "Kakemons.SDK": "1.0.0",
+          "Microsoft.AppCenter": "2.0.0",
+          "Microsoft.AppCenter.Analytics": "2.0.0",
+          "Microsoft.AppCenter.Crashes": "2.0.0",
+          "ReactiveUI": "9.16.1"
+        },
+        "compile": {
+          "bin/placeholder/Kakemons.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kakemons.Core.dll": {}
+        }
+      },
+      "Kakemons.SDK/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Kakemons.Common": "1.0.0",
+          "Refit": "4.6.58",
+          "Serilog": "2.8.0"
+        },
+        "compile": {
+          "bin/placeholder/Kakemons.SDK.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kakemons.SDK.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Acr.UserDialogs/7.0.4": {
+      "sha512": "J+3+rSVtAAUqvaXC0NGZ6HAcSXMaMyqvKsV1sMoraT7g+Zv/r4QmgUUITPu875n0uO57Y87Xn6IbLVDPje6tlw==",
+      "type": "package",
+      "path": "acr.userdialogs/7.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "acr.userdialogs.7.0.4.nupkg.sha512",
+        "acr.userdialogs.nuspec",
+        "lib/monoandroid81/Acr.UserDialogs.dll",
+        "lib/monoandroid81/Acr.UserDialogs.pdb",
+        "lib/monoandroid90/Acr.UserDialogs.dll",
+        "lib/monoandroid90/Acr.UserDialogs.pdb",
+        "lib/netstandard2.0/Acr.UserDialogs.dll",
+        "lib/netstandard2.0/Acr.UserDialogs.pdb",
+        "lib/uap10.0.16299/Acr.UserDialogs.dll",
+        "lib/uap10.0.16299/Acr.UserDialogs.pdb",
+        "lib/uap10.0.16299/Acr.UserDialogs.pri",
+        "lib/uap10.0.16299/Acr.UserDialogs/Acr.UserDialogs.xr.xml",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/ActionSheetContentDialog.xbf",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/DatePickerControl.xbf",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/LoginContentDialog.xbf",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/ProgressContentDialog.xbf",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/TimePickerControl.xbf",
+        "lib/xamarinios10/Acr.UserDialogs.dll",
+        "lib/xamarinios10/Acr.UserDialogs.pdb"
+      ]
+    },
     "akavache/6.5.1": {
       "sha512": "q9AjbFrwa2sEMc27F1ZsdRNJZ/lJuq7UgO9Kg5XbQm9V1YftlpMjNyU6MN8AEp/2djId1HOfi2pjyE7dWrzsVg==",
       "type": "package",
@@ -849,6 +1010,32 @@
         "lib/netstandard2.0/AutoMapper.dll",
         "lib/netstandard2.0/AutoMapper.pdb",
         "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "CardsView/2.1.2": {
+      "sha512": "7Zo41TOBI66c1Z32GhLslPymqNMzTVVT6EbgeEZNI9DIxGKCaI6iQBvUrRoefxbs+sa0a+xu6Dx6tgyP+9gVtw==",
+      "type": "package",
+      "path": "cardsview/2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cardsview.2.1.2.nupkg.sha512",
+        "cardsview.nuspec",
+        "lib/MonoAndroid10/PanCardView.Droid.dll",
+        "lib/MonoAndroid10/PanCardView.dll",
+        "lib/Xamarin.Mac20/PanCardView.dll",
+        "lib/Xamarin.iOS10/PanCardView.dll",
+        "lib/Xamarin.iOS10/PanCardView.iOS.dll",
+        "lib/XamarinTVOS/PanCardView.dll",
+        "lib/net45/PanCardView.dll",
+        "lib/net46/PanCardView.dll",
+        "lib/netstandard1.0/PanCardView.dll",
+        "lib/netstandard2.0/PanCardView.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/PanCardView.dll",
+        "lib/tizen40/PanCardView.dll",
+        "lib/uap/PanCardView.dll",
+        "lib/win81/PanCardView.dll",
+        "lib/wpa81/PanCardView.dll"
       ]
     },
     "DynamicData/6.9.1.2588": {
@@ -1038,11 +1225,12 @@
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
-      "sha512": "iSZ0iDTbFcWrVEyopItHflkEH5u6kHtKw5POTZMeCUlNHHLsakqrZJ9Yqhgb8yOfXfcEpWz/tGNua6JuNQG7Pw==",
+      "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -1285,8 +1473,83 @@
         "reactiveui.xamforms.nuspec"
       ]
     },
+    "Refit/4.6.58": {
+      "sha512": "bkTC+ARz6bgcQmeRxzqln5xoVklUvoLMIZDoa0KUz04IWrtVYHlR46Fgfym6tuUc0i70DqRhSx3MsnbbmLpoLg==",
+      "type": "package",
+      "path": "refit/4.6.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MSBuildCore20/GeneratedInterfaceStubTemplate.mustache",
+        "build/MSBuildCore20/InterfaceStubGenerator.BuildTasks.deps.json",
+        "build/MSBuildCore20/InterfaceStubGenerator.BuildTasks.dll",
+        "build/MSBuildCore20/InterfaceStubGenerator.BuildTasks.pdb",
+        "build/MSBuildCore20/InterfaceStubGenerator.BuildTasks.xml",
+        "build/MSBuildCore20/InterfaceStubGenerator.Core.dll",
+        "build/MSBuildCore20/InterfaceStubGenerator.Core.pdb",
+        "build/MSBuildCore20/InterfaceStubGenerator.Core.xml",
+        "build/MSBuildCore20/Microsoft.CodeAnalysis.CSharp.dll",
+        "build/MSBuildCore20/Microsoft.CodeAnalysis.dll",
+        "build/MSBuildCore20/Nustache.Core.dll",
+        "build/MSBuildCore20/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "build/MSBuildCore20/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "build/MSBuildFull46/GeneratedInterfaceStubTemplate.mustache",
+        "build/MSBuildFull46/InterfaceStubGenerator.BuildTasks.dll",
+        "build/MSBuildFull46/InterfaceStubGenerator.BuildTasks.pdb",
+        "build/MSBuildFull46/InterfaceStubGenerator.BuildTasks.xml",
+        "build/MSBuildFull46/InterfaceStubGenerator.Core.dll",
+        "build/MSBuildFull46/InterfaceStubGenerator.Core.pdb",
+        "build/MSBuildFull46/InterfaceStubGenerator.Core.xml",
+        "build/MSBuildFull46/Microsoft.Build.Framework.dll",
+        "build/MSBuildFull46/Microsoft.Build.Tasks.Core.dll",
+        "build/MSBuildFull46/Microsoft.Build.Utilities.Core.dll",
+        "build/MSBuildFull46/Microsoft.CodeAnalysis.CSharp.dll",
+        "build/MSBuildFull46/Microsoft.CodeAnalysis.dll",
+        "build/MSBuildFull46/Nustache.Core.dll",
+        "build/MSBuildFull46/System.AppContext.dll",
+        "build/MSBuildFull46/System.Collections.Immutable.dll",
+        "build/MSBuildFull46/System.Console.dll",
+        "build/MSBuildFull46/System.Diagnostics.FileVersionInfo.dll",
+        "build/MSBuildFull46/System.Diagnostics.StackTrace.dll",
+        "build/MSBuildFull46/System.IO.Compression.dll",
+        "build/MSBuildFull46/System.IO.FileSystem.Primitives.dll",
+        "build/MSBuildFull46/System.IO.FileSystem.dll",
+        "build/MSBuildFull46/System.Reflection.Metadata.dll",
+        "build/MSBuildFull46/System.Security.Cryptography.Algorithms.dll",
+        "build/MSBuildFull46/System.Security.Cryptography.Encoding.dll",
+        "build/MSBuildFull46/System.Security.Cryptography.Primitives.dll",
+        "build/MSBuildFull46/System.Security.Cryptography.X509Certificates.dll",
+        "build/MSBuildFull46/System.Text.Encoding.CodePages.dll",
+        "build/MSBuildFull46/System.Threading.Thread.dll",
+        "build/MSBuildFull46/System.ValueTuple.dll",
+        "build/MSBuildFull46/System.Xml.ReaderWriter.dll",
+        "build/MSBuildFull46/System.Xml.XPath.XDocument.dll",
+        "build/MSBuildFull46/System.Xml.XPath.dll",
+        "build/MSBuildFull46/System.Xml.XmlDocument.dll",
+        "build/MSBuildFull46/runtimes/unix/lib/netstandard1.3/System.Diagnostics.FileVersionInfo.dll",
+        "build/MSBuildFull46/runtimes/unix/lib/netstandard1.3/System.IO.Compression.dll",
+        "build/MSBuildFull46/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll",
+        "build/MSBuildFull46/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "build/MSBuildFull46/runtimes/win/lib/net46/System.Diagnostics.FileVersionInfo.dll",
+        "build/MSBuildFull46/runtimes/win/lib/net46/System.IO.Compression.dll",
+        "build/MSBuildFull46/runtimes/win/lib/net46/System.Security.Cryptography.Algorithms.dll",
+        "build/MSBuildFull46/runtimes/win/lib/net46/System.Security.Cryptography.Encoding.dll",
+        "build/MSBuildFull46/runtimes/win/lib/net46/System.Security.Cryptography.X509Certificates.dll",
+        "build/MSBuildFull46/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "build/net461/refit.targets",
+        "build/netstandard1.4/refit.targets",
+        "lib/net461/Refit.dll",
+        "lib/net461/Refit.xml",
+        "lib/netstandard1.4/Refit.dll",
+        "lib/netstandard1.4/Refit.xml",
+        "lib/netstandard2.0/Refit.dll",
+        "lib/netstandard2.0/Refit.xml",
+        "refit.4.6.58.nupkg.sha512",
+        "refit.nuspec"
+      ]
+    },
     "Serilog/2.8.0": {
-      "sha512": "3jtlNpLFGz16ZEYZ0lohfUlVLspg+DW6kRVNC2rOtie6Xy+fIibtqFSZ6lQRdRKV6ER9WLxg+Q3em6f6ZccJ3A==",
+      "sha512": "zjuKXW5IQws43IHX7VY9nURsaCiBYh2kyJCWLJRSWrTsx/syBKHV8MibWe2A+QH3Er0AiwA+OJmO3DhFJDY1+A==",
       "type": "package",
       "path": "serilog/2.8.0",
       "files": [
@@ -1606,11 +1869,12 @@
       ]
     },
     "System.Diagnostics.Contracts/4.3.0": {
-      "sha512": "P+gK4a1fNdrkR9nzdLVcEGRGC7nF62lT8AZBZLfqlsqLe0bJHG7aCJAP7W+uNBUJIHMagjV5Ii7gRIxJa1EC9g==",
+      "sha512": "eelRRbnm+OloiQvp9CXS0ixjNQldjjkHO4iIkR5XH2VIP8sUB/SIpa1TdUW6/+HDcQ+MlhP3pNa1u5SbzYuWGA==",
       "type": "package",
       "path": "system.diagnostics.contracts/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -1761,11 +2025,12 @@
       ]
     },
     "System.Dynamic.Runtime/4.3.0": {
-      "sha512": "XoeW6cCD1q9aze5pNekryoPOynKsXHvs63wv7fNaQYUaltlvFqvJP97A+SFHKiSez7/HwE/bstmQ3uV44Q0c6w==",
+      "sha512": "SNVi1E/vfWUAs/WYKhE9+qlS6KqK0YVhnlT0HQtr8pMIA8YX3lwy3uPMownDwdYISBdmAF/2holEIldVp85Wag==",
       "type": "package",
       "path": "system.dynamic.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3398,6 +3663,152 @@
         "xamarin.essentials.nuspec"
       ]
     },
+    "Xamarin.FFImageLoading/2.4.11.982": {
+      "sha512": "M0sNIQgUPs+le6C2TS4RmZQAURnzaRVizRtnZIZ6/1//qGcEAtEXAGt/tBJz6I1zlP6XlMxq8io6b4sjFP5N9Q==",
+      "type": "package",
+      "path": "xamarin.ffimageloading/2.4.11.982",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/FFImageLoading.Platform.dll",
+        "lib/MonoAndroid10/FFImageLoading.Platform.pdb",
+        "lib/MonoAndroid10/FFImageLoading.Platform.xml",
+        "lib/MonoAndroid10/FFImageLoading.dll",
+        "lib/MonoAndroid10/FFImageLoading.pdb",
+        "lib/MonoAndroid10/FFImageLoading.xml",
+        "lib/Xamarin.Mac20/FFImageLoading.Platform.dll",
+        "lib/Xamarin.Mac20/FFImageLoading.Platform.pdb",
+        "lib/Xamarin.Mac20/FFImageLoading.Platform.xml",
+        "lib/Xamarin.Mac20/FFImageLoading.dll",
+        "lib/Xamarin.Mac20/FFImageLoading.pdb",
+        "lib/Xamarin.Mac20/FFImageLoading.xml",
+        "lib/Xamarin.iOS10/FFImageLoading.Platform.dll",
+        "lib/Xamarin.iOS10/FFImageLoading.Platform.pdb",
+        "lib/Xamarin.iOS10/FFImageLoading.Platform.xml",
+        "lib/Xamarin.iOS10/FFImageLoading.dll",
+        "lib/Xamarin.iOS10/FFImageLoading.pdb",
+        "lib/Xamarin.iOS10/FFImageLoading.xml",
+        "lib/netstandard1.0/FFImageLoading.Platform.dll",
+        "lib/netstandard1.0/FFImageLoading.Platform.xml",
+        "lib/netstandard1.0/FFImageLoading.dll",
+        "lib/netstandard1.0/FFImageLoading.pdb",
+        "lib/netstandard1.0/FFImageLoading.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Platform.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Platform.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.pdb",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.xml",
+        "lib/tizen40/FFImageLoading.Platform.dll",
+        "lib/tizen40/FFImageLoading.Platform.pdb",
+        "lib/tizen40/FFImageLoading.Platform.xml",
+        "lib/tizen40/FFImageLoading.dll",
+        "lib/tizen40/FFImageLoading.pdb",
+        "lib/tizen40/FFImageLoading.xml",
+        "lib/uap/FFImageLoading.Platform.dll",
+        "lib/uap/FFImageLoading.Platform.pdb",
+        "lib/uap/FFImageLoading.Platform.xml",
+        "lib/uap/FFImageLoading.dll",
+        "lib/uap/FFImageLoading.pdb",
+        "lib/uap/FFImageLoading.xml",
+        "lib/win81/FFImageLoading.Platform.dll",
+        "lib/win81/FFImageLoading.Platform.pdb",
+        "lib/win81/FFImageLoading.Platform.xml",
+        "lib/win81/FFImageLoading.dll",
+        "lib/win81/FFImageLoading.pdb",
+        "lib/win81/FFImageLoading.xml",
+        "lib/wpa81/FFImageLoading.Platform.dll",
+        "lib/wpa81/FFImageLoading.Platform.pdb",
+        "lib/wpa81/FFImageLoading.Platform.xml",
+        "lib/wpa81/FFImageLoading.dll",
+        "lib/wpa81/FFImageLoading.pdb",
+        "lib/wpa81/FFImageLoading.xml",
+        "xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+        "xamarin.ffimageloading.nuspec"
+      ]
+    },
+    "Xamarin.FFImageLoading.Forms/2.4.11.982": {
+      "sha512": "7X4t3J1wJj0/0o8+vd91hzSYlrqEeMFC7Mj+0T8O+fcbRSHo/c+QbWscEQiT4AaKCwyO709xq+7aY2XXbK/H7g==",
+      "type": "package",
+      "path": "xamarin.ffimageloading.forms/2.4.11.982",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/FFImageLoading.Forms.Platform.dll",
+        "lib/MonoAndroid10/FFImageLoading.Forms.Platform.pdb",
+        "lib/MonoAndroid10/FFImageLoading.Forms.Platform.xml",
+        "lib/MonoAndroid10/FFImageLoading.Forms.dll",
+        "lib/MonoAndroid10/FFImageLoading.Forms.pdb",
+        "lib/MonoAndroid10/FFImageLoading.Forms.xml",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.Platform.dll",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.Platform.pdb",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.Platform.xml",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.dll",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.pdb",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.xml",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.dll",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.pdb",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.xml",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.dll",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.pdb",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.xml",
+        "lib/netstandard1.0/FFImageLoading.Forms.dll",
+        "lib/netstandard1.0/FFImageLoading.Forms.pdb",
+        "lib/netstandard1.0/FFImageLoading.Forms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Forms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Forms.pdb",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Forms.xml",
+        "lib/tizen40/FFImageLoading.Forms.Platform.dll",
+        "lib/tizen40/FFImageLoading.Forms.Platform.pdb",
+        "lib/tizen40/FFImageLoading.Forms.Platform.xml",
+        "lib/tizen40/FFImageLoading.Forms.dll",
+        "lib/tizen40/FFImageLoading.Forms.pdb",
+        "lib/tizen40/FFImageLoading.Forms.xml",
+        "lib/uap/FFImageLoading.Forms.Platform.dll",
+        "lib/uap/FFImageLoading.Forms.Platform.pdb",
+        "lib/uap/FFImageLoading.Forms.Platform.xml",
+        "lib/uap/FFImageLoading.Forms.dll",
+        "lib/uap/FFImageLoading.Forms.pdb",
+        "lib/uap/FFImageLoading.Forms.xml",
+        "xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+        "xamarin.ffimageloading.forms.nuspec"
+      ]
+    },
+    "Xamarin.FFImageLoading.Transformations/2.4.11.982": {
+      "sha512": "cNG6zhiEBTENAGgIc9lY54YMJ0tg2dJ9+tj8tYgrOEQT8gxlj3OUzzNWZgaQWpcx28y5iIt/qM+Bd6jUwtAn1Q==",
+      "type": "package",
+      "path": "xamarin.ffimageloading.transformations/2.4.11.982",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/FFImageLoading.Transformations.dll",
+        "lib/MonoAndroid10/FFImageLoading.Transformations.pdb",
+        "lib/MonoAndroid10/FFImageLoading.Transformations.xml",
+        "lib/Xamarin.Mac20/FFImageLoading.Transformations.dll",
+        "lib/Xamarin.Mac20/FFImageLoading.Transformations.pdb",
+        "lib/Xamarin.Mac20/FFImageLoading.Transformations.xml",
+        "lib/Xamarin.iOS10/FFImageLoading.Transformations.dll",
+        "lib/Xamarin.iOS10/FFImageLoading.Transformations.pdb",
+        "lib/Xamarin.iOS10/FFImageLoading.Transformations.xml",
+        "lib/netstandard1.0/FFImageLoading.Transformations.dll",
+        "lib/netstandard1.0/FFImageLoading.Transformations.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Transformations.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Transformations.xml",
+        "lib/tizen40/FFImageLoading.Transformations.dll",
+        "lib/tizen40/FFImageLoading.Transformations.pdb",
+        "lib/tizen40/FFImageLoading.Transformations.xml",
+        "lib/uap/FFImageLoading.Transformations.dll",
+        "lib/uap/FFImageLoading.Transformations.pdb",
+        "lib/uap/FFImageLoading.Transformations.xml",
+        "lib/win81/FFImageLoading.Transformations.dll",
+        "lib/win81/FFImageLoading.Transformations.pdb",
+        "lib/win81/FFImageLoading.Transformations.xml",
+        "lib/wpa81/FFImageLoading.Transformations.dll",
+        "lib/wpa81/FFImageLoading.Transformations.pdb",
+        "lib/wpa81/FFImageLoading.Transformations.xml",
+        "xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
+        "xamarin.ffimageloading.transformations.nuspec"
+      ]
+    },
     "Xamarin.Forms/4.0.0.425677": {
       "sha512": "drwO/MimaMUnmvkULASYjU5MRciVIJyiLxD3ihFq8P+DWynQZ2NLNej0Vrs3k2L7UdmqvcgCxEJdfT7uFl2KVg==",
       "type": "package",
@@ -3642,11 +4053,61 @@
         "xamarin.forms.4.0.0.425677.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "Xamarin.Forms.Maps/4.0.0.425677": {
+      "sha512": "2us9yMGrzVQSZYDgidqYl8+jRNoLZ05cH1OWE2J5Sux6GfPKGIFaEO+6OIK3fJjm9183tzSWc7wJOpNMvzQ22A==",
+      "type": "package",
+      "path": "xamarin.forms.maps/4.0.0.425677",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid81/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Maps.xml",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
+        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.xml",
+        "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0/Xamarin.Forms.Maps.dll",
+        "xamarin.forms.maps.4.0.0.425677.nupkg.sha512",
+        "xamarin.forms.maps.nuspec"
+      ]
+    },
+    "Kakemons.Common/1.0.0": {
+      "type": "project",
+      "path": "../../Kakemons.Common/Kakemons.Common.csproj",
+      "msbuildProject": "../../Kakemons.Common/Kakemons.Common.csproj"
+    },
+    "Kakemons.Core/1.0.0": {
+      "type": "project",
+      "path": "../../Kakemons.Core/Kakemons.Core.csproj",
+      "msbuildProject": "../../Kakemons.Core/Kakemons.Core.csproj"
+    },
+    "Kakemons.SDK/1.0.0": {
+      "type": "project",
+      "path": "../../Kakemons.SDK/Kakemons.SDK.csproj",
+      "msbuildProject": "../../Kakemons.SDK/Kakemons.SDK.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "AutoMapper >= 8.1.0",
+      "CardsView >= 2.1.2",
+      "Kakemons.Core >= 1.0.0",
       "Microsoft.AppCenter >= 2.0.0",
       "Microsoft.AppCenter.Analytics >= 2.0.0",
       "Microsoft.AppCenter.Crashes >= 2.0.0",
@@ -3655,7 +4116,11 @@
       "ReactiveUI.XamForms >= 9.16.1",
       "Serilog >= 2.8.0",
       "Xamarin.Essentials >= 1.1.0",
+      "Xamarin.FFImageLoading >= 2.4.11.982",
+      "Xamarin.FFImageLoading.Forms >= 2.4.11.982",
+      "Xamarin.FFImageLoading.Transformations >= 2.4.11.982",
       "Xamarin.Forms >= 4.0.0.425677",
+      "Xamarin.Forms.Maps >= 4.0.0.425677",
       "akavache >= 6.5.1"
     ]
   },
@@ -3686,17 +4151,17 @@
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Nuget": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\arjre\\.dotnet\\NuGetFallbackFolder": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://evryconsulting.pkgs.visualstudio.com/_packaging/nte/nuget/v3/index.json": {},
-        "https://itema.pkgs.visualstudio.com/_packaging/iPartyPackageFeed/nuget/v3/index.json": {},
-        "https://www.myget.org/F/imageprocessor/api/v3/index.json": {}
+        "https://evryconsulting.pkgs.visualstudio.com/_packaging/nte/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons.Core\\Kakemons.Core.csproj": {
+              "projectPath": "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons.Core\\Kakemons.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -3711,6 +4176,10 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[8.1.0, )"
+          },
+          "CardsView": {
+            "target": "Package",
+            "version": "[2.1.2, )"
           },
           "Microsoft.AppCenter": {
             "target": "Package",
@@ -3746,7 +4215,23 @@
             "target": "Package",
             "version": "[1.1.0, )"
           },
+          "Xamarin.FFImageLoading": {
+            "target": "Package",
+            "version": "[2.4.11.982, )"
+          },
+          "Xamarin.FFImageLoading.Forms": {
+            "target": "Package",
+            "version": "[2.4.11.982, )"
+          },
+          "Xamarin.FFImageLoading.Transformations": {
+            "target": "Package",
+            "version": "[2.4.11.982, )"
+          },
           "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[4.0.0.425677, )"
+          },
+          "Xamarin.Forms.Maps": {
             "target": "Package",
             "version": "[4.0.0.425677, )"
           },

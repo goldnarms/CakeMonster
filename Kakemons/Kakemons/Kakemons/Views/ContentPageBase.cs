@@ -1,4 +1,4 @@
-﻿using Kakemons.UI.ViewModels;
+﻿using Kakemons.Core.ViewModels;
 using ReactiveUI.XamForms;
 using Log = Serilog.Log;
 

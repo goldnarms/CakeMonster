@@ -15,7 +15,7 @@ using Kakemons.Core.ViewModels.Baker;
 using Kakemons.Core.ViewModels.Cake;
 using ReactiveUI;
 using Splat;
-using ILogger = Kakemons.Common.Contracts.ILogger;
+using ILogger = Serilog.ILogger;
 
 namespace Kakemons.Core.ViewModels.Favorites
 {

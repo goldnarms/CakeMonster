@@ -11,8 +11,9 @@ using Kakemons.Core.ViewModels.Register;
 using Kakemons.SDK.ApiContracts;
 using Kakemons.SDK.ApiServiceContracts;
 using ReactiveUI;
+using Serilog;
 using Splat;
-using ILogger = Kakemons.Common.Contracts.ILogger;
+using ILogger = Serilog.ILogger;
 
 namespace Kakemons.Core.ViewModels.Login
 {
@@ -22,7 +23,7 @@ namespace Kakemons.Core.ViewModels.Login
         readonly IDialogService _dialogService;
         readonly IAppUserModelService _appUserModelService;
         readonly IUserApiService _userApiService;
-        readonly ILogger _logger;
+        readonly Serilog.ILogger _logger;
 
         private bool _isUsernameValid;
         private bool _isPasswordValid;
@@ -87,7 +88,7 @@ namespace Kakemons.Core.ViewModels.Login
             }
             catch (Exception ex)
             {
-                _logger.LogError(nameof(Login), ex);
+                _logger.Error(nameof(Login), ex);
                 await _dialogService.AlertAsync("todo", "todo");
             }
         }

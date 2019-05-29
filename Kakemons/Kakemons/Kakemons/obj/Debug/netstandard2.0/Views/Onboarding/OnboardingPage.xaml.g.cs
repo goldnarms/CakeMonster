@@ -14,10 +14,10 @@ namespace Kakemons.UI.Pages.Onboarding {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Onboarding\\OnboardingPage.xaml")]
-    public partial class OnboardingPage : global::MvvmCross.Forms.Views.MvxContentPage<global::Kakemons.Core.ViewModels.Onboarding.OnboardingViewModel> {
+    public partial class OnboardingPage : global::Kakemons.UI.Views.ContentPageBase<global::Kakemons.Core.ViewModels.Onboarding.OnboardingViewModel> {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::MvvmCross.Forms.Views.MvxContentPage<global::Kakemons.Core.ViewModels.Onboarding.OnboardingViewModel> OnboardingContentPage;
+        private global::Kakemons.UI.Views.ContentPageBase<global::Kakemons.Core.ViewModels.Onboarding.OnboardingViewModel> OnboardingContentPage;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::PanCardView.CarouselView OnboardingList;
@@ -28,7 +28,7 @@ namespace Kakemons.UI.Pages.Onboarding {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(OnboardingPage));
-            OnboardingContentPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MvvmCross.Forms.Views.MvxContentPage<global::Kakemons.Core.ViewModels.Onboarding.OnboardingViewModel>>(this, "OnboardingContentPage");
+            OnboardingContentPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Kakemons.UI.Views.ContentPageBase<global::Kakemons.Core.ViewModels.Onboarding.OnboardingViewModel>>(this, "OnboardingContentPage");
             OnboardingList = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::PanCardView.CarouselView>(this, "OnboardingList");
             IndicatorsControl = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::PanCardView.Controls.IndicatorsControl>(this, "IndicatorsControl");
         }

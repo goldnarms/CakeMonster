@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "d870c1976c480ac99e0b284ecd566198c40043ec"
+    "signature": "beb9213f7dd9ed05678240190a1b73a657aaae08"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,9 @@
     ".NETStandard,Version=v2.0/": {
       "Kakemons.UI/1.0.0": {
         "dependencies": {
+          "AutoMapper": "8.1.0",
+          "CardsView": "2.1.2",
+          "Kakemons.Core": "1.0.0",
           "Microsoft.AppCenter": "2.0.0",
           "Microsoft.AppCenter.Analytics": "2.0.0",
           "Microsoft.AppCenter.Crashes": "2.0.0",
@@ -17,11 +20,22 @@
           "ReactiveUI.XamForms": "9.16.1",
           "Serilog": "2.8.0",
           "Xamarin.Essentials": "1.1.0",
+          "Xamarin.FFImageLoading": "2.4.11.982",
+          "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.Forms": "4.0.0.425677",
+          "Xamarin.Forms.Maps": "4.0.0.425677",
           "akavache": "6.5.1"
         },
         "runtime": {
           "Kakemons.UI.dll": {}
+        }
+      },
+      "Acr.UserDialogs/7.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "akavache/6.5.1": {
@@ -70,6 +84,29 @@
           }
         }
       },
+      "AutoMapper/8.1.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.0"
+          }
+        }
+      },
+      "CardsView/2.1.2": {
+        "dependencies": {
+          "Xamarin.Forms": "4.0.0.425677"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PanCardView.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "DynamicData/6.9.1.2588": {
         "dependencies": {
           "System.Reactive": "4.1.5"
@@ -108,6 +145,14 @@
           "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CSharp.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.6.26515.6"
           }
         }
       },
@@ -163,6 +208,17 @@
           "lib/netstandard2.0/ReactiveUI.XamForms.dll": {
             "assemblyVersion": "9.16.0.0",
             "fileVersion": "9.16.1.64831"
+          }
+        }
+      },
+      "Refit/4.6.58": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Refit.dll": {
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.6.58.19393"
           }
         }
       },
@@ -609,6 +665,30 @@
           }
         }
       },
+      "Xamarin.FFImageLoading/2.4.11.982": {
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Platform.dll": {
+            "assemblyVersion": "2.4.11.982",
+            "fileVersion": "2.4.11.982"
+          },
+          "lib/netstandard1.0/FFImageLoading.dll": {
+            "assemblyVersion": "2.4.11.982",
+            "fileVersion": "2.4.11.982"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading.Forms/2.4.11.982": {
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.11.982",
+          "Xamarin.Forms": "4.0.0.425677"
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Forms.dll": {
+            "assemblyVersion": "2.4.11.982",
+            "fileVersion": "2.4.11.982"
+          }
+        }
+      },
       "Xamarin.Forms/4.0.0.425677": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
@@ -624,6 +704,51 @@
             "fileVersion": "2.0.0.0"
           }
         }
+      },
+      "Xamarin.Forms.Maps/4.0.0.425677": {
+        "dependencies": {
+          "Xamarin.Forms": "4.0.0.425677"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Kakemons.Common/1.0.0": {
+        "dependencies": {
+          "Xamarin.Essentials": "1.1.0",
+          "akavache": "6.5.1"
+        },
+        "runtime": {
+          "Kakemons.Common.dll": {}
+        }
+      },
+      "Kakemons.Core/1.0.0": {
+        "dependencies": {
+          "Acr.UserDialogs": "7.0.4",
+          "AutoMapper": "8.1.0",
+          "Kakemons.Common": "1.0.0",
+          "Kakemons.SDK": "1.0.0",
+          "Microsoft.AppCenter": "2.0.0",
+          "Microsoft.AppCenter.Analytics": "2.0.0",
+          "Microsoft.AppCenter.Crashes": "2.0.0",
+          "ReactiveUI": "9.16.1"
+        },
+        "runtime": {
+          "Kakemons.Core.dll": {}
+        }
+      },
+      "Kakemons.SDK/1.0.0": {
+        "dependencies": {
+          "Kakemons.Common": "1.0.0",
+          "Refit": "4.6.58",
+          "Serilog": "2.8.0"
+        },
+        "runtime": {
+          "Kakemons.SDK.dll": {}
+        }
       }
     }
   },
@@ -632,6 +757,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Acr.UserDialogs/7.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J+3+rSVtAAUqvaXC0NGZ6HAcSXMaMyqvKsV1sMoraT7g+Zv/r4QmgUUITPu875n0uO57Y87Xn6IbLVDPje6tlw==",
+      "path": "acr.userdialogs/7.0.4",
+      "hashPath": "acr.userdialogs.7.0.4.nupkg.sha512"
     },
     "akavache/6.5.1": {
       "type": "package",
@@ -653,6 +785,20 @@
       "sha512": "sha512-TGPmd7KjkF/Ydylt9oIZleITA5uxODMNcILCa+SiWJhEVp1bpBmQ3+HXD0+DpAy5/EIPYY1rkuiQVma2+oKpJw==",
       "path": "akavache.sqlite3/6.5.1",
       "hashPath": "akavache.sqlite3.6.5.1.nupkg.sha512"
+    },
+    "AutoMapper/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Go75WXHE7p/8CtRaxZnvVEfcSh7xpE6zx9wkgN4I1BxvlzP0hoiTLHSXDYXgv9CoxaRj4ahwzCA/iwdpvyQyOA==",
+      "path": "automapper/8.1.0",
+      "hashPath": "automapper.8.1.0.nupkg.sha512"
+    },
+    "CardsView/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7Zo41TOBI66c1Z32GhLslPymqNMzTVVT6EbgeEZNI9DIxGKCaI6iQBvUrRoefxbs+sa0a+xu6Dx6tgyP+9gVtw==",
+      "path": "cardsview/2.1.2",
+      "hashPath": "cardsview.2.1.2.nupkg.sha512"
     },
     "DynamicData/6.9.1.2588": {
       "type": "package",
@@ -682,6 +828,13 @@
       "path": "microsoft.appcenter.crashes/2.0.0",
       "hashPath": "microsoft.appcenter.crashes.2.0.0.nupkg.sha512"
     },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -692,7 +845,7 @@
     "Microsoft.NETCore.Targets/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iSZ0iDTbFcWrVEyopItHflkEH5u6kHtKw5POTZMeCUlNHHLsakqrZJ9Yqhgb8yOfXfcEpWz/tGNua6JuNQG7Pw==",
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
@@ -731,10 +884,17 @@
       "path": "reactiveui.xamforms/9.16.1",
       "hashPath": "reactiveui.xamforms.9.16.1.nupkg.sha512"
     },
+    "Refit/4.6.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bkTC+ARz6bgcQmeRxzqln5xoVklUvoLMIZDoa0KUz04IWrtVYHlR46Fgfym6tuUc0i70DqRhSx3MsnbbmLpoLg==",
+      "path": "refit/4.6.58",
+      "hashPath": "refit.4.6.58.nupkg.sha512"
+    },
     "Serilog/2.8.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3jtlNpLFGz16ZEYZ0lohfUlVLspg+DW6kRVNC2rOtie6Xy+fIibtqFSZ6lQRdRKV6ER9WLxg+Q3em6f6ZccJ3A==",
+      "sha512": "sha512-zjuKXW5IQws43IHX7VY9nURsaCiBYh2kyJCWLJRSWrTsx/syBKHV8MibWe2A+QH3Er0AiwA+OJmO3DhFJDY1+A==",
       "path": "serilog/2.8.0",
       "hashPath": "serilog.2.8.0.nupkg.sha512"
     },
@@ -790,7 +950,7 @@
     "System.Diagnostics.Contracts/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-P+gK4a1fNdrkR9nzdLVcEGRGC7nF62lT8AZBZLfqlsqLe0bJHG7aCJAP7W+uNBUJIHMagjV5Ii7gRIxJa1EC9g==",
+      "sha512": "sha512-eelRRbnm+OloiQvp9CXS0ixjNQldjjkHO4iIkR5XH2VIP8sUB/SIpa1TdUW6/+HDcQ+MlhP3pNa1u5SbzYuWGA==",
       "path": "system.diagnostics.contracts/4.3.0",
       "hashPath": "system.diagnostics.contracts.4.3.0.nupkg.sha512"
     },
@@ -811,7 +971,7 @@
     "System.Dynamic.Runtime/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XoeW6cCD1q9aze5pNekryoPOynKsXHvs63wv7fNaQYUaltlvFqvJP97A+SFHKiSez7/HwE/bstmQ3uV44Q0c6w==",
+      "sha512": "sha512-SNVi1E/vfWUAs/WYKhE9+qlS6KqK0YVhnlT0HQtr8pMIA8YX3lwy3uPMownDwdYISBdmAF/2holEIldVp85Wag==",
       "path": "system.dynamic.runtime/4.3.0",
       "hashPath": "system.dynamic.runtime.4.3.0.nupkg.sha512"
     },
@@ -1004,12 +1164,48 @@
       "path": "xamarin.essentials/1.1.0",
       "hashPath": "xamarin.essentials.1.1.0.nupkg.sha512"
     },
+    "Xamarin.FFImageLoading/2.4.11.982": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M0sNIQgUPs+le6C2TS4RmZQAURnzaRVizRtnZIZ6/1//qGcEAtEXAGt/tBJz6I1zlP6XlMxq8io6b4sjFP5N9Q==",
+      "path": "xamarin.ffimageloading/2.4.11.982",
+      "hashPath": "xamarin.ffimageloading.2.4.11.982.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading.Forms/2.4.11.982": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7X4t3J1wJj0/0o8+vd91hzSYlrqEeMFC7Mj+0T8O+fcbRSHo/c+QbWscEQiT4AaKCwyO709xq+7aY2XXbK/H7g==",
+      "path": "xamarin.ffimageloading.forms/2.4.11.982",
+      "hashPath": "xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512"
+    },
     "Xamarin.Forms/4.0.0.425677": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-drwO/MimaMUnmvkULASYjU5MRciVIJyiLxD3ihFq8P+DWynQZ2NLNej0Vrs3k2L7UdmqvcgCxEJdfT7uFl2KVg==",
       "path": "xamarin.forms/4.0.0.425677",
       "hashPath": "xamarin.forms.4.0.0.425677.nupkg.sha512"
+    },
+    "Xamarin.Forms.Maps/4.0.0.425677": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2us9yMGrzVQSZYDgidqYl8+jRNoLZ05cH1OWE2J5Sux6GfPKGIFaEO+6OIK3fJjm9183tzSWc7wJOpNMvzQ22A==",
+      "path": "xamarin.forms.maps/4.0.0.425677",
+      "hashPath": "xamarin.forms.maps.4.0.0.425677.nupkg.sha512"
+    },
+    "Kakemons.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Kakemons.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Kakemons.SDK/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

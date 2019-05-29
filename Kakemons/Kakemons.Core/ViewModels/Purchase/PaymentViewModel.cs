@@ -11,10 +11,11 @@ using Kakemons.Core.Contracts;
 using Kakemons.Core.NavigationModels;
 using Kakemons.SDK.ApiContracts;
 using ReactiveUI;
+using Splat;
 
 namespace Kakemons.Core.ViewModels.Purchase
 {
-    public class PaymentViewModel : BaseViewModel<PaymentNavigation>
+    public class PaymentViewModel : BaseViewModel
     {
         private readonly IAppUserModelService _appUserModelService;
         private readonly IBakerModelService _bakerModelService;
@@ -25,13 +26,14 @@ namespace Kakemons.Core.ViewModels.Purchase
         public ReactiveCommand<Unit, Unit> GoNextCommand { get; }
 
         public PaymentViewModel(
-            IAppUserModelService appUserModelService,
-            IBakerModelService bakerModelService,
-            IPaymentApiService paymentApiService)
+            PaymentNavigation paymentNavigation,
+            IAppUserModelService appUserModelService = null,
+            IBakerModelService bakerModelService = null,
+            IPaymentApiService paymentApiService = null)
         {
-            _appUserModelService = appUserModelService;
-            _bakerModelService = bakerModelService;
-            _paymentApiService = paymentApiService;
+            _appUserModelService = appUserModelService ?? Locator.Current.GetService<IAppUserModelService>();
+            _bakerModelService = bakerModelService ?? Locator.Current.GetService<IBakerModelService>();
+            _paymentApiService = paymentApiService ?? Locator.Current.GetService<IPaymentApiService>();
             PayWithVippsCommand = ReactiveCommand.CreateFromTask(PayWithVipps);
             var canGoToReceiptObservable = this.WhenAnyValue(vm => vm.PaymentSuccessfull)
                 .Select(ps => ps)
@@ -40,6 +42,8 @@ namespace Kakemons.Core.ViewModels.Purchase
             canGoToReceiptObservable.ToProperty(this, vm => vm.GoNextEnabled, out _goNextEnabled);
 
             GoNextCommand = ReactiveCommand.CreateFromTask(GoToReceipt, canGoToReceiptObservable);
+
+            Prepare(paymentNavigation);
         }
 
         private Task GoToReceipt()
@@ -66,7 +70,7 @@ namespace Kakemons.Core.ViewModels.Purchase
 
         public IEnumerable<OrderLineDto> OrderLines { get; set; }
 
-        public override void Prepare(PaymentNavigation payment)
+        public void Prepare(PaymentNavigation payment)
         {
             Amount = payment.Amount;
             BakerId = payment.BakerId;

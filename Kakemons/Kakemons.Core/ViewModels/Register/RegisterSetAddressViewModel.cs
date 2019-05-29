@@ -10,7 +10,7 @@ using Kakemons.Core.ViewModels.Login;
 using Kakemons.SDK.ApiContracts;
 using ReactiveUI;
 using Splat;
-using ILogger = Kakemons.Common.Contracts.ILogger;
+using ILogger = Serilog.ILogger;
 
 namespace Kakemons.Core.ViewModels.Register
 {
@@ -66,7 +66,7 @@ namespace Kakemons.Core.ViewModels.Register
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.Message, ex);
+                _logger.Error(ex.Message, ex);
                 await _dialogService.AlertAsync("", "");
             }
         }
@@ -87,8 +87,7 @@ namespace Kakemons.Core.ViewModels.Register
         {
             var disclaimerNavigation =
                 new DisclaimerNavigation(_userId, _accessToken, _firstname, _lastname, SelectedGeoResult);
-            await HostScreen.Router.Navigate.Execute(new DisclaimerViewModel(setAddressNavigation, _hostScreen));
-            await _navigationService.Navigate<DisclaimerViewModel, DisclaimerNavigation>(disclaimerNavigation);
+            await HostScreen.Router.Navigate.Execute(new DisclaimerViewModel(disclaimerNavigation, _hostScreen, logger: _logger));
         }
 
         public void Prepare(SetAddressNavigation parameter)
@@ -103,7 +102,7 @@ namespace Kakemons.Core.ViewModels.Register
 
         private async Task Cancel()
         {
-            await _navigationService.Navigate<LoginViewModel>();
+            await HostScreen.Router.Navigate.Execute(new LoginViewModel(_hostScreen, dialogService: _dialogService, logger: _logger));
         }
     }
 }

@@ -1,7 +1,7 @@
 using System;
 using System.Reactive;
+using System.Reactive.Linq;
 using System.Threading.Tasks;
-using Kakemons.Common.Contracts;
 using Kakemons.Common.Parameters;
 using Kakemons.Common.Responses;
 using Kakemons.Core.Contracts;
@@ -10,14 +10,16 @@ using Kakemons.Core.ViewModels.Home;
 using Kakemons.Core.ViewModels.Login;
 using Kakemons.SDK.ApiContracts;
 using ReactiveUI;
+using Splat;
 
 namespace Kakemons.Core.ViewModels.Register
 {
     public class DisclaimerViewModel: BaseViewModel
     {
+        private readonly IScreen _hostScreen;
         private readonly IAppUserModelService _appUserModelService;
         private readonly IUserApiService _userApiService;
-        private readonly ILogger _logger;
+        private readonly Serilog.ILogger _logger;
         private GeoCodeResult _address;
         private string _accessToken;
         private string _firstname;
@@ -25,25 +27,28 @@ namespace Kakemons.Core.ViewModels.Register
         private string _userId;
 
         public DisclaimerViewModel(
-            DisclaimerNavigation parameter
-            IAppUserModelService appUserModelService,
-            IUserApiService userApiService,
-            ILogger logger)
+            DisclaimerNavigation parameter,
+            IScreen hostScreen = null,
+            IAppUserModelService appUserModelService = null,
+            IUserApiService userApiService = null,
+            Serilog.ILogger logger = null):base(hostScreen)
         {
-            _appUserModelService = appUserModelService;
-            _userApiService = userApiService;
-            _navigationService = navigationService;
-            _logger = logger;
+            _hostScreen = hostScreen;
+            _appUserModelService = appUserModelService ?? Locator.Current.GetService<IAppUserModelService>();
+            _userApiService = userApiService ?? Locator.Current.GetService<IUserApiService>();
+            _logger = logger ?? Locator.Current.GetService<Serilog.ILogger>();
 
             AcceptCommand = ReactiveCommand.CreateFromTask(Accept);
             RejectCommand = ReactiveCommand.CreateFromTask(Reject);
+
+            Prepare(parameter);
         }
 
         public ReactiveCommand<Unit, Unit> RejectCommand { get; set; }
 
         private async Task Reject()
         {
-            await _navigationService.Navigate<LoginViewModel>();
+            await HostScreen.Router.Navigate.Execute(new LoginViewModel(_hostScreen, appUserModelService: _appUserModelService, userApiService: _userApiService, logger: _logger));
         }
 
         public ReactiveCommand<Unit, Unit> AcceptCommand { get; set; }
@@ -62,16 +67,16 @@ namespace Kakemons.Core.ViewModels.Register
                 if (result.IsSuccessful)
                 {
                     _appUserModelService.LogInUser(result.User);
-                    await _navigationService.Navigate<HomeViewModel>();
+                    await HostScreen.Router.Navigate.Execute(new HomeViewModel(_hostScreen, appUserModelService: _appUserModelService, logger: _logger));
                 }
             }
             catch (Exception ex)
             {
-                _logger.LogError(nameof(Accept), ex);
+                _logger.Error(nameof(Accept), ex);
             }
         }
 
-        public override void Prepare(DisclaimerNavigation parameter)
+        public void Prepare(DisclaimerNavigation parameter)
         {
             _address = parameter.AddressResult;
             _accessToken = parameter.AccessToken;

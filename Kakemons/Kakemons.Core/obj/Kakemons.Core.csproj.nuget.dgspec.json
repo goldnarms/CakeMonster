@@ -26,13 +26,9 @@
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Nuget": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\arjre\\.dotnet\\NuGetFallbackFolder": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://evryconsulting.pkgs.visualstudio.com/_packaging/nte/nuget/v3/index.json": {},
-          "https://itema.pkgs.visualstudio.com/_packaging/iPartyPackageFeed/nuget/v3/index.json": {},
-          "https://www.myget.org/F/imageprocessor/api/v3/index.json": {}
+          "https://evryconsulting.pkgs.visualstudio.com/_packaging/nte/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
@@ -93,13 +89,9 @@
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Nuget": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\arjre\\.dotnet\\NuGetFallbackFolder": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://evryconsulting.pkgs.visualstudio.com/_packaging/nte/nuget/v3/index.json": {},
-          "https://itema.pkgs.visualstudio.com/_packaging/iPartyPackageFeed/nuget/v3/index.json": {},
-          "https://www.myget.org/F/imageprocessor/api/v3/index.json": {}
+          "https://evryconsulting.pkgs.visualstudio.com/_packaging/nte/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
@@ -122,6 +114,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
             "AutoMapper": {
               "target": "Package",
               "version": "[8.1.0, )"
@@ -179,13 +175,9 @@
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Nuget": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\arjre\\.dotnet\\NuGetFallbackFolder": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://evryconsulting.pkgs.visualstudio.com/_packaging/nte/nuget/v3/index.json": {},
-          "https://itema.pkgs.visualstudio.com/_packaging/iPartyPackageFeed/nuget/v3/index.json": {},
-          "https://www.myget.org/F/imageprocessor/api/v3/index.json": {}
+          "https://evryconsulting.pkgs.visualstudio.com/_packaging/nte/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {

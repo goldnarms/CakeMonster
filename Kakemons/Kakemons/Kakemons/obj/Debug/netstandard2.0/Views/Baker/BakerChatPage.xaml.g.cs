@@ -14,7 +14,7 @@ namespace Kakemons.UI.Pages.Baker {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Baker\\BakerChatPage.xaml")]
-    public partial class BakerChatPage : global::MvvmCross.Forms.Views.MvxContentPage<global::Kakemons.Core.ViewModels.Baker.BakerChatViewModel> {
+    public partial class BakerChatPage : global::Kakemons.UI.Views.ContentPageBase<global::Kakemons.Core.ViewModels.Baker.BakerChatViewModel> {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.ListView ChatListView;

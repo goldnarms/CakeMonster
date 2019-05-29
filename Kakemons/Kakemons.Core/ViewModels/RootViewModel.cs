@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Kakemons.Common.Contracts;
 using Kakemons.Core.ViewModels.Favorites;
 using Kakemons.Core.ViewModels.Home;
 using Kakemons.Core.ViewModels.Search;
+using Serilog;
 
 namespace Kakemons.Core.ViewModels
 {
@@ -42,7 +42,7 @@ namespace Kakemons.Core.ViewModels
             }
             catch (Exception ex)
             {
-                _logger.LogError(GetType().Name, ex);
+                _logger.Error(GetType().Name, ex);
             }
         }
     }

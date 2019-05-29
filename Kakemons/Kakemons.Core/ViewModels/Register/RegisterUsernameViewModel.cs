@@ -1,4 +1,5 @@
-using Kakemons.Common.Contracts;
+
+using Serilog;
 
 namespace Kakemons.Core.ViewModels.Register
 {

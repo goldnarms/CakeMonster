@@ -14,7 +14,7 @@ using Kakemons.Core.ViewModels.Cake;
 using Kakemons.Core.ViewModels.Purchase;
 using ReactiveUI;
 using Splat;
-using ILogger = Kakemons.Common.Contracts.ILogger;
+using ILogger = Serilog.ILogger;
 
 namespace Kakemons.Core.ViewModels.Home
 {

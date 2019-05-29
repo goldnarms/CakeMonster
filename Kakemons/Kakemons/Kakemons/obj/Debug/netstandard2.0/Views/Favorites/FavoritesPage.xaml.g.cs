@@ -14,7 +14,7 @@ namespace Kakemons.UI.Pages.Favorites {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Favorites\\FavoritesPage.xaml")]
-    public partial class FavoritesPage : global::MvvmCross.Forms.Views.MvxContentPage<global::Kakemons.Core.ViewModels.Favorites.FavoritesViewModel> {
+    public partial class FavoritesPage : global::Kakemons.UI.Views.ContentPageBase<global::Kakemons.Core.ViewModels.Favorites.FavoritesViewModel> {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Kakemons.UI.Controls.ListViews.CakeList CakeList;

@@ -1,7 +1,7 @@
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Kakemons.Common.Contracts;
 
 namespace Kakemons.Core.ViewModels
 {

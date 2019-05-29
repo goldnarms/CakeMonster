@@ -1,7 +1,7 @@
 using System;
-using Kakemons.Common.Contracts;
 using Kakemons.Core.NavigationModels;
 using ReactiveUI;
+using Serilog;
 
 namespace Kakemons.Core.ViewModels.Cake
 {

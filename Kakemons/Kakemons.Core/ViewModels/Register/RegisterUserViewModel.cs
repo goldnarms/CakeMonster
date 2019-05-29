@@ -2,11 +2,11 @@ using System;
 using System.Reactive;
 using System.Reactive.Linq;
 using System.Threading.Tasks;
-using Kakemons.Common.Contracts;
 using Kakemons.Core.Contracts;
 using Kakemons.Core.NavigationModels;
 using Kakemons.Core.ViewModels.Login;
 using ReactiveUI;
+using Serilog;
 
 namespace Kakemons.Core.ViewModels.Register
 {
@@ -48,7 +48,7 @@ namespace Kakemons.Core.ViewModels.Register
             }
             catch (Exception ex)
             {
-                _logger.LogError(nameof(RegisterWithFacebook), ex);
+                _logger.Error(nameof(RegisterWithFacebook), ex);
                 await _dialogService.PresentAlertAsync("Tittel", "Body");
             }
         }
@@ -69,7 +69,7 @@ namespace Kakemons.Core.ViewModels.Register
             }
             catch (Exception ex)
             {
-                _logger.LogError(nameof(RegisterWithFacebook), ex);
+                _logger.Error(nameof(RegisterWithFacebook), ex);
                 await _dialogService.PresentAlertAsync("Tittel", "Body");
             }
         }

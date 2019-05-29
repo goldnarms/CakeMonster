@@ -14,7 +14,7 @@ namespace Kakemons.UI.Pages.Registration {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Registration\\RegistrationPage.xaml")]
-    public partial class RegistrationPage : global::MvvmCross.Forms.Views.MvxContentPage<global::Kakemons.Core.ViewModels.Register.RegisterUserViewModel> {
+    public partial class RegistrationPage : global::Kakemons.UI.Views.ContentPageBase<global::Kakemons.Core.ViewModels.Register.RegisterUserViewModel> {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {

@@ -4,13 +4,13 @@ using System.Reactive;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
 using System.Threading.Tasks;
-using Kakemons.Common.Contracts;
 using Kakemons.Common.Dtos;
 using Kakemons.Core.Contracts;
 using Kakemons.Core.ListView;
 using Kakemons.Core.ViewModels.Baker;
 using Kakemons.Core.ViewModels.Purchase;
 using ReactiveUI;
+using Serilog;
 
 namespace Kakemons.Core.ViewModels.Cake
 {

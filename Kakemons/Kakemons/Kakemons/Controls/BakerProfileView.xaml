@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+             xmlns:baker="clr-namespace:Kakemons.Core.ViewModels.Baker;assembly=Kakemons.Core"
+             xmlns:transformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             xmlns:listViews="clr-namespace:Kakemons.UI.Controls.ListViews;assembly=Kakemons.UI"
+             xmlns:viewCells="clr-namespace:Kakemons.UI.Controls.ListViews.ViewCells;assembly=Kakemons.UI"
+             x:Class="Kakemons.UI.Controls.BakerProfileView">
+    <ContentView.Content>
+        <Grid ColumnSpacing="10" RowSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="140"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+            </Grid.RowDefinitions>
+            <forms:CachedImage x:Name="Avatar" Grid.Row="0" Grid.Column="0" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Aspect="AspectFill" HeightRequest="120" WidthRequest="120">
+                <forms:CachedImage.Transformations>
+                    <transformations:CircleTransformation BorderSize="0"></transformations:CircleTransformation>
+                </forms:CachedImage.Transformations>
+            </forms:CachedImage>
+            <Label Grid.Row="1" Grid.Column="0" HorizontalOptions="CenterAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span x:Name="FullName" Style="{StaticResource SubHeaderLabel}"></Span>
+                        <Span Text=" 3.1"></Span>
+                        <Span Text="&#xe803;" FontFamily="{StaticResource IconFont}"></Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label Grid.Row="2" Grid.Column="0" HorizontalOptions="CenterAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span x:Name="Distance" Style="{StaticResource StrongLabel}"></Span>
+                        <Span Text="km. unna."></Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </Grid>
+    </ContentView.Content>
+</ContentView>
+    

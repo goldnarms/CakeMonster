@@ -6,13 +6,13 @@ using System.Reactive.Subjects;
 using System.Threading.Tasks;
 using Akavache;
 using DynamicData;
-using Kakemons.Common.Contracts;
 using Kakemons.Common.Dtos;
 using Kakemons.Core.Contracts;
 using Kakemons.Core.Extensions;
 using Kakemons.Core.Helpers;
 using Kakemons.SDK.ApiContracts;
 using ReactiveUI;
+using Serilog;
 using Xamarin.Essentials;
 
 
