@@ -1,0 +1,15 @@
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\bin\Debug\netstandard2.0\Kakemons.deps.json
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\bin\Debug\netstandard2.0\Kakemons.dll
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\bin\Debug\netstandard2.0\Kakemons.pdb
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\obj\Debug\netstandard2.0\Kakemons.csprojAssemblyReference.cache
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\obj\Debug\netstandard2.0\Kakemons.csproj.CoreCompileInputs.cache
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\obj\Debug\netstandard2.0\Kakemons.AssemblyInfoInputs.cache
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\obj\Debug\netstandard2.0\Kakemons.AssemblyInfo.cs
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\obj\Debug\netstandard2.0\Kakemons.dll
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\obj\Debug\netstandard2.0\Kakemons.pdb

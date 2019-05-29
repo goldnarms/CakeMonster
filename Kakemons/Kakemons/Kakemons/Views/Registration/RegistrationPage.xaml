@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:MvxContentPage x:TypeArguments="register:RegisterUserViewModel" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Kakemons.UI.Controls;assembly=Kakemons.UI"
+             xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+             xmlns:register="clr-namespace:Kakemons.Core.ViewModels.Register;assembly=Kakemons.Core"
+             x:Class="Kakemons.UI.Pages.Registration.RegistrationPage">
+    <ContentPage.Content>
+        <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" ColumnSpacing="20" RowSpacing="10" Padding="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+            </Grid.RowDefinitions>
+            <controls:LogoView Grid.Row="0" Grid.ColumnSpan="2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></controls:LogoView>
+            <Label Grid.Row="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand" Text="Kom igang med"></Label>
+            <ImageButton Grid.Row="2" Grid.Column="0" Source="fblogo_small.png" BackgroundColor="#3A589B" CornerRadius="5" HeightRequest="45" Padding="8" WidthRequest="100" HorizontalOptions="EndAndExpand"></ImageButton>
+            <ImageButton Grid.Row="2" Grid.Column="1" Source="google_logo_small.png" BackgroundColor="#FFFFFF" CornerRadius="5" Padding="8" HeightRequest="45" WidthRequest="100" HorizontalOptions="StartAndExpand"></ImageButton>
+            <Button Grid.Row="3" Grid.ColumnSpan="2" Margin="0,30,0,0" Style="{ StaticResource RedButton }" Text="REGISTRER DEG MED E-POST" HorizontalOptions="Center"></Button>
+            <Label Grid.Row="5" Grid.ColumnSpan="2" TextColor="{StaticResource PrimaryTextColor}" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" VerticalOptions="EndAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="ALLEREDE REGISTRERT?"></Span>
+                        <Span Text=" LOGG INN." FontAttributes="Bold">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding GoToLoginCommand}"></TapGestureRecognizer>
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </Grid>
+    </ContentPage.Content>
+</views:MvxContentPage>

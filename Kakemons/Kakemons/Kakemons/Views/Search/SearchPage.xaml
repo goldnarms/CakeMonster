@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:MvxContentPage x:TypeArguments="search:SearchViewModel" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+             xmlns:search="clr-namespace:Kakemons.Core.ViewModels.Search;assembly=Kakemons.Core"
+             xmlns:entries="clr-namespace:Kakemons.UI.Controls.Entries;assembly=Kakemons.UI"
+             xmlns:panCardView="clr-namespace:PanCardView;assembly=PanCardView"
+             xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:listViews="clr-namespace:Kakemons.UI.Controls.ListViews;assembly=Kakemons.UI"
+             xmlns:viewCells="clr-namespace:Kakemons.UI.Controls.ListViews.ViewCells;assembly=Kakemons.UI"
+             x:Class="Kakemons.UI.Pages.Search.SearchPage">
+    <ContentPage.Content>
+        <Grid RowSpacing="15" Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="55"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="120"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <entries:FloatingEntry Grid.Row="0" Placeholder="Søk etter kaker..." VerticalOptions="Start" HorizontalOptions="FillAndExpand" Text="{Binding Query}" MinimumWidthRequest="200"></entries:FloatingEntry>
+            <StackLayout Grid.Row="1" Orientation="Horizontal" VerticalOptions="Center">
+                <Button Text="Kaketype" Style="{StaticResource SmallTransparentButton}" Command="{Binding FilterByTypeCommand}"></Button>
+                <Button Text="Allergener" Style="{StaticResource SmallTransparentButton}"></Button>
+            </StackLayout>
+            <Label Grid.Row="2" Text="Populære søk" VerticalOptions="Start" HorizontalOptions="StartAndExpand" Style="{StaticResource SubHeaderLabel}" TextColor="{StaticResource Black75}" />
+            <panCardView:CarouselView Grid.Row="3" x:Name="PopularSearchesCarousel" IsCyclical="True" ItemsSource="{Binding PopularSearches}" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
+                <panCardView:CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="0" CornerRadius="5">
+                            <StackLayout Orientation="Vertical" Padding="0" Spacing="0" HorizontalOptions="FillAndExpand">
+                                <forms:CachedImage Source="{Binding ImageSrc}" Aspect="AspectFill" HeightRequest="100" HorizontalOptions="FillAndExpand"></forms:CachedImage>
+                                <Label Text="{Binding Name}" Style="{StaticResource StrongLabel}"></Label>
+                                <Label Text="{Binding Description}" Style="{StaticResource LightLabel}"></Label>
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding GoToDetailsCommand}"></TapGestureRecognizer>
+                                </StackLayout.GestureRecognizers>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </panCardView:CarouselView.ItemTemplate>
+            </panCardView:CarouselView>
+            <Label Grid.Row="4" Text="Søkeresultat" Style="{StaticResource SubHeaderLabel}" TextColor="{StaticResource Black75}"></Label>
+            <listViews:CakeSmallList Grid.Row="5" x:Name="CakeList" ItemsSource="{Binding SearchResults}" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="900" RowHeight="65">
+                <listViews:CakeSmallList.ItemTemplate>
+                    <DataTemplate>
+                        <viewCells:CakeSmallListViewCell 
+                            Cake="{Binding CakeModel}" 
+                            IsFavorite="{Binding IsFavorite}"
+                            GoToDetails="{Binding GoToDetailsCommand}"
+                        ></viewCells:CakeSmallListViewCell>
+                    </DataTemplate>
+                </listViews:CakeSmallList.ItemTemplate>
+            </listViews:CakeSmallList>
+        </Grid>
+    </ContentPage.Content>
+</views:MvxContentPage>

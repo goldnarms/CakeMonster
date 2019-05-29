@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons.iOS\\Kakemons.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons.iOS\\Kakemons.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons.iOS\\Kakemons.iOS.csproj",
+        "projectName": "Kakemons.iOS",
+        "projectPath": "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons.iOS\\Kakemons.iOS.csproj",
+        "packagesPath": "C:\\Users\\arjre\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arjre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Nuget": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\arjre\\.dotnet\\NuGetFallbackFolder": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://evryconsulting.pkgs.visualstudio.com/_packaging/nte/nuget/v3/index.json": {},
+          "https://itema.pkgs.visualstudio.com/_packaging/iPartyPackageFeed/nuget/v3/index.json": {},
+          "https://www.myget.org/F/imageprocessor/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons\\Kakemons.UI.csproj": {
+                "projectPath": "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons\\Kakemons.UI.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.AppCenter": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "ReactiveUI": {
+              "target": "Package",
+              "version": "[9.16.1, )"
+            },
+            "ReactiveUI.XamForms": {
+              "target": "Package",
+              "version": "[9.16.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            },
+            "akavache": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons\\Kakemons.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons\\Kakemons.UI.csproj",
+        "projectName": "Kakemons.UI",
+        "projectPath": "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons\\Kakemons.UI.csproj",
+        "packagesPath": "C:\\Users\\arjre\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arjre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Nuget": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\arjre\\.dotnet\\NuGetFallbackFolder": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://evryconsulting.pkgs.visualstudio.com/_packaging/nte/nuget/v3/index.json": {},
+          "https://itema.pkgs.visualstudio.com/_packaging/iPartyPackageFeed/nuget/v3/index.json": {},
+          "https://www.myget.org/F/imageprocessor/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.AppCenter": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "ReactiveUI": {
+              "target": "Package",
+              "version": "[9.16.1, )"
+            },
+            "ReactiveUI.XamForms": {
+              "target": "Package",
+              "version": "[9.16.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            },
+            "akavache": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

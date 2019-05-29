@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:MvxContentPage x:TypeArguments="baker:BakerProfileViewModel" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Kakemons.UI.Controls;assembly=Kakemons.UI"
+             xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+             xmlns:baker="clr-namespace:Kakemons.Core.ViewModels.Baker;assembly=Kakemons.Core"
+             xmlns:listViews="clr-namespace:Kakemons.UI.Controls.ListViews;assembly=Kakemons.UI"
+             xmlns:viewCells="clr-namespace:Kakemons.UI.Controls.ListViews.ViewCells;assembly=Kakemons.UI"
+             x:Class="Kakemons.UI.Pages.Baker.BakerDetailPage">
+    <ContentPage.Content>
+        <ScrollView Padding="20">
+            <Grid ColumnSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="210"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="135"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <controls:BakerProfileView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BakerModel="{Binding BakerModel}"></controls:BakerProfileView>
+                <Button Grid.Row="1" Grid.Column="0" Text="Kontakt" Style="{StaticResource SmallRedButton}" HorizontalOptions="EndAndExpand" Command="{Binding StartChatCommand}"></Button>
+                <Button Grid.Row="1" Grid.Column="1" Text="Lagre" Style="{StaticResource SmallWhiteButton}" HorizontalOptions="StartAndExpand"></Button>
+                <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" Style="{StaticResource StrongLabel}" Text="Tilgjengelig nå"></Label>
+                <listViews:CakeSmallList Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" x:Name="CakeList" ItemsSource="{Binding AvailableCakes}" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="135" RowHeight="65">
+                    <listViews:CakeSmallList.ItemTemplate>
+                        <DataTemplate>
+                            <viewCells:CakeSmallListViewCell 
+                            Cake="{Binding CakeModel}" 
+                            IsFavorite="{Binding IsFavorite}"
+                            GoToDetails="{Binding GoToDetailsCommand}"
+                        ></viewCells:CakeSmallListViewCell>
+                        </DataTemplate>
+                    </listViews:CakeSmallList.ItemTemplate>
+                </listViews:CakeSmallList>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</views:MvxContentPage>

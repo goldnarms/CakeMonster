@@ -1,0 +1,226 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons.Android\\Kakemons.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons.Android\\Kakemons.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons.Android\\Kakemons.Android.csproj",
+        "projectName": "Kakemons.Android",
+        "projectPath": "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons.Android\\Kakemons.Android.csproj",
+        "packagesPath": "C:\\Users\\arjre\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arjre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Nuget": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\arjre\\.dotnet\\NuGetFallbackFolder": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://evryconsulting.pkgs.visualstudio.com/_packaging/nte/nuget/v3/index.json": {},
+          "https://itema.pkgs.visualstudio.com/_packaging/iPartyPackageFeed/nuget/v3/index.json": {},
+          "https://www.myget.org/F/imageprocessor/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons\\Kakemons.UI.csproj": {
+                "projectPath": "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons\\Kakemons.UI.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.AppCenter": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "ReactiveUI": {
+              "target": "Package",
+              "version": "[9.16.1, )"
+            },
+            "ReactiveUI.XamForms": {
+              "target": "Package",
+              "version": "[9.16.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.ViewPager": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.MediaRouter": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            },
+            "akavache": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons\\Kakemons.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons\\Kakemons.UI.csproj",
+        "projectName": "Kakemons.UI",
+        "projectPath": "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons\\Kakemons.UI.csproj",
+        "packagesPath": "C:\\Users\\arjre\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\CakeMonster\\Kakemons\\Kakemons\\Kakemons\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arjre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Nuget": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\arjre\\.dotnet\\NuGetFallbackFolder": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://evryconsulting.pkgs.visualstudio.com/_packaging/nte/nuget/v3/index.json": {},
+          "https://itema.pkgs.visualstudio.com/_packaging/iPartyPackageFeed/nuget/v3/index.json": {},
+          "https://www.myget.org/F/imageprocessor/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.AppCenter": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "ReactiveUI": {
+              "target": "Package",
+              "version": "[9.16.1, )"
+            },
+            "ReactiveUI.XamForms": {
+              "target": "Package",
+              "version": "[9.16.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            },
+            "akavache": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

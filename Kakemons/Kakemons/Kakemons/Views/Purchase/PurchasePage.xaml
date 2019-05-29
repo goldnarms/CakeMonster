@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:MvxContentPage x:TypeArguments="purchase:PurchaseViewModel" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:listViews="clr-namespace:Kakemons.UI.Controls.ListViews;assembly=Kakemons.UI"
+             xmlns:viewCells="clr-namespace:Kakemons.UI.Controls.ListViews.ViewCells;assembly=Kakemons.UI"
+             xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+             xmlns:purchase="clr-namespace:Kakemons.Core.ViewModels.Purchase;assembly=Kakemons.Core"
+             x:Class="Kakemons.UI.Pages.Purchase.PurchasePage">
+    <ContentPage.Content>
+        <ScrollView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="20">
+            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Label Text="Kakebestilling" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                <listViews:CakeSmallList x:Name="CakeList" ItemsSource="{Binding ShoppingBag}" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="200" RowHeight="65">
+                    <listViews:CakeSmallList.ItemTemplate>
+                        <DataTemplate>
+                            <viewCells:OrderItemViewCell 
+                            Cake="{Binding CakeModel}" 
+                            RemoveCake="{Binding BindingContext.RemoveItemFunc, Source={x:Reference CakeList}}"
+                        ></viewCells:OrderItemViewCell>
+                        </DataTemplate>
+                    </listViews:CakeSmallList.ItemTemplate>
+                </listViews:CakeSmallList>
+                <Label Style="{StaticResource LightLabel}" Text="Melding til baker:"></Label>
+                <Editor Text="{Binding MessageToSeller}" ></Editor>
+                <Button VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Text="Gå videre til betaling" Style="{ StaticResource RedButton}" Command="{Binding PayCakeCommand}"></Button>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</views:MvxContentPage>

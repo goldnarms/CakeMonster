@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views1:ContentPageBase x:TypeArguments="login:LoginViewModel" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Kakemons.UI.Controls;assembly=Kakemons.UI"
+             xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+             xmlns:login="clr-namespace:Kakemons.Core.ViewModels.Login;assembly=Kakemons.Core"
+             xmlns:entries="clr-namespace:Kakemons.UI.Controls.Entries;assembly=Kakemons.UI"
+             xmlns:views1="clr-namespace:Kakemons.UI.Views;assembly=Kakemons.UI"
+             x:Class="Kakemons.UI.Pages.Login.LoginPage">
+    <ContentPage.Content>
+        <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" ColumnSpacing="20" RowSpacing="20" Padding="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="60"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+            </Grid.RowDefinitions>
+            <controls:LogoView Grid.Row="0" Grid.ColumnSpan="2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></controls:LogoView>
+            <entries:FloatingEntry Grid.Row="1" Grid.ColumnSpan="2" Placeholder="E-post adresse" Text="{Binding Username}" Style="{DynamicResource BaseFloatingEntry}"></entries:FloatingEntry>
+            <entries:FloatingEntry Grid.Row="2" Grid.ColumnSpan="2" Placeholder="Passord" Text="{Binding Password}" KeyboardType="Text" Style="{DynamicResource BaseFloatingEntry}" IsPassword="True"></entries:FloatingEntry>
+            <Button Text="LOGG INN" Grid.Row="3" Grid.ColumnSpan="2" Command="{Binding LoginCommand}" Style="{ StaticResource RedButton }"  HorizontalOptions="Center"></Button>
+            <Label Grid.Row="5" Grid.ColumnSpan="2" TextColor="{StaticResource PrimaryTextColor}" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" VerticalOptions="EndAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="HAR IKKE KONTO?"></Span>
+                        <Span Text=" REGISTRER DEG." FontAttributes="Bold">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding GoToRegisterCommand}"></TapGestureRecognizer>
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </Grid>
+    </ContentPage.Content>
+</views1:ContentPageBase>

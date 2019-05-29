@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:MvxContentPage x:TypeArguments="onboarding:OnboardingViewModel" xmlns="http://xamarin.com/schemas/2014/forms"
+                      x:Name="OnboardingContentPage"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Kakemons.UI.Controls;assembly=Kakemons.UI"
+             xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+             xmlns:onboarding="clr-namespace:Kakemons.Core.ViewModels.Onboarding;assembly=Kakemons.Core"
+             xmlns:panCardView="clr-namespace:PanCardView;assembly=PanCardView"
+             xmlns:controls1="clr-namespace:PanCardView.Controls;assembly=PanCardView"
+             x:Class="Kakemons.UI.Pages.Onboarding.OnboardingPage">
+    <ContentPage.Content>
+        <controls:GradientFrame StartColor="{StaticResource PrimaryDark}" EndColor="{StaticResource PrimaryLight}" IsVertical="True" Padding="20" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <panCardView:CarouselView IsCyclical="false" x:Name="OnboardingList" ItemsSource="{Binding OnboardingCards}" SelectedIndex="{Binding Position}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="0">
+                <panCardView:CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="0" RowSpacing="0" ColumnSpacing="0" Margin="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="50" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="90" />
+                            </Grid.RowDefinitions>
+                            <!--<Image Source="{Binding Image}" Grid.Row="0" Margin="0" Aspect="AspectFill" HorizontalOptions="FillAndExpand"
+                               VerticalOptions="FillAndExpand" />-->
+                            <Label Grid.Row="0" Text="Kakemons" Style="{StaticResource HeaderLabel}" TextColor="{StaticResource White}" Margin="0,60,0,0" HorizontalOptions="CenterAndExpand" />
+                            <Label Grid.Row="1" Margin="15,0" Text="{Binding Header}" Style="{StaticResource StrongLabel}" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+                            <Label Grid.Row="2" Margin="15,0" Text="{Binding Text}" Style="{StaticResource LightLabel}" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+                            <Button Grid.Row="3" Text="Neste" Style="{DynamicResource WhiteButton}" Command="{Binding BindingContext.NextCommand, Source={x:Reference OnboardingList} }" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Margin="0" IsVisible="{Binding IsLastPage, Converter={StaticResource InverseBoolean}}"/>
+                            <Button Grid.Row="3" Text="Gå videre" Style="{DynamicResource WhiteButton}" Command="{Binding BindingContext.GoToRegisterCommand, Source={x:Reference OnboardingList} }" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Margin="0" IsVisible="{Binding IsLastPage}"/>
+                        </Grid>
+                    </DataTemplate>
+                </panCardView:CarouselView.ItemTemplate>
+                <controls1:IndicatorsControl x:Name="IndicatorsControl" Padding="0" Margin="0,0,0,8" >
+                    <controls1:IndicatorsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Frame />
+                        </DataTemplate>
+                    </controls1:IndicatorsControl.ItemTemplate>
+                </controls1:IndicatorsControl>
+            </panCardView:CarouselView>
+        </controls:GradientFrame>
+    </ContentPage.Content>
+</views:MvxContentPage>
