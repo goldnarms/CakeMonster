@@ -16,16 +16,16 @@ namespace Kakemons.UI.Pages.Onboarding {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Onboarding\\OnboardingPage.xaml")]
     public partial class OnboardingPage : global::Kakemons.UI.Views.ContentPageBase<global::Kakemons.Core.ViewModels.Onboarding.OnboardingViewModel> {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Kakemons.UI.Views.ContentPageBase<global::Kakemons.Core.ViewModels.Onboarding.OnboardingViewModel> OnboardingContentPage;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::PanCardView.CarouselView OnboardingList;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::PanCardView.Controls.IndicatorsControl IndicatorsControl;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(OnboardingPage));
             OnboardingContentPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Kakemons.UI.Views.ContentPageBase<global::Kakemons.Core.ViewModels.Onboarding.OnboardingViewModel>>(this, "OnboardingContentPage");

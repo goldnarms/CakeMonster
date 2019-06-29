@@ -52,11 +52,11 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[1.1.0, )"
             },
             "akavache": {
               "target": "Package",
-              "version": "[6.0.30, )"
+              "version": "[6.5.9, )"
             }
           },
           "imports": [
@@ -120,19 +120,19 @@
             },
             "AutoMapper": {
               "target": "Package",
-              "version": "[8.1.0, )"
+              "version": "[8.1.1, )"
             },
             "Microsoft.AppCenter": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.1.1, )"
             },
             "Microsoft.AppCenter.Analytics": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.1.1, )"
             },
             "Microsoft.AppCenter.Crashes": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.1.1, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -142,7 +142,7 @@
             },
             "ReactiveUI": {
               "target": "Package",
-              "version": "[9.16.1, )"
+              "version": "[9.18.2, )"
             }
           },
           "imports": [
@@ -205,7 +205,7 @@
             },
             "Refit": {
               "target": "Package",
-              "version": "[4.6.58, )"
+              "version": "[4.7.9, )"
             },
             "Serilog": {
               "target": "Package",
@@ -266,23 +266,23 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[8.1.0, )"
+              "version": "[8.1.1, )"
             },
             "CardsView": {
               "target": "Package",
-              "version": "[2.1.2, )"
+              "version": "[2.1.5, )"
             },
             "Microsoft.AppCenter": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.1.1, )"
             },
             "Microsoft.AppCenter.Analytics": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.1.1, )"
             },
             "Microsoft.AppCenter.Crashes": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.1.1, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -292,11 +292,11 @@
             },
             "ReactiveUI": {
               "target": "Package",
-              "version": "[9.16.1, )"
+              "version": "[9.18.2, )"
             },
             "ReactiveUI.XamForms": {
               "target": "Package",
-              "version": "[9.16.1, )"
+              "version": "[9.18.2, )"
             },
             "Serilog": {
               "target": "Package",
@@ -320,15 +320,15 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.0.0.425677, )"
+              "version": "[4.0.0.540366, )"
             },
             "Xamarin.Forms.Maps": {
               "target": "Package",
-              "version": "[4.0.0.425677, )"
+              "version": "[4.0.0.540366, )"
             },
             "akavache": {
               "target": "Package",
-              "version": "[6.5.1, )"
+              "version": "[6.5.9, )"
             }
           },
           "imports": [

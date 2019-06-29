@@ -36,3 +36,5 @@ C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\obj\Debug\netstandard2.0\Controls\
 C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\obj\Debug\netstandard2.0\Kakemons.UI.dll
 C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\obj\Debug\netstandard2.0\Kakemons.UI.pdb
 C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\bin\Debug\netstandard2.0\Kakemons.UI.pdb
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Dev\CakeMonster\Kakemons\Kakemons\Kakemons\obj\Debug\netstandard2.0\Resources\Colors.xaml.g.cs

@@ -13,21 +13,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="akavache" Version="6.5.1" />
-    <PackageReference Include="AutoMapper" Version="8.1.0" />
-    <PackageReference Include="CardsView" Version="2.1.2" />
-    <PackageReference Include="Microsoft.AppCenter" Version="2.0.0" />
-    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="2.0.0" />
-    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="2.0.0" />
-    <PackageReference Include="ReactiveUI" Version="9.16.1" />
-    <PackageReference Include="ReactiveUI.XamForms" Version="9.16.1" />
+    <PackageReference Include="akavache" Version="6.5.9" />
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
+    <PackageReference Include="CardsView" Version="2.1.5" />
+    <PackageReference Include="Microsoft.AppCenter" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="2.1.1" />
+    <PackageReference Include="ReactiveUI" Version="9.18.2" />
+    <PackageReference Include="ReactiveUI.XamForms" Version="9.18.2" />
     <PackageReference Include="Serilog" Version="2.8.0" />
     <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.11.982" />
     <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
     <PackageReference Include="Xamarin.FFImageLoading.Transformations" Version="2.4.11.982" />
-    <PackageReference Include="Xamarin.Forms" Version="4.0.0.425677" />  
+    <PackageReference Include="Xamarin.Forms" Version="4.0.0.540366" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />  
-    <PackageReference Include="Xamarin.Forms.Maps" Version="4.0.0.425677" />
+    <PackageReference Include="Xamarin.Forms.Maps" Version="4.0.0.540366" />
   </ItemGroup>
 
   <ItemGroup>

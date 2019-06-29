@@ -16,10 +16,10 @@ namespace Kakemons.UI.Pages.Purchase {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Purchase\\PurchasePage.xaml")]
     public partial class PurchasePage : global::Kakemons.UI.Views.ContentPageBase<global::Kakemons.Core.ViewModels.Purchase.PurchaseViewModel> {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Kakemons.UI.Controls.ListViews.CakeSmallList CakeList;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(PurchasePage));
             CakeList = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Kakemons.UI.Controls.ListViews.CakeSmallList>(this, "CakeList");

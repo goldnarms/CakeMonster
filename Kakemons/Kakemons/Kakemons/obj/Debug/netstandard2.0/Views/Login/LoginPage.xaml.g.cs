@@ -16,7 +16,7 @@ namespace Kakemons.UI.Pages.Login {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Login\\LoginPage.xaml")]
     public partial class LoginPage : global::Kakemons.UI.Views.ContentPageBase<global::Kakemons.Core.ViewModels.Login.LoginViewModel> {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(LoginPage));
         }

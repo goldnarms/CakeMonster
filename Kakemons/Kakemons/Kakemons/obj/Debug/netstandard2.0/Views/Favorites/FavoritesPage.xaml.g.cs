@@ -16,10 +16,10 @@ namespace Kakemons.UI.Pages.Favorites {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Favorites\\FavoritesPage.xaml")]
     public partial class FavoritesPage : global::Kakemons.UI.Views.ContentPageBase<global::Kakemons.Core.ViewModels.Favorites.FavoritesViewModel> {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Kakemons.UI.Controls.ListViews.CakeList CakeList;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(FavoritesPage));
             CakeList = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Kakemons.UI.Controls.ListViews.CakeList>(this, "CakeList");

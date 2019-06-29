@@ -1,14 +1,100 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Shell xmlns="http://xamarin.com/schemas/2014/forms" 
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-       xmlns:local="clr-namespace:Kakemons.Views"
-       RouteHost="companyname.com"
-       RouteScheme="app"
-       Route="Kakemons"
-       FlyoutBehavior="Disabled"
+       xmlns:local="clr-namespace:Kakemons.UI.Pages.Search"
+       xmlns:chat="clr-namespace:Kakemons.UI.Pages.Chat"
+       xmlns:favorites="clr-namespace:Kakemons.UI.Pages.Favorites"
+       FlyoutHeaderBehavior="CollapseOnScroll"
        Title="Kakemons"
+       x:Name="self"
        x:Class="Kakemons.UI.AppShell">
 
+    <Shell.FlyoutHeader>
+        <Grid HeightRequest="300">
+            <!--<Image Source="{local:ImageResource Gastropod.Images.shells_01.jpg}"
+                   Aspect="AspectFill"
+                   HeightRequest="300"
+                   HorizontalOptions="FillAndExpand" />-->
+            <Label Text="Kakemons"
+                   TextColor="White"
+                   FontSize="48"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center" />
+        </Grid>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Route="tabsandwich"
+                Title="Tab Sandwich"
+                FlyoutIcon="iconXamarin.png"
+                Style="{StaticResource TertiaryShell}">
+        <Tab Route="activity"
+             Title="Activity"
+             Icon="iconXamarin.png">
+            <ShellContent Route="close"
+                          Title="I nærheten"
+                          ContentTemplate="{DataTemplate local:SearchPage}" />
+            <ShellContent Route="notifications"
+                          Title="Notifications"
+                          ContentTemplate="{DataTemplate favorites:FavoritesPage}" />
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Route="single"
+                Title="Single Page"
+                FlyoutIcon="iconXamarin.png">
+        <!--<ShellContent Route="home"
+                      Title="Home"
+                      ContentTemplate="{DataTemplate local:SearchPage}" />-->
+    </FlyoutItem>
+
+    <FlyoutItem Route="toptabs"
+                Title="Top Tabs"
+                FlyoutIcon="iconXamarin.png"
+                Style="{StaticResource QuaternaryShell}">
+        <Tab Route="activity"
+             Title="Activity"
+             Icon="iconXamarin.png">
+            <ShellContent Route="close"
+                          Title="I nærheten"
+                          ContentTemplate="{DataTemplate local:SearchPage}" />
+            <ShellContent Route="shared"
+                          Title="Shared"
+                          ContentTemplate="{DataTemplate chat:ChatsPage}" />
+            <ShellContent Route="notifications"
+                          Title="Notifications"
+                          ContentTemplate="{DataTemplate favorites:FavoritesPage}" />
+
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Route="bottomtabs"
+                Title="Bottom Tabs"
+                FlyoutIcon="iconXamarin.png"
+                Style="{StaticResource QuinaryShell}">
+        <Tab Route="home"
+             Title="Home"
+             Icon="home.png">
+            <ShellContent ContentTemplate="{DataTemplate local:SearchPage}" />
+        </Tab>
+        <Tab Route="activity"
+             Title="Activity"
+             Icon="iconXamarin.png">
+            <ShellContent ContentTemplate="{DataTemplate chat:ChatsPage}" />
+        </Tab>
+        <Tab Route="updates"
+             Title="Updates"
+             Icon="iconXamarin.png">
+            <ShellContent ContentTemplate="{DataTemplate favorites:FavoritesPage}" />
+        </Tab>
+    </FlyoutItem>
+
+
+    <!--
+       RouteHost="companyname.com"
+       RouteScheme="app"
+       Route="Kakemons"-->
     <!--
         XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         XXXXXXXX|                            |XXXXXXXX
@@ -54,7 +140,7 @@
         <ResourceDictionary>
             <Color x:Key="NavigationPrimary">#2196F3</Color>
             <Style x:Key="BaseStyle" TargetType="Element">
-                <Setter Property="Shell.ShellBackgroundColor" Value="{StaticResource NavigationPrimary}" />
+                <!--<Setter Property="Shell.ShellBackgroundColor" Value="{StaticResource NavigationPrimary}" />
                 <Setter Property="Shell.ShellForegroundColor" Value="White" />
                 <Setter Property="Shell.ShellTitleColor" Value="White" />
                 <Setter Property="Shell.ShellDisabledColor" Value="#B4FFFFFF" />
@@ -62,21 +148,21 @@
                 <Setter Property="Shell.ShellTabBarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
                 <Setter Property="Shell.ShellTabBarForegroundColor" Value="White"/>
                 <Setter Property="Shell.ShellTabBarUnselectedColor" Value="#95FFFFFF"/>
-                <Setter Property="Shell.ShellTabBarTitleColor" Value="White"/>
+                <Setter Property="Shell.ShellTabBarTitleColor" Value="White"/>-->
             </Style>
             <Style TargetType="ShellItem" BasedOn="{StaticResource BaseStyle}" />
         </ResourceDictionary>
     </Shell.Resources>
 
     <!-- Your Pages -->
-    <ShellItem>
-        <!--<ShellSection Title="Browse" Icon="tab_feed.png">
+    <!--<ShellItem>
+        <ShellSection Title="Browse">
             <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
         </ShellSection>
         <ShellSection Title="About" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
-        </ShellSection>-->
-    </ShellItem>
+        </ShellSection>
+    </ShellItem>-->
 
     <!-- Optional Templates 
     // These may be provided inline as below or as separate classes.

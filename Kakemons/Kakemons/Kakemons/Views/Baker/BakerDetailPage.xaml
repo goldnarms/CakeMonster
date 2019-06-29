@@ -20,11 +20,11 @@
                     <ColumnDefinition Width="*"></ColumnDefinition>
                     <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <controls:BakerProfileView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BakerModel="{Binding BakerModel}"></controls:BakerProfileView>
-                <Button Grid.Row="1" Grid.Column="0" Text="Kontakt" Style="{StaticResource SmallRedButton}" HorizontalOptions="EndAndExpand" Command="{Binding StartChatCommand}"></Button>
-                <Button Grid.Row="1" Grid.Column="1" Text="Lagre" Style="{StaticResource SmallWhiteButton}" HorizontalOptions="StartAndExpand"></Button>
+                <controls:BakerProfileView x:Name="BakerProfileView" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"></controls:BakerProfileView>
+                <Button x:Name="StartChatBtn" Visual="Material" Grid.Row="1" Grid.Column="0" Text="Kontakt" Style="{StaticResource SmallRedButton}" HorizontalOptions="EndAndExpand"></Button>
+                <Button x:Name="SaveBtn" Grid.Row="1" Grid.Column="1" Text="Lagre" Style="{StaticResource SmallWhiteButton}" HorizontalOptions="StartAndExpand"></Button>
                 <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" Style="{StaticResource StrongLabel}" Text="Tilgjengelig nå"></Label>
-                <listViews:CakeSmallList Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" x:Name="CakeList" ItemsSource="{Binding AvailableCakes}" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="135" RowHeight="65">
+                <listViews:CakeSmallList Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" x:Name="CakeList" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="135" RowHeight="65">
                     <listViews:CakeSmallList.ItemTemplate>
                         <DataTemplate>
                             <viewCells:CakeSmallListViewCell 

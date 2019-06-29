@@ -16,12 +16,24 @@ namespace Kakemons.UI.Pages.Baker {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Baker\\BakerDetailPage.xaml")]
     public partial class BakerDetailPage : global::Kakemons.UI.Views.ContentPageBase<global::Kakemons.Core.ViewModels.Baker.BakerProfileViewModel> {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Kakemons.UI.Controls.BakerProfileView BakerProfileView;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button StartChatBtn;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button SaveBtn;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Kakemons.UI.Controls.ListViews.CakeSmallList CakeList;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(BakerDetailPage));
+            BakerProfileView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Kakemons.UI.Controls.BakerProfileView>(this, "BakerProfileView");
+            StartChatBtn = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "StartChatBtn");
+            SaveBtn = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "SaveBtn");
             CakeList = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Kakemons.UI.Controls.ListViews.CakeSmallList>(this, "CakeList");
         }
     }

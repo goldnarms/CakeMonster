@@ -10,8 +10,7 @@
             <ListView x:Name="ChatListView" SeparatorVisibility="None"
                                             VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
                                             HasUnevenRows="True"
-                                            ItemTemplate="{StaticResource ChatListTemplateSelector}"
-                                            ItemsSource="{Binding ChatMessages}" />
+                                            ItemTemplate="{StaticResource ChatListTemplateSelector}" />
             <Frame Grid.Row="2" BackgroundColor="{DynamicResource WhiteTwo}" Margin="10" Padding="0">
                 <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Horizontal"
                              Margin="0" Spacing="0">
@@ -21,13 +20,12 @@
 
                     <entries:BorderlessEntry x:Name="MessageEntry" Placeholder="Skriv melding..."
                                              Margin="5, 0, 0, 0"
-                                             Text="{Binding Message}" BackgroundColor="Transparent" Keyboard="Chat"
+                                             BackgroundColor="Transparent" Keyboard="Chat"
                                              HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" />
 
                     <BoxView WidthRequest="1" BackgroundColor="{DynamicResource Gray50}" HorizontalOptions="End"/>
 
-                    <Button Command="{Binding SendMessageCommand}"
-                                               BorderColor="Transparent"
+                    <Button x:Name="SendMessageBtn" BorderColor="Transparent"
                                                Style="{StaticResource RedButton}" 
                                                 Text="&#xf1d8;" FontFamily="{StaticResource IconFont}"
                                                WidthRequest="56" Margin="0" HorizontalOptions="End" />

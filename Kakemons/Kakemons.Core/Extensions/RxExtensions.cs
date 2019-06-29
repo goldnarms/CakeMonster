@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -6,6 +6,7 @@ using System.Reactive;
 using System.Reactive.Concurrency;
 using System.Reactive.Disposables;
 using System.Reactive.Linq;
+using System.Runtime.CompilerServices;
 using System.Threading;
 using Microsoft.AppCenter.Analytics;
 using Serilog;
@@ -14,9 +15,14 @@ namespace Kakemons.Core.Extensions
 {
     public static class RxExtensions
     {
+        public static IObservable<Unit> Signal()
+        {
+            return Observable.Return(Unit.Default);
+        }
+         
         public static readonly Func<int, TimeSpan> DefaultStrategy = n => TimeSpan.FromSeconds(Math.Min(Math.Pow(2.0, n), 180.0));
 
-        public static IObservable<T> RetryWithBackoff<T>(this IObservable<T> @this, int? retryCount = null,
+        public static IObservable<T> RetryWithBackoff<T>(this IObservable<T> @this, int? retryCount = 3,
             Func<int, TimeSpan> strategy = null, Func<Exception, bool> retryOnError = null, IScheduler scheduler = null)
         {
             strategy = strategy ?? DefaultStrategy;
@@ -66,11 +72,21 @@ namespace Kakemons.Core.Extensions
                         return new CompositeDisposable(subscription, disposal);
                     }));
         }
-        
-        public static IObservable<T> LogException<T>(this IObservable<T> @this, ILogger log, string message = null)
+
+        public static IObservable<T> LogException<T>(this IObservable<T> @this, ILogger log, string message = null,
+            [CallerMemberName] string callerMemberName = null,
+            [CallerFilePath] string callerFilePath = null,
+            [CallerLineNumber] int callerLineNumber = 0)
         {
-            return @this.Catch<T, Exception>(ex => {
-                log.Error(message ?? ex.Message, ex);
+            return @this.Catch<T, Exception>(ex =>
+            {
+                Dictionary<string, string> properties = new Dictionary<string, string>
+                {
+                    {"CallerMemberName", callerMemberName}, 
+                    {"CallerFilePath", callerFilePath}, 
+                    {"CallerLineNumber", callerLineNumber.ToString()}
+                };
+                log.Error(ex, message ?? ex.Message, properties);
                 return @this;
             });
         }
@@ -88,15 +104,20 @@ namespace Kakemons.Core.Extensions
             var properties = new Dictionary<string, string> {{key, value}};
             return @this.Do(s => Analytics.TrackEvent(key, properties));
         }
-        
+
+        public static IObservable<T> LogToAnalytics<T>(this IObservable<T> @this, string key, Dictionary<string, string> properties)
+        {
+            return @this.Do(s => Analytics.TrackEvent(key, properties));
+        }
+
         public static IObservable<T> LogToAnalytics<T>(this IObservable<T> @this, string key, Func<T, string> eventName)
         {
             return @this.Do(s => Analytics.TrackEvent(key, new Dictionary<string, string> {{"Event", eventName.Invoke(s)}}));
         }
         
-        public static IDisposable Time(string title, ILogger log)
+        public static IDisposable Time(string title, ILogger logger)
         {
-            return new Timer(title, null, log);
+            return new Timer(title, null, logger);
         }
     }
     
@@ -104,29 +125,30 @@ namespace Kakemons.Core.Extensions
     {
         private readonly string _name;
         private readonly TimeSpan? _threshold;
-        private readonly ILogger _log;
+        
         private readonly string _classFileName;
         private readonly string _methodName;
         private readonly Stopwatch _stopwatch;
         private readonly bool _useCustomDescription;
+        private readonly ILogger _log;
 
-        public Timer(string name, TimeSpan? threshold, string classFileName, string methodName, ILogger log)
+        public Timer(string name, TimeSpan? threshold, string classFileName, string methodName, ILogger logger)
         {
             _name = name;
             _threshold = threshold;
             _classFileName = Path.GetFileNameWithoutExtension(classFileName);
             _methodName = methodName;
-            _log = log;
+            _log = logger.ForContext<Timer>();
 #if DEBUG
             _stopwatch = Stopwatch.StartNew();
 #endif
         }
 
-        public Timer(string name, TimeSpan? threshold, ILogger log)
+        public Timer(string name, TimeSpan? threshold, ILogger logger)
         {
             _name = name;
             _threshold = threshold;
-            _log = log;
+            _log = logger.ForContext<Timer>();
             _useCustomDescription = true;
 #if DEBUG
             _stopwatch = Stopwatch.StartNew();

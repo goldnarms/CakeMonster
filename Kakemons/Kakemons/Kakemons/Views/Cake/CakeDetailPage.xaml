@@ -8,13 +8,9 @@
     <ContentPage.Content>
         <ScrollView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="20">
             <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical">
-                <controls:CakeDetailView 
-                CakeModel="{Binding CakeModel}"
-                ToggleFavorite="{Binding ToggleFavoriteFunc}"
-                GoToBaker="{Binding GoToBakerCommand}"
-                    >
+                <controls:CakeDetailView x:Name="CakeDetailView">
                 </controls:CakeDetailView>
-                <Button VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Text="Bestill" Style="{ StaticResource RedButton}" Command="{Binding OrderCakeCommand}"></Button>
+                <Button x:Name="OrderBtn" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Text="Bestill" Style="{ StaticResource RedButton}"></Button>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

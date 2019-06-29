@@ -11,6 +11,7 @@ namespace Kakemons.UI.Pages.Search
 		public SearchPage ()
 		{
 			InitializeComponent ();
+            BindingContext = new SearchViewModel();
 		}
 	}
 }

@@ -1,8 +1,306 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resources="clr-namespace:Kakemons.UI.Resources;assembly=Kakemons.UI"
+             xmlns:entries="clr-namespace:Kakemons.UI.Controls.Entries;assembly=Kakemons.UI"
+             xmlns:converters="clr-namespace:Kakemons.UI.Converters;assembly=Kakemons.UI"
+             xmlns:templateSelectors="clr-namespace:Kakemons.UI.TemplateSelectors;assembly=Kakemons.UI"
              x:Class="Kakemons.UI.App">
     <Application.Resources>
-        
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <resources:Colors>
+                </resources:Colors>
+            </ResourceDictionary.MergedDictionaries>
+            <!-- Template Selectors -->
+            <templateSelectors:ChatListTemplateSelector x:Key="ChatListTemplateSelector"></templateSelectors:ChatListTemplateSelector>
+
+            <!-- Converters -->
+            <converters:InverseBooleanConverter x:Key="InverseBoolean"></converters:InverseBooleanConverter>
+            <converters:TimeAgoConverter x:Key="TimeAgo"></converters:TimeAgoConverter>
+
+            <OnPlatform x:Key="HeaderFont" x:TypeArguments="x:String">
+                <On Platform="Android">Boogaloo-Regular.ttf#Boogaloo-Regular</On>
+                <On Platform="iOS">Boogaloo-Regular</On>
+            </OnPlatform>
+
+            <OnPlatform x:Key="RegularFont" x:TypeArguments="x:String">
+                <On Platform="Android">OpenSans-Regular.ttf#OpenSans-Regular</On>
+                <On Platform="iOS">OpenSans-Regular</On>
+            </OnPlatform>
+
+            <OnPlatform x:Key="LightFont" x:TypeArguments="x:String">
+                <On Platform="Android">OpenSans-Light.ttf#OpenSans-Light</On>
+                <On Platform="iOS">OpenSans-Light</On>
+            </OnPlatform>
+
+            <OnPlatform x:Key="StrongFont" x:TypeArguments="x:String">
+                <On Platform="Android">OpenSans-Bold.ttf#OpenSans-Bold</On>
+                <On Platform="iOS">OpenSans-Bold</On>
+            </OnPlatform>
+
+            <OnPlatform x:Key="IconFont" x:TypeArguments="x:String">
+                <On Platform="Android">kakemons.ttf#kakemons</On>
+                <On Platform="iOS">kakemons</On>
+            </OnPlatform>
+
+            <Style x:Key="BaseFloatingEntry" TargetType="entries:FloatingEntry">
+                <Setter Property="EntryFontSize" Value="16" />
+                <Setter Property="PlaceholderFontSize" Value="12" />
+                <Setter Property="PlaceholderColor" Value="{DynamicResource Black75}" />
+                <Setter Property="FloatingPlaceholderColor" Value="{DynamicResource Black}" />
+                <Setter Property="ValidationErrorColor" Value="{DynamicResource PrimaryDark}" />
+                <Setter Property="TextColor" Value="{DynamicResource Black}" />
+
+                <!--
+                <Setter Property="EntryFontFamily" Value="{DynamicResource RegularFont}"/>
+                <Setter Property="PlaceholderFontFamily" Value="{DynamicResource RegularFont}"/>
+                -->
+            </Style>
+
+            <Style x:Key="BaseLabel" TargetType="Label">
+                <Setter Property="FontFamily" Value="{DynamicResource RegularFont}"/>
+            </Style>
+
+            <Style x:Key="SmallLabel" BaseResourceKey="BaseLabel" TargetType="Label">
+                <Setter Property="FontFamily" Value="{DynamicResource LightFont}"/>
+                <Setter Property="FontSize" Value="16" />
+            </Style>
+            <Style x:Key="VerySmallLabel" BaseResourceKey="BaseLabel" TargetType="Label">
+                <Setter Property="FontFamily" Value="{DynamicResource RegularFont}"/>
+                <Setter Property="FontSize" Value="12" />
+            </Style>
+            <Style x:Key="LightLabel" BaseResourceKey="BaseLabel" TargetType="Label">
+                <Setter Property="FontFamily" Value="{DynamicResource LightFont}"/>
+            </Style>
+
+            <Style x:Key="StrongLabel" BaseResourceKey="BaseLabel" TargetType="Label">
+                <Setter Property="FontFamily" Value="{DynamicResource StrongFont}"/>
+            </Style>
+
+            <Style x:Key="SubHeaderLabel" BaseResourceKey="BaseLabel" TargetType="Label">
+                <Setter Property="FontSize" Value="22" />
+                <Setter Property="FontFamily" Value="{DynamicResource StrongFont}"/>
+                <Setter Property="TextColor" Value="{DynamicResource Black}" />
+            </Style>
+
+            <Style x:Key="HeaderLabel" BaseResourceKey="BaseLabel" TargetType="Label">
+                <Setter Property="FontSize" Value="50" />
+                <Setter Property="FontFamily" Value="{DynamicResource HeaderFont}"/>
+                <Setter Property="TextColor" Value="{DynamicResource PrimaryDark}" />
+            </Style>
+
+            <Style x:Key="Icons" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource IconFont}" />
+                <Setter Property="FontSize" Value="30" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="WidthRequest" Value="40" />
+            </Style>
+
+            <Style x:Key="LikedIcon" BasedOn="{StaticResource Icons}" TargetType="Label">
+                <Setter Property="Text" Value="&#xe801;"/>
+            </Style>
+
+            <Style x:Key="UnlikedIcon" BasedOn="{StaticResource Icons}" TargetType="Label">
+                <Setter Property="Text" Value="&#xe802;"/>
+            </Style>
+
+            <Style x:Key="StarIcon" BasedOn="{StaticResource Icons}" TargetType="Label">
+                <Setter Property="Text" Value="&#xe803;"/>
+            </Style>
+
+            <Style x:Key="DeleteIcon" BasedOn="{StaticResource Icons}" TargetType="Label">
+                <Setter Property="Text" Value="&#xe807;"/>
+            </Style>
+            <Style x:Key="BaseButton" TargetType="Button">
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="CornerRadius" Value="5"></Setter>
+                <Setter Property="HeightRequest" Value="55"></Setter>
+                <Setter Property="BorderWidth" Value="0"></Setter>
+                <Setter Property="Padding" Value="35,5"></Setter>
+            </Style>
+            <Style x:Key="SmallTransparentButton" BaseResourceKey="BaseButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Transparent"></Setter>
+                <Setter Property="BorderWidth" Value="1"></Setter>
+                <Setter Property="BorderColor" Value="{StaticResource Black75}"></Setter>
+                <Setter Property="TextColor" Value="{StaticResource Black75}"/>
+                <Setter Property="FontFamily" Value="{DynamicResource LightFont}"/>
+                <Setter Property="FontSize" Value="12" />
+                <Setter Property="Padding" Value="3" />
+            </Style>
+            <Style x:Key="WhiteButton" BaseResourceKey="BaseButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{DynamicResource White}"></Setter>
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{DynamicResource White}" />
+                                    <Setter Property="TextColor" Value="{DynamicResource PrimaryDark}"></Setter>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Disabled">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{DynamicResource White}" />
+                                    <Setter Property="TextColor" Value="{DynamicResource PrimaryLight}"></Setter>
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+            <Style x:Key="SmallRedButton" BaseResourceKey="BaseButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryDark}"></Setter>
+                <Setter Property="HeightRequest" Value="22"></Setter>
+                <Setter Property="FontSize" Value="14"></Setter>
+                <Setter Property="CornerRadius" Value="22"></Setter>
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryDark}" />
+                                    <Setter Property="TextColor" Value="{DynamicResource White}"></Setter>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Disabled">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryLight}" />
+                                    <Setter Property="TextColor" Value="{DynamicResource GreyishBrown}"></Setter>
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+            <Style x:Key="SmallWhiteButton" BaseResourceKey="BaseButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{DynamicResource White}"></Setter>
+                <Setter Property="HeightRequest" Value="22"></Setter>
+                <Setter Property="FontSize" Value="14"></Setter>
+                <Setter Property="CornerRadius" Value="22"></Setter>
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{DynamicResource White}" />
+                                    <Setter Property="TextColor" Value="{DynamicResource PrimaryDark}"></Setter>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Disabled">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{DynamicResource White}" />
+                                    <Setter Property="TextColor" Value="{DynamicResource PrimaryLight}"></Setter>
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+            <Style x:Key="RedButton" BaseResourceKey="BaseButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryDark}"></Setter>
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryDark}" />
+                                    <Setter Property="TextColor" Value="{DynamicResource White}"></Setter>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Disabled">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryLight}" />
+                                    <Setter Property="TextColor" Value="{DynamicResource GreyishBrown}"></Setter>
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+
+
+            <!--IndicatorFrame-->
+            <Style x:Key="BaseIndicatorFrameStyle" TargetType="Frame">
+                <Setter Property="HeightRequest">
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS" Value="6" />
+                        <On Platform="Android" Value="8" />
+                    </OnPlatform>
+                </Setter>
+                <Setter Property="WidthRequest">
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS" Value="6" />
+                        <On Platform="Android" Value="8" />
+                    </OnPlatform>
+                </Setter>
+                <Setter Property="CornerRadius">
+                    <OnPlatform x:TypeArguments="x:Single">
+                        <On Platform="iOS" Value="3" />
+                        <On Platform="Android" Value="4" />
+                    </OnPlatform>
+                </Setter>
+                <Setter Property="HasShadow" Value="False" />
+                <Setter Property="Padding" Value="0" />
+            </Style>
+            <Style x:Key="UnselectIndicatorFrameStyle" BaseResourceKey="BaseIndicatorFrameStyle" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="{StaticResource Gray80}"/>
+            </Style>
+            <Style x:Key="SelectedIndicatorFrameStyle" BaseResourceKey="BaseIndicatorFrameStyle" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="{StaticResource Black80}"/>
+            </Style>
+            <Style x:Key="UnselectWhiteIndicatorFrameStyle" BaseResourceKey="BaseIndicatorFrameStyle" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+            </Style>
+            <Style x:Key="SelectedWhiteIndicatorFrameStyle" BaseResourceKey="BaseIndicatorFrameStyle" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="{StaticResource White}"/>
+            </Style>
+            <Style x:Key="BaseStyle"
+                   ApplyToDerivedTypes="True"
+                   TargetType="Element">
+                <Setter Property="Shell.BackgroundColor"
+                        Value="#1B3022" />
+                <Setter Property="Shell.ForegroundColor"
+                        Value="White" />
+                <Setter Property="Shell.TitleColor"
+                        Value="White" />
+                <Setter Property="Shell.DisabledColor"
+                        Value="#B4FFFFFF" />
+                <Setter Property="Shell.UnselectedColor"
+                        Value="#95FFFFFF" />
+            </Style>
+            <Style x:Key="TertiaryShell"
+                   TargetType="Element"
+                   BasedOn="{StaticResource BaseStyle}">
+                <Setter Property="Shell.BackgroundColor"
+                        Value="#FA7921" />
+            </Style>
+            <Style TargetType="ShellItem"
+                   BasedOn="{StaticResource BaseStyle}" />
+            <Style x:Key="SecondaryShell"
+                   TargetType="Element"
+                   BasedOn="{StaticResource BaseStyle}">
+                <Setter Property="Shell.BackgroundColor"
+                        Value="#AF3800" />
+            </Style>
+            <Style x:Key="QuaternaryShell"
+                   TargetType="Element"
+                   BasedOn="{StaticResource BaseStyle}">
+                <Setter Property="Shell.BackgroundColor"
+                        Value="#FE9920" />
+            </Style>
+            <Style x:Key="QuinaryShell"
+                   TargetType="Element"
+                   BasedOn="{StaticResource BaseStyle}">
+                <Setter Property="Shell.BackgroundColor"
+                        Value="#566E3D" />
+            </Style>
+            <Style x:Key="SenaryShell"
+                   TargetType="Element"
+                   BasedOn="{StaticResource BaseStyle}">
+                <Setter Property="Shell.BackgroundColor"
+                        Value="#1B3022" />
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -9,9 +9,8 @@ namespace Kakemons.UI
         public App()
         {
             InitializeComponent();
-
-            DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            var bootstrapper = new AppBootstrapper();
+            MainPage = bootstrapper.CreateMainPage();
         }
 
         protected override void OnStart()

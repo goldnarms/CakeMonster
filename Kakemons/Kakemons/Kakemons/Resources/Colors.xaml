@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="Kakemons.UI.Resources.Colors"
+                    xmlns:local="clr-namespace:Kakemons.UI.Resources">
+
+    <Color x:Key="White80">#CCFFFFFF</Color>
+    <Color x:Key="White75">#BFFFFFFF</Color>
+    <Color x:Key="White50">#80FFFFFF</Color>
+    <Color x:Key="White10">#16FFFFFF</Color>
+    <Color x:Key="Black75">#BF28292c</Color>
+    <Color x:Key="Black50">#80000000</Color>
+    <Color x:Key="Black10">#16000000</Color>
+    <Color x:Key="Blue50">#800089c4</Color>
+    <Color x:Key="Gray50">#80e8e8e8</Color>
+    <Color x:Key="Gray80">#CCe8e8e8</Color>
+    <Color x:Key="Black80">#CC000000</Color>
+
+    <Color x:Key="PrimaryTextColor">#000000</Color>
+    <Color x:Key="SecondaryTextColor">#ffffff</Color>
+    <Color x:Key="Black">#FF000000</Color>
+    <Color x:Key="PrimaryLight">#ff707e</Color>
+    <Color x:Key="GreyishBrown">#FF544F4F</Color>
+    <Color x:Key="PrimaryDark">#ff4f61</Color>
+    <Color x:Key="White">#FFFFFFFF</Color>
+
+</ResourceDictionary>

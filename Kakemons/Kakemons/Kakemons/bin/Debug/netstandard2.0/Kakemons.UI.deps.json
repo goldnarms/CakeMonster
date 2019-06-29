@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "beb9213f7dd9ed05678240190a1b73a657aaae08"
+    "signature": "499396aea6b384105b99694f571c5c18db8ef798"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,22 +9,23 @@
     ".NETStandard,Version=v2.0/": {
       "Kakemons.UI/1.0.0": {
         "dependencies": {
-          "AutoMapper": "8.1.0",
-          "CardsView": "2.1.2",
+          "AutoMapper": "8.1.1",
+          "CardsView": "2.1.5",
           "Kakemons.Core": "1.0.0",
-          "Microsoft.AppCenter": "2.0.0",
-          "Microsoft.AppCenter.Analytics": "2.0.0",
-          "Microsoft.AppCenter.Crashes": "2.0.0",
+          "Microsoft.AppCenter": "2.1.1",
+          "Microsoft.AppCenter.Analytics": "2.1.1",
+          "Microsoft.AppCenter.Crashes": "2.1.1",
           "NETStandard.Library": "2.0.3",
-          "ReactiveUI": "9.16.1",
-          "ReactiveUI.XamForms": "9.16.1",
+          "ReactiveUI": "9.18.2",
+          "ReactiveUI.XamForms": "9.18.2",
           "Serilog": "2.8.0",
           "Xamarin.Essentials": "1.1.0",
           "Xamarin.FFImageLoading": "2.4.11.982",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
-          "Xamarin.Forms": "4.0.0.425677",
-          "Xamarin.Forms.Maps": "4.0.0.425677",
-          "akavache": "6.5.1"
+          "Xamarin.FFImageLoading.Transformations": "2.4.11.982",
+          "Xamarin.Forms": "4.0.0.540366",
+          "Xamarin.Forms.Maps": "4.0.0.540366",
+          "akavache": "6.5.9"
         },
         "runtime": {
           "Kakemons.UI.dll": {}
@@ -38,24 +39,24 @@
           }
         }
       },
-      "akavache/6.5.1": {
+      "akavache/6.5.9": {
         "dependencies": {
-          "SQLitePCLRaw.bundle_e_sqlite3": "1.1.13",
-          "akavache.core": "6.5.1",
-          "akavache.sqlite3": "6.5.1"
+          "SQLitePCLRaw.bundle_e_sqlite3": "1.1.14",
+          "akavache.core": "6.5.9",
+          "akavache.sqlite3": "6.5.9"
         },
         "runtime": {
           "lib/netstandard2.0/Akavache.dll": {
             "assemblyVersion": "6.5.0.0",
-            "fileVersion": "6.5.1.30328"
+            "fileVersion": "6.5.9.17978"
           }
         }
       },
-      "akavache.core/6.5.1": {
+      "akavache.core/6.5.9": {
         "dependencies": {
-          "Newtonsoft.Json": "12.0.1",
+          "Newtonsoft.Json": "12.0.2",
           "Newtonsoft.Json.Bson": "1.0.2",
-          "Splat": "7.2.1",
+          "Splat": "7.3.7",
           "System.ComponentModel": "4.3.0",
           "System.Diagnostics.Contracts": "4.3.0",
           "System.Dynamic.Runtime": "4.3.0",
@@ -66,39 +67,39 @@
         "runtime": {
           "lib/netstandard2.0/Akavache.Core.dll": {
             "assemblyVersion": "6.5.0.0",
-            "fileVersion": "6.5.1.30328"
+            "fileVersion": "6.5.9.17978"
           }
         }
       },
-      "akavache.sqlite3/6.5.1": {
+      "akavache.sqlite3/6.5.9": {
         "dependencies": {
-          "SQLitePCLRaw.core": "1.1.13",
-          "Splat": "7.2.1",
+          "SQLitePCLRaw.core": "1.1.14",
+          "Splat": "7.3.7",
           "System.Reactive": "4.1.5",
-          "akavache.core": "6.5.1"
+          "akavache.core": "6.5.9"
         },
         "runtime": {
           "lib/netstandard2.0/Akavache.Sqlite3.dll": {
             "assemblyVersion": "6.5.0.0",
-            "fileVersion": "6.5.1.30328"
+            "fileVersion": "6.5.9.17978"
           }
         }
       },
-      "AutoMapper/8.1.0": {
+      "AutoMapper/8.1.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
           "System.Reflection.Emit": "4.3.0"
         },
         "runtime": {
           "lib/netstandard2.0/AutoMapper.dll": {
-            "assemblyVersion": "8.1.0.0",
-            "fileVersion": "8.1.0.0"
+            "assemblyVersion": "8.1.1.0",
+            "fileVersion": "8.1.1.0"
           }
         }
       },
-      "CardsView/2.1.2": {
+      "CardsView/2.1.5": {
         "dependencies": {
-          "Xamarin.Forms": "4.0.0.425677"
+          "Xamarin.Forms": "4.0.0.540366"
         },
         "runtime": {
           "lib/netstandard2.0/PanCardView.dll": {
@@ -107,44 +108,44 @@
           }
         }
       },
-      "DynamicData/6.9.1.2588": {
+      "DynamicData/6.10.0.2604": {
         "dependencies": {
           "System.Reactive": "4.1.5"
         },
         "runtime": {
           "lib/netstandard2.0/DynamicData.dll": {
-            "assemblyVersion": "6.9.1.2588",
-            "fileVersion": "6.9.1.2588"
+            "assemblyVersion": "6.10.0.2604",
+            "fileVersion": "6.10.0.2604"
           }
         }
       },
-      "Microsoft.AppCenter/2.0.0": {
+      "Microsoft.AppCenter/2.1.1": {
         "runtime": {
           "lib/netstandard1.0/Microsoft.AppCenter.dll": {
             "assemblyVersion": "0.0.0.0",
-            "fileVersion": "2.0.0.0"
+            "fileVersion": "2.1.1.0"
           }
         }
       },
-      "Microsoft.AppCenter.Analytics/2.0.0": {
+      "Microsoft.AppCenter.Analytics/2.1.1": {
         "dependencies": {
-          "Microsoft.AppCenter": "2.0.0"
+          "Microsoft.AppCenter": "2.1.1"
         },
         "runtime": {
           "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll": {
             "assemblyVersion": "0.0.0.0",
-            "fileVersion": "2.0.0.0"
+            "fileVersion": "2.1.1.0"
           }
         }
       },
-      "Microsoft.AppCenter.Crashes/2.0.0": {
+      "Microsoft.AppCenter.Crashes/2.1.1": {
         "dependencies": {
-          "Microsoft.AppCenter": "2.0.0"
+          "Microsoft.AppCenter": "2.1.1"
         },
         "runtime": {
           "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll": {
             "assemblyVersion": "0.0.0.0",
-            "fileVersion": "2.0.0.0"
+            "fileVersion": "2.1.1.0"
           }
         }
       },
@@ -163,17 +164,17 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "Newtonsoft.Json/12.0.1": {
+      "Newtonsoft.Json/12.0.2": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.1.22727"
+            "fileVersion": "12.0.2.23222"
           }
         }
       },
       "Newtonsoft.Json.Bson/1.0.2": {
         "dependencies": {
-          "Newtonsoft.Json": "12.0.1"
+          "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
@@ -182,10 +183,10 @@
           }
         }
       },
-      "ReactiveUI/9.16.1": {
+      "ReactiveUI/9.18.2": {
         "dependencies": {
-          "DynamicData": "6.9.1.2588",
-          "Splat": "7.2.1",
+          "DynamicData": "6.10.0.2604",
+          "Splat": "7.3.7",
           "System.ComponentModel": "4.3.0",
           "System.Diagnostics.Contracts": "4.3.0",
           "System.Dynamic.Runtime": "4.3.0",
@@ -194,31 +195,31 @@
         },
         "runtime": {
           "lib/netstandard2.0/ReactiveUI.dll": {
-            "assemblyVersion": "9.16.0.0",
-            "fileVersion": "9.16.1.64831"
+            "assemblyVersion": "9.18.0.0",
+            "fileVersion": "9.18.2.35104"
           }
         }
       },
-      "ReactiveUI.XamForms/9.16.1": {
+      "ReactiveUI.XamForms/9.18.2": {
         "dependencies": {
-          "ReactiveUI": "9.16.1",
-          "Xamarin.Forms": "4.0.0.425677"
+          "ReactiveUI": "9.18.2",
+          "Xamarin.Forms": "4.0.0.540366"
         },
         "runtime": {
           "lib/netstandard2.0/ReactiveUI.XamForms.dll": {
-            "assemblyVersion": "9.16.0.0",
-            "fileVersion": "9.16.1.64831"
+            "assemblyVersion": "9.18.0.0",
+            "fileVersion": "9.18.2.35104"
           }
         }
       },
-      "Refit/4.6.58": {
+      "Refit/4.7.9": {
         "dependencies": {
-          "Newtonsoft.Json": "12.0.1"
+          "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Refit.dll": {
-            "assemblyVersion": "4.6.0.0",
-            "fileVersion": "4.6.58.19393"
+            "assemblyVersion": "4.7.0.0",
+            "fileVersion": "4.7.9.49057"
           }
         }
       },
@@ -233,7 +234,7 @@
           }
         }
       },
-      "Splat/7.2.1": {
+      "Splat/7.3.7": {
         "dependencies": {
           "System.Diagnostics.Contracts": "4.3.0",
           "System.Drawing.Primitives": "4.3.0",
@@ -241,34 +242,34 @@
         },
         "runtime": {
           "lib/netstandard2.0/Splat.dll": {
-            "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.1.6060"
+            "assemblyVersion": "7.3.0.0",
+            "fileVersion": "7.3.7.39305"
           }
         }
       },
-      "SQLitePCLRaw.bundle_e_sqlite3/1.1.13": {
+      "SQLitePCLRaw.bundle_e_sqlite3/1.1.14": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
-          "SQLitePCLRaw.core": "1.1.13"
+          "SQLitePCLRaw.core": "1.1.14"
         },
         "runtime": {
           "lib/netstandard1.1/SQLitePCLRaw.batteries_e_sqlite3.dll": {
-            "assemblyVersion": "1.1.13.388",
+            "assemblyVersion": "1.1.14.520",
             "fileVersion": "1.0.0.0"
           },
           "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll": {
-            "assemblyVersion": "1.1.13.388",
+            "assemblyVersion": "1.1.14.520",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "SQLitePCLRaw.core/1.1.13": {
+      "SQLitePCLRaw.core/1.1.14": {
         "dependencies": {
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
           "lib/netstandard1.1/SQLitePCLRaw.core.dll": {
-            "assemblyVersion": "1.1.13.388",
+            "assemblyVersion": "1.1.14.520",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -680,7 +681,7 @@
       "Xamarin.FFImageLoading.Forms/2.4.11.982": {
         "dependencies": {
           "Xamarin.FFImageLoading": "2.4.11.982",
-          "Xamarin.Forms": "4.0.0.425677"
+          "Xamarin.Forms": "4.0.0.540366"
         },
         "runtime": {
           "lib/netstandard1.0/FFImageLoading.Forms.dll": {
@@ -689,37 +690,48 @@
           }
         }
       },
-      "Xamarin.Forms/4.0.0.425677": {
+      "Xamarin.FFImageLoading.Transformations/2.4.11.982": {
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.11.982"
+        },
         "runtime": {
-          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.0"
-          },
-          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.0"
+          "lib/netstandard1.0/FFImageLoading.Transformations.dll": {
+            "assemblyVersion": "2.4.11.982",
+            "fileVersion": "2.4.11.982"
           }
         }
       },
-      "Xamarin.Forms.Maps/4.0.0.425677": {
+      "Xamarin.Forms/4.0.0.540366": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.0.0.166"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.0.0.166"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.0.0.166"
+          }
+        }
+      },
+      "Xamarin.Forms.Maps/4.0.0.540366": {
         "dependencies": {
-          "Xamarin.Forms": "4.0.0.425677"
+          "Xamarin.Forms": "4.0.0.540366"
         },
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.0"
+            "fileVersion": "4.0.0.166"
           }
         }
       },
       "Kakemons.Common/1.0.0": {
         "dependencies": {
           "Xamarin.Essentials": "1.1.0",
-          "akavache": "6.5.1"
+          "akavache": "6.5.9"
         },
         "runtime": {
           "Kakemons.Common.dll": {}
@@ -728,13 +740,13 @@
       "Kakemons.Core/1.0.0": {
         "dependencies": {
           "Acr.UserDialogs": "7.0.4",
-          "AutoMapper": "8.1.0",
+          "AutoMapper": "8.1.1",
           "Kakemons.Common": "1.0.0",
           "Kakemons.SDK": "1.0.0",
-          "Microsoft.AppCenter": "2.0.0",
-          "Microsoft.AppCenter.Analytics": "2.0.0",
-          "Microsoft.AppCenter.Crashes": "2.0.0",
-          "ReactiveUI": "9.16.1"
+          "Microsoft.AppCenter": "2.1.1",
+          "Microsoft.AppCenter.Analytics": "2.1.1",
+          "Microsoft.AppCenter.Crashes": "2.1.1",
+          "ReactiveUI": "9.18.2"
         },
         "runtime": {
           "Kakemons.Core.dll": {}
@@ -743,7 +755,7 @@
       "Kakemons.SDK/1.0.0": {
         "dependencies": {
           "Kakemons.Common": "1.0.0",
-          "Refit": "4.6.58",
+          "Refit": "4.7.9",
           "Serilog": "2.8.0"
         },
         "runtime": {
@@ -765,68 +777,68 @@
       "path": "acr.userdialogs/7.0.4",
       "hashPath": "acr.userdialogs.7.0.4.nupkg.sha512"
     },
-    "akavache/6.5.1": {
+    "akavache/6.5.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-q9AjbFrwa2sEMc27F1ZsdRNJZ/lJuq7UgO9Kg5XbQm9V1YftlpMjNyU6MN8AEp/2djId1HOfi2pjyE7dWrzsVg==",
-      "path": "akavache/6.5.1",
-      "hashPath": "akavache.6.5.1.nupkg.sha512"
+      "sha512": "sha512-nMmQdMmMnNqsnr6mLMF62VN5WY9xlWEBNbcxGehwvQwT0lXNDzuDymcQIiztTKH7b6TqsEPKwVhGdZ2+ysI2Ag==",
+      "path": "akavache/6.5.9",
+      "hashPath": "akavache.6.5.9.nupkg.sha512"
     },
-    "akavache.core/6.5.1": {
+    "akavache.core/6.5.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-x+pSh0Zh5QA0Ik7McdvR7pOAHo0V8KybxYQ6q5gTVLX46ptJhDV5FhtdIgngkvgx1vRPHEHYLL7FTAhSJ34Rbw==",
-      "path": "akavache.core/6.5.1",
-      "hashPath": "akavache.core.6.5.1.nupkg.sha512"
+      "sha512": "sha512-oKhujBc34i7Uxj5JZmsHGgW5ZkSzKoQlb1NG+CIiYLuVYv5m3NEw+HOR/DlOu5nKgugxV1ogWQnOzo6LuaJE+w==",
+      "path": "akavache.core/6.5.9",
+      "hashPath": "akavache.core.6.5.9.nupkg.sha512"
     },
-    "akavache.sqlite3/6.5.1": {
+    "akavache.sqlite3/6.5.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TGPmd7KjkF/Ydylt9oIZleITA5uxODMNcILCa+SiWJhEVp1bpBmQ3+HXD0+DpAy5/EIPYY1rkuiQVma2+oKpJw==",
-      "path": "akavache.sqlite3/6.5.1",
-      "hashPath": "akavache.sqlite3.6.5.1.nupkg.sha512"
+      "sha512": "sha512-H3YUFCA6F41rsy6pwcYPQsxkTSA7HxSifLwfHiBoFKSufFHR9goghie+ZJxhD39ReB7ag9xLUPKPgClT3U4I5w==",
+      "path": "akavache.sqlite3/6.5.9",
+      "hashPath": "akavache.sqlite3.6.5.9.nupkg.sha512"
     },
-    "AutoMapper/8.1.0": {
+    "AutoMapper/8.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Go75WXHE7p/8CtRaxZnvVEfcSh7xpE6zx9wkgN4I1BxvlzP0hoiTLHSXDYXgv9CoxaRj4ahwzCA/iwdpvyQyOA==",
-      "path": "automapper/8.1.0",
-      "hashPath": "automapper.8.1.0.nupkg.sha512"
+      "sha512": "sha512-GKBliBukkLG0z/U0T4Jy+yEpr5bKDImQ9nEy/T8jqNulwNkWDjiEWa9TL4yCxIhleDbmVmw2xYSaJ3Eb2OcSUg==",
+      "path": "automapper/8.1.1",
+      "hashPath": "automapper.8.1.1.nupkg.sha512"
     },
-    "CardsView/2.1.2": {
+    "CardsView/2.1.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7Zo41TOBI66c1Z32GhLslPymqNMzTVVT6EbgeEZNI9DIxGKCaI6iQBvUrRoefxbs+sa0a+xu6Dx6tgyP+9gVtw==",
-      "path": "cardsview/2.1.2",
-      "hashPath": "cardsview.2.1.2.nupkg.sha512"
+      "sha512": "sha512-nTqzkem9QvQnGjig0NZF2vPkzfFomWo/KXFz+3YuZ4KLsC9V7bfQxPCMh6ALF/xhPGguXtasxWc4qeSbq7bRlg==",
+      "path": "cardsview/2.1.5",
+      "hashPath": "cardsview.2.1.5.nupkg.sha512"
     },
-    "DynamicData/6.9.1.2588": {
+    "DynamicData/6.10.0.2604": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3aYbxP8l66/VBKzmtGoDXQ9UQBIXGEMqCT6pjBxwIjMkad4NQipUTAtmNys2ixHhmMIUYmroJ+cV4YjFqspTwQ==",
-      "path": "dynamicdata/6.9.1.2588",
-      "hashPath": "dynamicdata.6.9.1.2588.nupkg.sha512"
+      "sha512": "sha512-6V+W0dKJbUHIogo58OfvQUExlCoRwiokfMhz1PUAvmdwiLb6BR2DNnbXIIsn8Gbt5glqvPdRKrMCV64J8Z9dpw==",
+      "path": "dynamicdata/6.10.0.2604",
+      "hashPath": "dynamicdata.6.10.0.2604.nupkg.sha512"
     },
-    "Microsoft.AppCenter/2.0.0": {
+    "Microsoft.AppCenter/2.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aotwBhk12zF2g4jz6Ruouqe0fEM2EJMzxFVvNK7XQkGZFpAjmHohlGkBBiA2hYyhVSylsxVHTkCiPfwf8Z/abg==",
-      "path": "microsoft.appcenter/2.0.0",
-      "hashPath": "microsoft.appcenter.2.0.0.nupkg.sha512"
+      "sha512": "sha512-gvhXGfZCwXtUXT5SZaYeqR6eGgndMKOCpgVPRc0KQtOw7aI4Rx/sOBwWWDvFcBzP4dXo9FBMH9PJdyub5X79Og==",
+      "path": "microsoft.appcenter/2.1.1",
+      "hashPath": "microsoft.appcenter.2.1.1.nupkg.sha512"
     },
-    "Microsoft.AppCenter.Analytics/2.0.0": {
+    "Microsoft.AppCenter.Analytics/2.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qxFUPnBujhCYmqxv3OUTM0xa4OBUXlX8v3NSPxZ1r4Y44swMyx1EIEtOWlGj99BGKw5rlR2whActePw2h1X4Ng==",
-      "path": "microsoft.appcenter.analytics/2.0.0",
-      "hashPath": "microsoft.appcenter.analytics.2.0.0.nupkg.sha512"
+      "sha512": "sha512-cmA+aDgztT1iRKE9HgdRwT3KgzOFMJFrsL4vIf0OP7Ijgud9CZ1XnvM49/JZDKY5qu38UnaZMMpN77uQRI7sow==",
+      "path": "microsoft.appcenter.analytics/2.1.1",
+      "hashPath": "microsoft.appcenter.analytics.2.1.1.nupkg.sha512"
     },
-    "Microsoft.AppCenter.Crashes/2.0.0": {
+    "Microsoft.AppCenter.Crashes/2.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wO4pH5xoiJ7SJLkwZ6qgrg0viGUyGUtuWr4QC2ay6wMSrTS//fSCzM+6dj3WqTSV1NnEz5KScqbuKjJCoACmYg==",
-      "path": "microsoft.appcenter.crashes/2.0.0",
-      "hashPath": "microsoft.appcenter.crashes.2.0.0.nupkg.sha512"
+      "sha512": "sha512-MOyID2QqBFNbt/5tueEwCB4qC9fGFoEy34kUIzy3ai/mo56Xewyxux7hqoW6FjzbU8U9VgJpFOI6KeeAn2tiHA==",
+      "path": "microsoft.appcenter.crashes/2.1.1",
+      "hashPath": "microsoft.appcenter.crashes.2.1.1.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
@@ -856,12 +868,12 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
-    "Newtonsoft.Json/12.0.1": {
+    "Newtonsoft.Json/12.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
-      "path": "newtonsoft.json/12.0.1",
-      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
     },
     "Newtonsoft.Json.Bson/1.0.2": {
       "type": "package",
@@ -870,26 +882,26 @@
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
     },
-    "ReactiveUI/9.16.1": {
+    "ReactiveUI/9.18.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5giMFnCEfvkH/piUIWm6jZQ7P4Qnqhi2h07lS7gobG56uowvNi9BEqC4E1sTywPOrumDvgj3I08JDWla0MxSLw==",
-      "path": "reactiveui/9.16.1",
-      "hashPath": "reactiveui.9.16.1.nupkg.sha512"
+      "sha512": "sha512-MbFSvyRDVonNnN1BwZamQOyaxhALYAWpb+bQsEAcEjk6tBwgksLyQf3g6wNH9qawcT8m6xmRtlpc8ChTFVqQiw==",
+      "path": "reactiveui/9.18.2",
+      "hashPath": "reactiveui.9.18.2.nupkg.sha512"
     },
-    "ReactiveUI.XamForms/9.16.1": {
+    "ReactiveUI.XamForms/9.18.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UW32TtP1js9e1mz6lQa+IRzJNp4bKNhnqvxK4oRTd9MXbh1NMVb8+h4AjRaF6fdhfaKRCZuX9WM1bDVD9YIg5g==",
-      "path": "reactiveui.xamforms/9.16.1",
-      "hashPath": "reactiveui.xamforms.9.16.1.nupkg.sha512"
+      "sha512": "sha512-DdvLn9TZpM8VhrGZlj41nEnQF9yFhlsdM6dNVQwbyq3LNscoAP1euPhy4dar8iZ/sGY61XDDjjOY/DSxm0xKdg==",
+      "path": "reactiveui.xamforms/9.18.2",
+      "hashPath": "reactiveui.xamforms.9.18.2.nupkg.sha512"
     },
-    "Refit/4.6.58": {
+    "Refit/4.7.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bkTC+ARz6bgcQmeRxzqln5xoVklUvoLMIZDoa0KUz04IWrtVYHlR46Fgfym6tuUc0i70DqRhSx3MsnbbmLpoLg==",
-      "path": "refit/4.6.58",
-      "hashPath": "refit.4.6.58.nupkg.sha512"
+      "sha512": "sha512-LZ6FuPvBOPGIJMe+vWRg6M5/PuD8AYoPFziRPWbS7d4Dri+WVE+vuYYNApgZRxDREaO0yyA2HWdbBteuMxWvwA==",
+      "path": "refit/4.7.9",
+      "hashPath": "refit.4.7.9.nupkg.sha512"
     },
     "Serilog/2.8.0": {
       "type": "package",
@@ -898,26 +910,26 @@
       "path": "serilog/2.8.0",
       "hashPath": "serilog.2.8.0.nupkg.sha512"
     },
-    "Splat/7.2.1": {
+    "Splat/7.3.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LycbyvThzbazBkp9yBe/TQoCCwzX3IYyxIC7ee4cbg0XJG6fdWw7+l5Yy0zlfbpWKORbnEyvvFUEv9ZngyfC7A==",
-      "path": "splat/7.2.1",
-      "hashPath": "splat.7.2.1.nupkg.sha512"
+      "sha512": "sha512-rj99tEAH/zTcjbnRCA+uJgRXFZ0l37j4mE+1sACcdhT5GWqWmOP/iXqXiQlWaip3oAxdPZNDvzkdkmrBftHvKQ==",
+      "path": "splat/7.3.7",
+      "hashPath": "splat.7.3.7.nupkg.sha512"
     },
-    "SQLitePCLRaw.bundle_e_sqlite3/1.1.13": {
+    "SQLitePCLRaw.bundle_e_sqlite3/1.1.14": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-i7ziMt0TyqwwMWxx08KoQaDC/TPSqhVPviD42rCTjhkIKoBezxKD4c672KMzydLaPAnTgAhGrnbFiFFUmAGvAw==",
-      "path": "sqlitepclraw.bundle_e_sqlite3/1.1.13",
-      "hashPath": "sqlitepclraw.bundle_e_sqlite3.1.1.13.nupkg.sha512"
+      "sha512": "sha512-pX2xb/yEoNHgCZa8ueS8WpwBnldN2bb7OdC75jLj/+MkSQnERH/BRpY44SWrAIGSHYQ7EtgrPIQ26Ko7YqfqEA==",
+      "path": "sqlitepclraw.bundle_e_sqlite3/1.1.14",
+      "hashPath": "sqlitepclraw.bundle_e_sqlite3.1.1.14.nupkg.sha512"
     },
-    "SQLitePCLRaw.core/1.1.13": {
+    "SQLitePCLRaw.core/1.1.14": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-I8Q9qL1urPegoyZ5uI32lgqsxl8aPRZAyVBJbO+0T/zlGz/LBc8vhRVyDyCOU9LWWpV8dYpT0nCpuLv1ua6zkA==",
-      "path": "sqlitepclraw.core/1.1.13",
-      "hashPath": "sqlitepclraw.core.1.1.13.nupkg.sha512"
+      "sha512": "sha512-flixsHyhNt7L46t18LUBixlvikYanttCffu5a08D0rFc1nvTKnQKaXdx1qvASFqVB7RRCtBhGxW/+haGdSfQAw==",
+      "path": "sqlitepclraw.core/1.1.14",
+      "hashPath": "sqlitepclraw.core.1.1.14.nupkg.sha512"
     },
     "System.Buffers/4.4.0": {
       "type": "package",
@@ -1178,19 +1190,26 @@
       "path": "xamarin.ffimageloading.forms/2.4.11.982",
       "hashPath": "xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512"
     },
-    "Xamarin.Forms/4.0.0.425677": {
+    "Xamarin.FFImageLoading.Transformations/2.4.11.982": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-drwO/MimaMUnmvkULASYjU5MRciVIJyiLxD3ihFq8P+DWynQZ2NLNej0Vrs3k2L7UdmqvcgCxEJdfT7uFl2KVg==",
-      "path": "xamarin.forms/4.0.0.425677",
-      "hashPath": "xamarin.forms.4.0.0.425677.nupkg.sha512"
+      "sha512": "sha512-cNG6zhiEBTENAGgIc9lY54YMJ0tg2dJ9+tj8tYgrOEQT8gxlj3OUzzNWZgaQWpcx28y5iIt/qM+Bd6jUwtAn1Q==",
+      "path": "xamarin.ffimageloading.transformations/2.4.11.982",
+      "hashPath": "xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512"
     },
-    "Xamarin.Forms.Maps/4.0.0.425677": {
+    "Xamarin.Forms/4.0.0.540366": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2us9yMGrzVQSZYDgidqYl8+jRNoLZ05cH1OWE2J5Sux6GfPKGIFaEO+6OIK3fJjm9183tzSWc7wJOpNMvzQ22A==",
-      "path": "xamarin.forms.maps/4.0.0.425677",
-      "hashPath": "xamarin.forms.maps.4.0.0.425677.nupkg.sha512"
+      "sha512": "sha512-KiMx3wd+uPxaK2faqsY+rp/w60Cx/snUCQbjFKhLSXSPLERlW6a7ObUjXz91wgsXiHxcAc7g1cVZEBMnDBzeHg==",
+      "path": "xamarin.forms/4.0.0.540366",
+      "hashPath": "xamarin.forms.4.0.0.540366.nupkg.sha512"
+    },
+    "Xamarin.Forms.Maps/4.0.0.540366": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0Q6UOQHNtkjt3MFtv01KDZJt4u+MWR72F4KPaoZxi4N5OEnE+HdbBT09acRjHjUZjEI+PyMsymjAn9lDo1s9Fg==",
+      "path": "xamarin.forms.maps/4.0.0.540366",
+      "hashPath": "xamarin.forms.maps.4.0.0.540366.nupkg.sha512"
     },
     "Kakemons.Common/1.0.0": {
       "type": "project",

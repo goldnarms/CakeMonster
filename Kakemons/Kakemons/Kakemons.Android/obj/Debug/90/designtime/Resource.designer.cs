@@ -73,11 +73,22 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Animation.abc_slide_in_top = global::Kakemons.Droid.Resource.Animation.abc_slide_in_top;
 			global::PanCardView.Droid.Resource.Animation.abc_slide_out_bottom = global::Kakemons.Droid.Resource.Animation.abc_slide_out_bottom;
 			global::PanCardView.Droid.Resource.Animation.abc_slide_out_top = global::Kakemons.Droid.Resource.Animation.abc_slide_out_top;
+			global::PanCardView.Droid.Resource.Animation.abc_tooltip_enter = global::Kakemons.Droid.Resource.Animation.abc_tooltip_enter;
+			global::PanCardView.Droid.Resource.Animation.abc_tooltip_exit = global::Kakemons.Droid.Resource.Animation.abc_tooltip_exit;
 			global::PanCardView.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::Kakemons.Droid.Resource.Animation.design_bottom_sheet_slide_in;
 			global::PanCardView.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::Kakemons.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::PanCardView.Droid.Resource.Animation.design_snackbar_in = global::Kakemons.Droid.Resource.Animation.design_snackbar_in;
 			global::PanCardView.Droid.Resource.Animation.design_snackbar_out = global::Kakemons.Droid.Resource.Animation.design_snackbar_out;
 			global::PanCardView.Droid.Resource.Animator.design_appbar_state_list_animator = global::Kakemons.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::PanCardView.Droid.Resource.Animator.design_fab_hide_motion_spec = global::Kakemons.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::PanCardView.Droid.Resource.Animator.design_fab_show_motion_spec = global::Kakemons.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::PanCardView.Droid.Resource.Animator.mtrl_btn_state_list_anim = global::Kakemons.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::PanCardView.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Kakemons.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::PanCardView.Droid.Resource.Animator.mtrl_chip_state_list_anim = global::Kakemons.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::PanCardView.Droid.Resource.Animator.mtrl_fab_hide_motion_spec = global::Kakemons.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::PanCardView.Droid.Resource.Animator.mtrl_fab_show_motion_spec = global::Kakemons.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::PanCardView.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::Kakemons.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::PanCardView.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::Kakemons.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
 			global::PanCardView.Droid.Resource.Attribute.actionBarDivider = global::Kakemons.Droid.Resource.Attribute.actionBarDivider;
 			global::PanCardView.Droid.Resource.Attribute.actionBarItemBackground = global::Kakemons.Droid.Resource.Attribute.actionBarItemBackground;
 			global::PanCardView.Droid.Resource.Attribute.actionBarPopupTheme = global::Kakemons.Droid.Resource.Attribute.actionBarPopupTheme;
@@ -134,20 +145,33 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Attribute.backgroundTintMode = global::Kakemons.Droid.Resource.Attribute.backgroundTintMode;
 			global::PanCardView.Droid.Resource.Attribute.barLength = global::Kakemons.Droid.Resource.Attribute.barLength;
 			global::PanCardView.Droid.Resource.Attribute.behavior_autoHide = global::Kakemons.Droid.Resource.Attribute.behavior_autoHide;
+			global::PanCardView.Droid.Resource.Attribute.behavior_fitToContents = global::Kakemons.Droid.Resource.Attribute.behavior_fitToContents;
 			global::PanCardView.Droid.Resource.Attribute.behavior_hideable = global::Kakemons.Droid.Resource.Attribute.behavior_hideable;
 			global::PanCardView.Droid.Resource.Attribute.behavior_overlapTop = global::Kakemons.Droid.Resource.Attribute.behavior_overlapTop;
 			global::PanCardView.Droid.Resource.Attribute.behavior_peekHeight = global::Kakemons.Droid.Resource.Attribute.behavior_peekHeight;
 			global::PanCardView.Droid.Resource.Attribute.behavior_skipCollapsed = global::Kakemons.Droid.Resource.Attribute.behavior_skipCollapsed;
 			global::PanCardView.Droid.Resource.Attribute.borderWidth = global::Kakemons.Droid.Resource.Attribute.borderWidth;
 			global::PanCardView.Droid.Resource.Attribute.borderlessButtonStyle = global::Kakemons.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.bottomAppBarStyle = global::Kakemons.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::PanCardView.Droid.Resource.Attribute.bottomNavigationStyle = global::Kakemons.Droid.Resource.Attribute.bottomNavigationStyle;
 			global::PanCardView.Droid.Resource.Attribute.bottomSheetDialogTheme = global::Kakemons.Droid.Resource.Attribute.bottomSheetDialogTheme;
 			global::PanCardView.Droid.Resource.Attribute.bottomSheetStyle = global::Kakemons.Droid.Resource.Attribute.bottomSheetStyle;
+			global::PanCardView.Droid.Resource.Attribute.boxBackgroundColor = global::Kakemons.Droid.Resource.Attribute.boxBackgroundColor;
+			global::PanCardView.Droid.Resource.Attribute.boxBackgroundMode = global::Kakemons.Droid.Resource.Attribute.boxBackgroundMode;
+			global::PanCardView.Droid.Resource.Attribute.boxCollapsedPaddingTop = global::Kakemons.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::PanCardView.Droid.Resource.Attribute.boxCornerRadiusBottomEnd = global::Kakemons.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::PanCardView.Droid.Resource.Attribute.boxCornerRadiusBottomStart = global::Kakemons.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::PanCardView.Droid.Resource.Attribute.boxCornerRadiusTopEnd = global::Kakemons.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::PanCardView.Droid.Resource.Attribute.boxCornerRadiusTopStart = global::Kakemons.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::PanCardView.Droid.Resource.Attribute.boxStrokeColor = global::Kakemons.Droid.Resource.Attribute.boxStrokeColor;
+			global::PanCardView.Droid.Resource.Attribute.boxStrokeWidth = global::Kakemons.Droid.Resource.Attribute.boxStrokeWidth;
 			global::PanCardView.Droid.Resource.Attribute.buttonBarButtonStyle = global::Kakemons.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::PanCardView.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::Kakemons.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::PanCardView.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::Kakemons.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
 			global::PanCardView.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::Kakemons.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
 			global::PanCardView.Droid.Resource.Attribute.buttonBarStyle = global::Kakemons.Droid.Resource.Attribute.buttonBarStyle;
 			global::PanCardView.Droid.Resource.Attribute.buttonGravity = global::Kakemons.Droid.Resource.Attribute.buttonGravity;
+			global::PanCardView.Droid.Resource.Attribute.buttonIconDimen = global::Kakemons.Droid.Resource.Attribute.buttonIconDimen;
 			global::PanCardView.Droid.Resource.Attribute.buttonPanelSideLayout = global::Kakemons.Droid.Resource.Attribute.buttonPanelSideLayout;
 			global::PanCardView.Droid.Resource.Attribute.buttonStyle = global::Kakemons.Droid.Resource.Attribute.buttonStyle;
 			global::PanCardView.Droid.Resource.Attribute.buttonStyleSmall = global::Kakemons.Droid.Resource.Attribute.buttonStyleSmall;
@@ -159,9 +183,38 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Attribute.cardMaxElevation = global::Kakemons.Droid.Resource.Attribute.cardMaxElevation;
 			global::PanCardView.Droid.Resource.Attribute.cardPreventCornerOverlap = global::Kakemons.Droid.Resource.Attribute.cardPreventCornerOverlap;
 			global::PanCardView.Droid.Resource.Attribute.cardUseCompatPadding = global::Kakemons.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::PanCardView.Droid.Resource.Attribute.cardViewStyle = global::Kakemons.Droid.Resource.Attribute.cardViewStyle;
 			global::PanCardView.Droid.Resource.Attribute.checkboxStyle = global::Kakemons.Droid.Resource.Attribute.checkboxStyle;
+			global::PanCardView.Droid.Resource.Attribute.checkedChip = global::Kakemons.Droid.Resource.Attribute.checkedChip;
+			global::PanCardView.Droid.Resource.Attribute.checkedIcon = global::Kakemons.Droid.Resource.Attribute.checkedIcon;
+			global::PanCardView.Droid.Resource.Attribute.checkedIconEnabled = global::Kakemons.Droid.Resource.Attribute.checkedIconEnabled;
+			global::PanCardView.Droid.Resource.Attribute.checkedIconVisible = global::Kakemons.Droid.Resource.Attribute.checkedIconVisible;
 			global::PanCardView.Droid.Resource.Attribute.checkedTextViewStyle = global::Kakemons.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::PanCardView.Droid.Resource.Attribute.chipBackgroundColor = global::Kakemons.Droid.Resource.Attribute.chipBackgroundColor;
+			global::PanCardView.Droid.Resource.Attribute.chipCornerRadius = global::Kakemons.Droid.Resource.Attribute.chipCornerRadius;
+			global::PanCardView.Droid.Resource.Attribute.chipEndPadding = global::Kakemons.Droid.Resource.Attribute.chipEndPadding;
+			global::PanCardView.Droid.Resource.Attribute.chipGroupStyle = global::Kakemons.Droid.Resource.Attribute.chipGroupStyle;
+			global::PanCardView.Droid.Resource.Attribute.chipIcon = global::Kakemons.Droid.Resource.Attribute.chipIcon;
+			global::PanCardView.Droid.Resource.Attribute.chipIconEnabled = global::Kakemons.Droid.Resource.Attribute.chipIconEnabled;
+			global::PanCardView.Droid.Resource.Attribute.chipIconSize = global::Kakemons.Droid.Resource.Attribute.chipIconSize;
+			global::PanCardView.Droid.Resource.Attribute.chipIconTint = global::Kakemons.Droid.Resource.Attribute.chipIconTint;
+			global::PanCardView.Droid.Resource.Attribute.chipIconVisible = global::Kakemons.Droid.Resource.Attribute.chipIconVisible;
+			global::PanCardView.Droid.Resource.Attribute.chipMinHeight = global::Kakemons.Droid.Resource.Attribute.chipMinHeight;
+			global::PanCardView.Droid.Resource.Attribute.chipSpacing = global::Kakemons.Droid.Resource.Attribute.chipSpacing;
+			global::PanCardView.Droid.Resource.Attribute.chipSpacingHorizontal = global::Kakemons.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::PanCardView.Droid.Resource.Attribute.chipSpacingVertical = global::Kakemons.Droid.Resource.Attribute.chipSpacingVertical;
+			global::PanCardView.Droid.Resource.Attribute.chipStandaloneStyle = global::Kakemons.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::PanCardView.Droid.Resource.Attribute.chipStartPadding = global::Kakemons.Droid.Resource.Attribute.chipStartPadding;
+			global::PanCardView.Droid.Resource.Attribute.chipStrokeColor = global::Kakemons.Droid.Resource.Attribute.chipStrokeColor;
+			global::PanCardView.Droid.Resource.Attribute.chipStrokeWidth = global::Kakemons.Droid.Resource.Attribute.chipStrokeWidth;
+			global::PanCardView.Droid.Resource.Attribute.chipStyle = global::Kakemons.Droid.Resource.Attribute.chipStyle;
 			global::PanCardView.Droid.Resource.Attribute.closeIcon = global::Kakemons.Droid.Resource.Attribute.closeIcon;
+			global::PanCardView.Droid.Resource.Attribute.closeIconEnabled = global::Kakemons.Droid.Resource.Attribute.closeIconEnabled;
+			global::PanCardView.Droid.Resource.Attribute.closeIconEndPadding = global::Kakemons.Droid.Resource.Attribute.closeIconEndPadding;
+			global::PanCardView.Droid.Resource.Attribute.closeIconSize = global::Kakemons.Droid.Resource.Attribute.closeIconSize;
+			global::PanCardView.Droid.Resource.Attribute.closeIconStartPadding = global::Kakemons.Droid.Resource.Attribute.closeIconStartPadding;
+			global::PanCardView.Droid.Resource.Attribute.closeIconTint = global::Kakemons.Droid.Resource.Attribute.closeIconTint;
+			global::PanCardView.Droid.Resource.Attribute.closeIconVisible = global::Kakemons.Droid.Resource.Attribute.closeIconVisible;
 			global::PanCardView.Droid.Resource.Attribute.closeItemLayout = global::Kakemons.Droid.Resource.Attribute.closeItemLayout;
 			global::PanCardView.Droid.Resource.Attribute.collapseContentDescription = global::Kakemons.Droid.Resource.Attribute.collapseContentDescription;
 			global::PanCardView.Droid.Resource.Attribute.collapseIcon = global::Kakemons.Droid.Resource.Attribute.collapseIcon;
@@ -177,6 +230,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Attribute.colorError = global::Kakemons.Droid.Resource.Attribute.colorError;
 			global::PanCardView.Droid.Resource.Attribute.colorPrimary = global::Kakemons.Droid.Resource.Attribute.colorPrimary;
 			global::PanCardView.Droid.Resource.Attribute.colorPrimaryDark = global::Kakemons.Droid.Resource.Attribute.colorPrimaryDark;
+			global::PanCardView.Droid.Resource.Attribute.colorSecondary = global::Kakemons.Droid.Resource.Attribute.colorSecondary;
 			global::PanCardView.Droid.Resource.Attribute.colorSwitchThumbNormal = global::Kakemons.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::PanCardView.Droid.Resource.Attribute.commitIcon = global::Kakemons.Droid.Resource.Attribute.commitIcon;
 			global::PanCardView.Droid.Resource.Attribute.contentDescription = global::Kakemons.Droid.Resource.Attribute.contentDescription;
@@ -193,12 +247,15 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Attribute.contentPaddingTop = global::Kakemons.Droid.Resource.Attribute.contentPaddingTop;
 			global::PanCardView.Droid.Resource.Attribute.contentScrim = global::Kakemons.Droid.Resource.Attribute.contentScrim;
 			global::PanCardView.Droid.Resource.Attribute.controlBackground = global::Kakemons.Droid.Resource.Attribute.controlBackground;
+			global::PanCardView.Droid.Resource.Attribute.coordinatorLayoutStyle = global::Kakemons.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::PanCardView.Droid.Resource.Attribute.cornerRadius = global::Kakemons.Droid.Resource.Attribute.cornerRadius;
 			global::PanCardView.Droid.Resource.Attribute.counterEnabled = global::Kakemons.Droid.Resource.Attribute.counterEnabled;
 			global::PanCardView.Droid.Resource.Attribute.counterMaxLength = global::Kakemons.Droid.Resource.Attribute.counterMaxLength;
 			global::PanCardView.Droid.Resource.Attribute.counterOverflowTextAppearance = global::Kakemons.Droid.Resource.Attribute.counterOverflowTextAppearance;
 			global::PanCardView.Droid.Resource.Attribute.counterTextAppearance = global::Kakemons.Droid.Resource.Attribute.counterTextAppearance;
 			global::PanCardView.Droid.Resource.Attribute.customNavigationLayout = global::Kakemons.Droid.Resource.Attribute.customNavigationLayout;
 			global::PanCardView.Droid.Resource.Attribute.defaultQueryHint = global::Kakemons.Droid.Resource.Attribute.defaultQueryHint;
+			global::PanCardView.Droid.Resource.Attribute.dialogCornerRadius = global::Kakemons.Droid.Resource.Attribute.dialogCornerRadius;
 			global::PanCardView.Droid.Resource.Attribute.dialogPreferredPadding = global::Kakemons.Droid.Resource.Attribute.dialogPreferredPadding;
 			global::PanCardView.Droid.Resource.Attribute.dialogTheme = global::Kakemons.Droid.Resource.Attribute.dialogTheme;
 			global::PanCardView.Droid.Resource.Attribute.displayOptions = global::Kakemons.Droid.Resource.Attribute.displayOptions;
@@ -214,6 +271,8 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Attribute.editTextColor = global::Kakemons.Droid.Resource.Attribute.editTextColor;
 			global::PanCardView.Droid.Resource.Attribute.editTextStyle = global::Kakemons.Droid.Resource.Attribute.editTextStyle;
 			global::PanCardView.Droid.Resource.Attribute.elevation = global::Kakemons.Droid.Resource.Attribute.elevation;
+			global::PanCardView.Droid.Resource.Attribute.enforceMaterialTheme = global::Kakemons.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::PanCardView.Droid.Resource.Attribute.enforceTextAppearance = global::Kakemons.Droid.Resource.Attribute.enforceTextAppearance;
 			global::PanCardView.Droid.Resource.Attribute.errorEnabled = global::Kakemons.Droid.Resource.Attribute.errorEnabled;
 			global::PanCardView.Droid.Resource.Attribute.errorTextAppearance = global::Kakemons.Droid.Resource.Attribute.errorTextAppearance;
 			global::PanCardView.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Kakemons.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
@@ -226,12 +285,19 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Attribute.expandedTitleMarginTop = global::Kakemons.Droid.Resource.Attribute.expandedTitleMarginTop;
 			global::PanCardView.Droid.Resource.Attribute.expandedTitleTextAppearance = global::Kakemons.Droid.Resource.Attribute.expandedTitleTextAppearance;
 			global::PanCardView.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::Kakemons.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::PanCardView.Droid.Resource.Attribute.fabAlignmentMode = global::Kakemons.Droid.Resource.Attribute.fabAlignmentMode;
+			global::PanCardView.Droid.Resource.Attribute.fabCradleMargin = global::Kakemons.Droid.Resource.Attribute.fabCradleMargin;
+			global::PanCardView.Droid.Resource.Attribute.fabCradleRoundedCornerRadius = global::Kakemons.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::PanCardView.Droid.Resource.Attribute.fabCradleVerticalOffset = global::Kakemons.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::PanCardView.Droid.Resource.Attribute.fabCustomSize = global::Kakemons.Droid.Resource.Attribute.fabCustomSize;
 			global::PanCardView.Droid.Resource.Attribute.fabSize = global::Kakemons.Droid.Resource.Attribute.fabSize;
 			global::PanCardView.Droid.Resource.Attribute.fastScrollEnabled = global::Kakemons.Droid.Resource.Attribute.fastScrollEnabled;
 			global::PanCardView.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::Kakemons.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
 			global::PanCardView.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::Kakemons.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
 			global::PanCardView.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::Kakemons.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
 			global::PanCardView.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Kakemons.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::PanCardView.Droid.Resource.Attribute.firstBaselineToTopHeight = global::Kakemons.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::PanCardView.Droid.Resource.Attribute.floatingActionButtonStyle = global::Kakemons.Droid.Resource.Attribute.floatingActionButtonStyle;
 			global::PanCardView.Droid.Resource.Attribute.font = global::Kakemons.Droid.Resource.Attribute.font;
 			global::PanCardView.Droid.Resource.Attribute.fontFamily = global::Kakemons.Droid.Resource.Attribute.fontFamily;
 			global::PanCardView.Droid.Resource.Attribute.fontProviderAuthority = global::Kakemons.Droid.Resource.Attribute.fontProviderAuthority;
@@ -241,19 +307,31 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Attribute.fontProviderPackage = global::Kakemons.Droid.Resource.Attribute.fontProviderPackage;
 			global::PanCardView.Droid.Resource.Attribute.fontProviderQuery = global::Kakemons.Droid.Resource.Attribute.fontProviderQuery;
 			global::PanCardView.Droid.Resource.Attribute.fontStyle = global::Kakemons.Droid.Resource.Attribute.fontStyle;
+			global::PanCardView.Droid.Resource.Attribute.fontVariationSettings = global::Kakemons.Droid.Resource.Attribute.fontVariationSettings;
 			global::PanCardView.Droid.Resource.Attribute.fontWeight = global::Kakemons.Droid.Resource.Attribute.fontWeight;
 			global::PanCardView.Droid.Resource.Attribute.foregroundInsidePadding = global::Kakemons.Droid.Resource.Attribute.foregroundInsidePadding;
 			global::PanCardView.Droid.Resource.Attribute.gapBetweenBars = global::Kakemons.Droid.Resource.Attribute.gapBetweenBars;
 			global::PanCardView.Droid.Resource.Attribute.goIcon = global::Kakemons.Droid.Resource.Attribute.goIcon;
 			global::PanCardView.Droid.Resource.Attribute.headerLayout = global::Kakemons.Droid.Resource.Attribute.headerLayout;
 			global::PanCardView.Droid.Resource.Attribute.height = global::Kakemons.Droid.Resource.Attribute.height;
+			global::PanCardView.Droid.Resource.Attribute.helperText = global::Kakemons.Droid.Resource.Attribute.helperText;
+			global::PanCardView.Droid.Resource.Attribute.helperTextEnabled = global::Kakemons.Droid.Resource.Attribute.helperTextEnabled;
+			global::PanCardView.Droid.Resource.Attribute.helperTextTextAppearance = global::Kakemons.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.hideMotionSpec = global::Kakemons.Droid.Resource.Attribute.hideMotionSpec;
 			global::PanCardView.Droid.Resource.Attribute.hideOnContentScroll = global::Kakemons.Droid.Resource.Attribute.hideOnContentScroll;
+			global::PanCardView.Droid.Resource.Attribute.hideOnScroll = global::Kakemons.Droid.Resource.Attribute.hideOnScroll;
 			global::PanCardView.Droid.Resource.Attribute.hintAnimationEnabled = global::Kakemons.Droid.Resource.Attribute.hintAnimationEnabled;
 			global::PanCardView.Droid.Resource.Attribute.hintEnabled = global::Kakemons.Droid.Resource.Attribute.hintEnabled;
 			global::PanCardView.Droid.Resource.Attribute.hintTextAppearance = global::Kakemons.Droid.Resource.Attribute.hintTextAppearance;
 			global::PanCardView.Droid.Resource.Attribute.homeAsUpIndicator = global::Kakemons.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::PanCardView.Droid.Resource.Attribute.homeLayout = global::Kakemons.Droid.Resource.Attribute.homeLayout;
+			global::PanCardView.Droid.Resource.Attribute.hoveredFocusedTranslationZ = global::Kakemons.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
 			global::PanCardView.Droid.Resource.Attribute.icon = global::Kakemons.Droid.Resource.Attribute.icon;
+			global::PanCardView.Droid.Resource.Attribute.iconEndPadding = global::Kakemons.Droid.Resource.Attribute.iconEndPadding;
+			global::PanCardView.Droid.Resource.Attribute.iconGravity = global::Kakemons.Droid.Resource.Attribute.iconGravity;
+			global::PanCardView.Droid.Resource.Attribute.iconPadding = global::Kakemons.Droid.Resource.Attribute.iconPadding;
+			global::PanCardView.Droid.Resource.Attribute.iconSize = global::Kakemons.Droid.Resource.Attribute.iconSize;
+			global::PanCardView.Droid.Resource.Attribute.iconStartPadding = global::Kakemons.Droid.Resource.Attribute.iconStartPadding;
 			global::PanCardView.Droid.Resource.Attribute.iconTint = global::Kakemons.Droid.Resource.Attribute.iconTint;
 			global::PanCardView.Droid.Resource.Attribute.iconTintMode = global::Kakemons.Droid.Resource.Attribute.iconTintMode;
 			global::PanCardView.Droid.Resource.Attribute.iconifiedByDefault = global::Kakemons.Droid.Resource.Attribute.iconifiedByDefault;
@@ -263,11 +341,20 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Attribute.insetForeground = global::Kakemons.Droid.Resource.Attribute.insetForeground;
 			global::PanCardView.Droid.Resource.Attribute.isLightTheme = global::Kakemons.Droid.Resource.Attribute.isLightTheme;
 			global::PanCardView.Droid.Resource.Attribute.itemBackground = global::Kakemons.Droid.Resource.Attribute.itemBackground;
+			global::PanCardView.Droid.Resource.Attribute.itemHorizontalPadding = global::Kakemons.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::PanCardView.Droid.Resource.Attribute.itemHorizontalTranslationEnabled = global::Kakemons.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::PanCardView.Droid.Resource.Attribute.itemIconPadding = global::Kakemons.Droid.Resource.Attribute.itemIconPadding;
+			global::PanCardView.Droid.Resource.Attribute.itemIconSize = global::Kakemons.Droid.Resource.Attribute.itemIconSize;
 			global::PanCardView.Droid.Resource.Attribute.itemIconTint = global::Kakemons.Droid.Resource.Attribute.itemIconTint;
 			global::PanCardView.Droid.Resource.Attribute.itemPadding = global::Kakemons.Droid.Resource.Attribute.itemPadding;
+			global::PanCardView.Droid.Resource.Attribute.itemSpacing = global::Kakemons.Droid.Resource.Attribute.itemSpacing;
 			global::PanCardView.Droid.Resource.Attribute.itemTextAppearance = global::Kakemons.Droid.Resource.Attribute.itemTextAppearance;
+			global::PanCardView.Droid.Resource.Attribute.itemTextAppearanceActive = global::Kakemons.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::PanCardView.Droid.Resource.Attribute.itemTextAppearanceInactive = global::Kakemons.Droid.Resource.Attribute.itemTextAppearanceInactive;
 			global::PanCardView.Droid.Resource.Attribute.itemTextColor = global::Kakemons.Droid.Resource.Attribute.itemTextColor;
 			global::PanCardView.Droid.Resource.Attribute.keylines = global::Kakemons.Droid.Resource.Attribute.keylines;
+			global::PanCardView.Droid.Resource.Attribute.labelVisibilityMode = global::Kakemons.Droid.Resource.Attribute.labelVisibilityMode;
+			global::PanCardView.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::Kakemons.Droid.Resource.Attribute.lastBaselineToBottomHeight;
 			global::PanCardView.Droid.Resource.Attribute.layout = global::Kakemons.Droid.Resource.Attribute.layout;
 			global::PanCardView.Droid.Resource.Attribute.layoutManager = global::Kakemons.Droid.Resource.Attribute.layoutManager;
 			global::PanCardView.Droid.Resource.Attribute.layout_anchor = global::Kakemons.Droid.Resource.Attribute.layout_anchor;
@@ -280,6 +367,9 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Attribute.layout_keyline = global::Kakemons.Droid.Resource.Attribute.layout_keyline;
 			global::PanCardView.Droid.Resource.Attribute.layout_scrollFlags = global::Kakemons.Droid.Resource.Attribute.layout_scrollFlags;
 			global::PanCardView.Droid.Resource.Attribute.layout_scrollInterpolator = global::Kakemons.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::PanCardView.Droid.Resource.Attribute.liftOnScroll = global::Kakemons.Droid.Resource.Attribute.liftOnScroll;
+			global::PanCardView.Droid.Resource.Attribute.lineHeight = global::Kakemons.Droid.Resource.Attribute.lineHeight;
+			global::PanCardView.Droid.Resource.Attribute.lineSpacing = global::Kakemons.Droid.Resource.Attribute.lineSpacing;
 			global::PanCardView.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::Kakemons.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
 			global::PanCardView.Droid.Resource.Attribute.listDividerAlertDialog = global::Kakemons.Droid.Resource.Attribute.listDividerAlertDialog;
 			global::PanCardView.Droid.Resource.Attribute.listItemLayout = global::Kakemons.Droid.Resource.Attribute.listItemLayout;
@@ -293,8 +383,11 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::Kakemons.Droid.Resource.Attribute.listPreferredItemPaddingRight;
 			global::PanCardView.Droid.Resource.Attribute.logo = global::Kakemons.Droid.Resource.Attribute.logo;
 			global::PanCardView.Droid.Resource.Attribute.logoDescription = global::Kakemons.Droid.Resource.Attribute.logoDescription;
+			global::PanCardView.Droid.Resource.Attribute.materialButtonStyle = global::Kakemons.Droid.Resource.Attribute.materialButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.materialCardViewStyle = global::Kakemons.Droid.Resource.Attribute.materialCardViewStyle;
 			global::PanCardView.Droid.Resource.Attribute.maxActionInlineWidth = global::Kakemons.Droid.Resource.Attribute.maxActionInlineWidth;
 			global::PanCardView.Droid.Resource.Attribute.maxButtonHeight = global::Kakemons.Droid.Resource.Attribute.maxButtonHeight;
+			global::PanCardView.Droid.Resource.Attribute.maxImageSize = global::Kakemons.Droid.Resource.Attribute.maxImageSize;
 			global::PanCardView.Droid.Resource.Attribute.measureWithLargestChild = global::Kakemons.Droid.Resource.Attribute.measureWithLargestChild;
 			global::PanCardView.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::Kakemons.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
 			global::PanCardView.Droid.Resource.Attribute.mediaRouteButtonStyle = global::Kakemons.Droid.Resource.Attribute.mediaRouteButtonStyle;
@@ -314,6 +407,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Attribute.navigationContentDescription = global::Kakemons.Droid.Resource.Attribute.navigationContentDescription;
 			global::PanCardView.Droid.Resource.Attribute.navigationIcon = global::Kakemons.Droid.Resource.Attribute.navigationIcon;
 			global::PanCardView.Droid.Resource.Attribute.navigationMode = global::Kakemons.Droid.Resource.Attribute.navigationMode;
+			global::PanCardView.Droid.Resource.Attribute.navigationViewStyle = global::Kakemons.Droid.Resource.Attribute.navigationViewStyle;
 			global::PanCardView.Droid.Resource.Attribute.numericModifiers = global::Kakemons.Droid.Resource.Attribute.numericModifiers;
 			global::PanCardView.Droid.Resource.Attribute.overlapAnchor = global::Kakemons.Droid.Resource.Attribute.overlapAnchor;
 			global::PanCardView.Droid.Resource.Attribute.paddingBottomNoButtons = global::Kakemons.Droid.Resource.Attribute.paddingBottomNoButtons;
@@ -344,6 +438,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Attribute.reverseLayout = global::Kakemons.Droid.Resource.Attribute.reverseLayout;
 			global::PanCardView.Droid.Resource.Attribute.rippleColor = global::Kakemons.Droid.Resource.Attribute.rippleColor;
 			global::PanCardView.Droid.Resource.Attribute.scrimAnimationDuration = global::Kakemons.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::PanCardView.Droid.Resource.Attribute.scrimBackground = global::Kakemons.Droid.Resource.Attribute.scrimBackground;
 			global::PanCardView.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::Kakemons.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
 			global::PanCardView.Droid.Resource.Attribute.searchHintIcon = global::Kakemons.Droid.Resource.Attribute.searchHintIcon;
 			global::PanCardView.Droid.Resource.Attribute.searchIcon = global::Kakemons.Droid.Resource.Attribute.searchIcon;
@@ -353,9 +448,14 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::Kakemons.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
 			global::PanCardView.Droid.Resource.Attribute.showAsAction = global::Kakemons.Droid.Resource.Attribute.showAsAction;
 			global::PanCardView.Droid.Resource.Attribute.showDividers = global::Kakemons.Droid.Resource.Attribute.showDividers;
+			global::PanCardView.Droid.Resource.Attribute.showMotionSpec = global::Kakemons.Droid.Resource.Attribute.showMotionSpec;
 			global::PanCardView.Droid.Resource.Attribute.showText = global::Kakemons.Droid.Resource.Attribute.showText;
 			global::PanCardView.Droid.Resource.Attribute.showTitle = global::Kakemons.Droid.Resource.Attribute.showTitle;
 			global::PanCardView.Droid.Resource.Attribute.singleChoiceItemLayout = global::Kakemons.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::PanCardView.Droid.Resource.Attribute.singleLine = global::Kakemons.Droid.Resource.Attribute.singleLine;
+			global::PanCardView.Droid.Resource.Attribute.singleSelection = global::Kakemons.Droid.Resource.Attribute.singleSelection;
+			global::PanCardView.Droid.Resource.Attribute.snackbarButtonStyle = global::Kakemons.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::PanCardView.Droid.Resource.Attribute.snackbarStyle = global::Kakemons.Droid.Resource.Attribute.snackbarStyle;
 			global::PanCardView.Droid.Resource.Attribute.spanCount = global::Kakemons.Droid.Resource.Attribute.spanCount;
 			global::PanCardView.Droid.Resource.Attribute.spinBars = global::Kakemons.Droid.Resource.Attribute.spinBars;
 			global::PanCardView.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::Kakemons.Droid.Resource.Attribute.spinnerDropDownItemStyle;
@@ -366,8 +466,12 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Attribute.state_above_anchor = global::Kakemons.Droid.Resource.Attribute.state_above_anchor;
 			global::PanCardView.Droid.Resource.Attribute.state_collapsed = global::Kakemons.Droid.Resource.Attribute.state_collapsed;
 			global::PanCardView.Droid.Resource.Attribute.state_collapsible = global::Kakemons.Droid.Resource.Attribute.state_collapsible;
+			global::PanCardView.Droid.Resource.Attribute.state_liftable = global::Kakemons.Droid.Resource.Attribute.state_liftable;
+			global::PanCardView.Droid.Resource.Attribute.state_lifted = global::Kakemons.Droid.Resource.Attribute.state_lifted;
 			global::PanCardView.Droid.Resource.Attribute.statusBarBackground = global::Kakemons.Droid.Resource.Attribute.statusBarBackground;
 			global::PanCardView.Droid.Resource.Attribute.statusBarScrim = global::Kakemons.Droid.Resource.Attribute.statusBarScrim;
+			global::PanCardView.Droid.Resource.Attribute.strokeColor = global::Kakemons.Droid.Resource.Attribute.strokeColor;
+			global::PanCardView.Droid.Resource.Attribute.strokeWidth = global::Kakemons.Droid.Resource.Attribute.strokeWidth;
 			global::PanCardView.Droid.Resource.Attribute.subMenuArrow = global::Kakemons.Droid.Resource.Attribute.subMenuArrow;
 			global::PanCardView.Droid.Resource.Attribute.submitBackground = global::Kakemons.Droid.Resource.Attribute.submitBackground;
 			global::PanCardView.Droid.Resource.Attribute.subtitle = global::Kakemons.Droid.Resource.Attribute.subtitle;
@@ -382,8 +486,15 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Attribute.tabBackground = global::Kakemons.Droid.Resource.Attribute.tabBackground;
 			global::PanCardView.Droid.Resource.Attribute.tabContentStart = global::Kakemons.Droid.Resource.Attribute.tabContentStart;
 			global::PanCardView.Droid.Resource.Attribute.tabGravity = global::Kakemons.Droid.Resource.Attribute.tabGravity;
+			global::PanCardView.Droid.Resource.Attribute.tabIconTint = global::Kakemons.Droid.Resource.Attribute.tabIconTint;
+			global::PanCardView.Droid.Resource.Attribute.tabIconTintMode = global::Kakemons.Droid.Resource.Attribute.tabIconTintMode;
+			global::PanCardView.Droid.Resource.Attribute.tabIndicator = global::Kakemons.Droid.Resource.Attribute.tabIndicator;
+			global::PanCardView.Droid.Resource.Attribute.tabIndicatorAnimationDuration = global::Kakemons.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
 			global::PanCardView.Droid.Resource.Attribute.tabIndicatorColor = global::Kakemons.Droid.Resource.Attribute.tabIndicatorColor;
+			global::PanCardView.Droid.Resource.Attribute.tabIndicatorFullWidth = global::Kakemons.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::PanCardView.Droid.Resource.Attribute.tabIndicatorGravity = global::Kakemons.Droid.Resource.Attribute.tabIndicatorGravity;
 			global::PanCardView.Droid.Resource.Attribute.tabIndicatorHeight = global::Kakemons.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::PanCardView.Droid.Resource.Attribute.tabInlineLabel = global::Kakemons.Droid.Resource.Attribute.tabInlineLabel;
 			global::PanCardView.Droid.Resource.Attribute.tabMaxWidth = global::Kakemons.Droid.Resource.Attribute.tabMaxWidth;
 			global::PanCardView.Droid.Resource.Attribute.tabMinWidth = global::Kakemons.Droid.Resource.Attribute.tabMinWidth;
 			global::PanCardView.Droid.Resource.Attribute.tabMode = global::Kakemons.Droid.Resource.Attribute.tabMode;
@@ -392,20 +503,39 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Attribute.tabPaddingEnd = global::Kakemons.Droid.Resource.Attribute.tabPaddingEnd;
 			global::PanCardView.Droid.Resource.Attribute.tabPaddingStart = global::Kakemons.Droid.Resource.Attribute.tabPaddingStart;
 			global::PanCardView.Droid.Resource.Attribute.tabPaddingTop = global::Kakemons.Droid.Resource.Attribute.tabPaddingTop;
+			global::PanCardView.Droid.Resource.Attribute.tabRippleColor = global::Kakemons.Droid.Resource.Attribute.tabRippleColor;
 			global::PanCardView.Droid.Resource.Attribute.tabSelectedTextColor = global::Kakemons.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::PanCardView.Droid.Resource.Attribute.tabStyle = global::Kakemons.Droid.Resource.Attribute.tabStyle;
 			global::PanCardView.Droid.Resource.Attribute.tabTextAppearance = global::Kakemons.Droid.Resource.Attribute.tabTextAppearance;
 			global::PanCardView.Droid.Resource.Attribute.tabTextColor = global::Kakemons.Droid.Resource.Attribute.tabTextColor;
+			global::PanCardView.Droid.Resource.Attribute.tabUnboundedRipple = global::Kakemons.Droid.Resource.Attribute.tabUnboundedRipple;
 			global::PanCardView.Droid.Resource.Attribute.textAllCaps = global::Kakemons.Droid.Resource.Attribute.textAllCaps;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceBody1 = global::Kakemons.Droid.Resource.Attribute.textAppearanceBody1;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceBody2 = global::Kakemons.Droid.Resource.Attribute.textAppearanceBody2;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceButton = global::Kakemons.Droid.Resource.Attribute.textAppearanceButton;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceCaption = global::Kakemons.Droid.Resource.Attribute.textAppearanceCaption;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline1 = global::Kakemons.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline2 = global::Kakemons.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline3 = global::Kakemons.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline4 = global::Kakemons.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline5 = global::Kakemons.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceHeadline6 = global::Kakemons.Droid.Resource.Attribute.textAppearanceHeadline6;
 			global::PanCardView.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::Kakemons.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
 			global::PanCardView.Droid.Resource.Attribute.textAppearanceListItem = global::Kakemons.Droid.Resource.Attribute.textAppearanceListItem;
 			global::PanCardView.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::Kakemons.Droid.Resource.Attribute.textAppearanceListItemSecondary;
 			global::PanCardView.Droid.Resource.Attribute.textAppearanceListItemSmall = global::Kakemons.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceOverline = global::Kakemons.Droid.Resource.Attribute.textAppearanceOverline;
 			global::PanCardView.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::Kakemons.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
 			global::PanCardView.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Kakemons.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
 			global::PanCardView.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::Kakemons.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
 			global::PanCardView.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::Kakemons.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceSubtitle1 = global::Kakemons.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::PanCardView.Droid.Resource.Attribute.textAppearanceSubtitle2 = global::Kakemons.Droid.Resource.Attribute.textAppearanceSubtitle2;
 			global::PanCardView.Droid.Resource.Attribute.textColorAlertDialogListItem = global::Kakemons.Droid.Resource.Attribute.textColorAlertDialogListItem;
 			global::PanCardView.Droid.Resource.Attribute.textColorSearchUrl = global::Kakemons.Droid.Resource.Attribute.textColorSearchUrl;
+			global::PanCardView.Droid.Resource.Attribute.textEndPadding = global::Kakemons.Droid.Resource.Attribute.textEndPadding;
+			global::PanCardView.Droid.Resource.Attribute.textInputStyle = global::Kakemons.Droid.Resource.Attribute.textInputStyle;
+			global::PanCardView.Droid.Resource.Attribute.textStartPadding = global::Kakemons.Droid.Resource.Attribute.textStartPadding;
 			global::PanCardView.Droid.Resource.Attribute.theme = global::Kakemons.Droid.Resource.Attribute.theme;
 			global::PanCardView.Droid.Resource.Attribute.thickness = global::Kakemons.Droid.Resource.Attribute.thickness;
 			global::PanCardView.Droid.Resource.Attribute.thumbTextPadding = global::Kakemons.Droid.Resource.Attribute.thumbTextPadding;
@@ -436,7 +566,9 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Attribute.track = global::Kakemons.Droid.Resource.Attribute.track;
 			global::PanCardView.Droid.Resource.Attribute.trackTint = global::Kakemons.Droid.Resource.Attribute.trackTint;
 			global::PanCardView.Droid.Resource.Attribute.trackTintMode = global::Kakemons.Droid.Resource.Attribute.trackTintMode;
+			global::PanCardView.Droid.Resource.Attribute.ttcIndex = global::Kakemons.Droid.Resource.Attribute.ttcIndex;
 			global::PanCardView.Droid.Resource.Attribute.useCompatPadding = global::Kakemons.Droid.Resource.Attribute.useCompatPadding;
+			global::PanCardView.Droid.Resource.Attribute.viewInflaterClass = global::Kakemons.Droid.Resource.Attribute.viewInflaterClass;
 			global::PanCardView.Droid.Resource.Attribute.voiceIcon = global::Kakemons.Droid.Resource.Attribute.voiceIcon;
 			global::PanCardView.Droid.Resource.Attribute.windowActionBar = global::Kakemons.Droid.Resource.Attribute.windowActionBar;
 			global::PanCardView.Droid.Resource.Attribute.windowActionBarOverlay = global::Kakemons.Droid.Resource.Attribute.windowActionBarOverlay;
@@ -451,6 +583,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::Kakemons.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
 			global::PanCardView.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::Kakemons.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
 			global::PanCardView.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Kakemons.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::PanCardView.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::Kakemons.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
 			global::PanCardView.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Kakemons.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
 			global::PanCardView.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::Kakemons.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
 			global::PanCardView.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::Kakemons.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
@@ -494,6 +627,8 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Color.cardview_shadow_end_color = global::Kakemons.Droid.Resource.Color.cardview_shadow_end_color;
 			global::PanCardView.Droid.Resource.Color.cardview_shadow_start_color = global::Kakemons.Droid.Resource.Color.cardview_shadow_start_color;
 			global::PanCardView.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::Kakemons.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::PanCardView.Droid.Resource.Color.design_default_color_primary = global::Kakemons.Droid.Resource.Color.design_default_color_primary;
+			global::PanCardView.Droid.Resource.Color.design_default_color_primary_dark = global::Kakemons.Droid.Resource.Color.design_default_color_primary_dark;
 			global::PanCardView.Droid.Resource.Color.design_error = global::Kakemons.Droid.Resource.Color.design_error;
 			global::PanCardView.Droid.Resource.Color.design_fab_shadow_end_color = global::Kakemons.Droid.Resource.Color.design_fab_shadow_end_color;
 			global::PanCardView.Droid.Resource.Color.design_fab_shadow_mid_color = global::Kakemons.Droid.Resource.Color.design_fab_shadow_mid_color;
@@ -508,6 +643,8 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Color.dim_foreground_disabled_material_light = global::Kakemons.Droid.Resource.Color.dim_foreground_disabled_material_light;
 			global::PanCardView.Droid.Resource.Color.dim_foreground_material_dark = global::Kakemons.Droid.Resource.Color.dim_foreground_material_dark;
 			global::PanCardView.Droid.Resource.Color.dim_foreground_material_light = global::Kakemons.Droid.Resource.Color.dim_foreground_material_light;
+			global::PanCardView.Droid.Resource.Color.error_color_material_dark = global::Kakemons.Droid.Resource.Color.error_color_material_dark;
+			global::PanCardView.Droid.Resource.Color.error_color_material_light = global::Kakemons.Droid.Resource.Color.error_color_material_light;
 			global::PanCardView.Droid.Resource.Color.foreground_material_dark = global::Kakemons.Droid.Resource.Color.foreground_material_dark;
 			global::PanCardView.Droid.Resource.Color.foreground_material_light = global::Kakemons.Droid.Resource.Color.foreground_material_light;
 			global::PanCardView.Droid.Resource.Color.highlighted_text_material_dark = global::Kakemons.Droid.Resource.Color.highlighted_text_material_dark;
@@ -524,6 +661,32 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Color.material_grey_800 = global::Kakemons.Droid.Resource.Color.material_grey_800;
 			global::PanCardView.Droid.Resource.Color.material_grey_850 = global::Kakemons.Droid.Resource.Color.material_grey_850;
 			global::PanCardView.Droid.Resource.Color.material_grey_900 = global::Kakemons.Droid.Resource.Color.material_grey_900;
+			global::PanCardView.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::Kakemons.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::PanCardView.Droid.Resource.Color.mtrl_bottom_nav_item_tint = global::Kakemons.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_bg_color_disabled = global::Kakemons.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_bg_color_selector = global::Kakemons.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_ripple_color = global::Kakemons.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_stroke_color_selector = global::Kakemons.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color = global::Kakemons.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_text_color_disabled = global::Kakemons.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_text_color_selector = global::Kakemons.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::PanCardView.Droid.Resource.Color.mtrl_btn_transparent_bg_color = global::Kakemons.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_chip_background_color = global::Kakemons.Droid.Resource.Color.mtrl_chip_background_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_chip_close_icon_tint = global::Kakemons.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::PanCardView.Droid.Resource.Color.mtrl_chip_ripple_color = global::Kakemons.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_chip_text_color = global::Kakemons.Droid.Resource.Color.mtrl_chip_text_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_fab_ripple_color = global::Kakemons.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_scrim_color = global::Kakemons.Droid.Resource.Color.mtrl_scrim_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_tabs_colored_ripple_color = global::Kakemons.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_tabs_icon_color_selector = global::Kakemons.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::PanCardView.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::Kakemons.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::PanCardView.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::Kakemons.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::PanCardView.Droid.Resource.Color.mtrl_tabs_ripple_color = global::Kakemons.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_text_btn_text_color_selector = global::Kakemons.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::PanCardView.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color = global::Kakemons.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_textinput_disabled_color = global::Kakemons.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::Kakemons.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::PanCardView.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::Kakemons.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
 			global::PanCardView.Droid.Resource.Color.notification_action_color_filter = global::Kakemons.Droid.Resource.Color.notification_action_color_filter;
 			global::PanCardView.Droid.Resource.Color.notification_icon_bg_color = global::Kakemons.Droid.Resource.Color.notification_icon_bg_color;
 			global::PanCardView.Droid.Resource.Color.notification_material_background_media_default_color = global::Kakemons.Droid.Resource.Color.notification_material_background_media_default_color;
@@ -566,6 +729,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Dimension.abc_action_button_min_width_material = global::Kakemons.Droid.Resource.Dimension.abc_action_button_min_width_material;
 			global::PanCardView.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Kakemons.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
 			global::PanCardView.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Kakemons.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::PanCardView.Droid.Resource.Dimension.abc_alert_dialog_button_dimen = global::Kakemons.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
 			global::PanCardView.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::Kakemons.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
 			global::PanCardView.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::Kakemons.Droid.Resource.Dimension.abc_button_inset_vertical_material;
 			global::PanCardView.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::Kakemons.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
@@ -575,6 +739,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Dimension.abc_control_corner_material = global::Kakemons.Droid.Resource.Dimension.abc_control_corner_material;
 			global::PanCardView.Droid.Resource.Dimension.abc_control_inset_material = global::Kakemons.Droid.Resource.Dimension.abc_control_inset_material;
 			global::PanCardView.Droid.Resource.Dimension.abc_control_padding_material = global::Kakemons.Droid.Resource.Dimension.abc_control_padding_material;
+			global::PanCardView.Droid.Resource.Dimension.abc_dialog_corner_radius_material = global::Kakemons.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
 			global::PanCardView.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::Kakemons.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
 			global::PanCardView.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::Kakemons.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
 			global::PanCardView.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::Kakemons.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
@@ -630,11 +795,15 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::Kakemons.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
 			global::PanCardView.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::Kakemons.Droid.Resource.Dimension.compat_button_padding_vertical_material;
 			global::PanCardView.Droid.Resource.Dimension.compat_control_corner_material = global::Kakemons.Droid.Resource.Dimension.compat_control_corner_material;
+			global::PanCardView.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::Kakemons.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::PanCardView.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::Kakemons.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
 			global::PanCardView.Droid.Resource.Dimension.design_appbar_elevation = global::Kakemons.Droid.Resource.Dimension.design_appbar_elevation;
 			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Kakemons.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::Kakemons.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
 			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::Kakemons.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
 			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::Kakemons.Droid.Resource.Dimension.design_bottom_navigation_elevation;
 			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_height = global::Kakemons.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_icon_size = global::Kakemons.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
 			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::Kakemons.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
 			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::Kakemons.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
 			global::PanCardView.Droid.Resource.Dimension.design_bottom_navigation_margin = global::Kakemons.Droid.Resource.Dimension.design_bottom_navigation_margin;
@@ -647,10 +816,13 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Dimension.design_fab_image_size = global::Kakemons.Droid.Resource.Dimension.design_fab_image_size;
 			global::PanCardView.Droid.Resource.Dimension.design_fab_size_mini = global::Kakemons.Droid.Resource.Dimension.design_fab_size_mini;
 			global::PanCardView.Droid.Resource.Dimension.design_fab_size_normal = global::Kakemons.Droid.Resource.Dimension.design_fab_size_normal;
+			global::PanCardView.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused = global::Kakemons.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
 			global::PanCardView.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::Kakemons.Droid.Resource.Dimension.design_fab_translation_z_pressed;
 			global::PanCardView.Droid.Resource.Dimension.design_navigation_elevation = global::Kakemons.Droid.Resource.Dimension.design_navigation_elevation;
 			global::PanCardView.Droid.Resource.Dimension.design_navigation_icon_padding = global::Kakemons.Droid.Resource.Dimension.design_navigation_icon_padding;
 			global::PanCardView.Droid.Resource.Dimension.design_navigation_icon_size = global::Kakemons.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_item_horizontal_padding = global::Kakemons.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::PanCardView.Droid.Resource.Dimension.design_navigation_item_icon_padding = global::Kakemons.Droid.Resource.Dimension.design_navigation_item_icon_padding;
 			global::PanCardView.Droid.Resource.Dimension.design_navigation_max_width = global::Kakemons.Droid.Resource.Dimension.design_navigation_max_width;
 			global::PanCardView.Droid.Resource.Dimension.design_navigation_padding_bottom = global::Kakemons.Droid.Resource.Dimension.design_navigation_padding_bottom;
 			global::PanCardView.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::Kakemons.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
@@ -668,6 +840,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::Kakemons.Droid.Resource.Dimension.design_tab_scrollable_min_width;
 			global::PanCardView.Droid.Resource.Dimension.design_tab_text_size = global::Kakemons.Droid.Resource.Dimension.design_tab_text_size;
 			global::PanCardView.Droid.Resource.Dimension.design_tab_text_size_2line = global::Kakemons.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::PanCardView.Droid.Resource.Dimension.design_textinput_caption_translate_y = global::Kakemons.Droid.Resource.Dimension.design_textinput_caption_translate_y;
 			global::PanCardView.Droid.Resource.Dimension.disabled_alpha_material_dark = global::Kakemons.Droid.Resource.Dimension.disabled_alpha_material_dark;
 			global::PanCardView.Droid.Resource.Dimension.disabled_alpha_material_light = global::Kakemons.Droid.Resource.Dimension.disabled_alpha_material_light;
 			global::PanCardView.Droid.Resource.Dimension.fastscroll_default_thickness = global::Kakemons.Droid.Resource.Dimension.fastscroll_default_thickness;
@@ -689,6 +862,54 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::Kakemons.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
 			global::PanCardView.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::Kakemons.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
 			global::PanCardView.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::Kakemons.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::Kakemons.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::Kakemons.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::Kakemons.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::Kakemons.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_bottomappbar_height = global::Kakemons.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_corner_radius = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_disabled_elevation = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_disabled_z = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_elevation = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_focused_z = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_hovered_z = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_icon_padding = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_inset = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_letter_spacing = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_padding_bottom = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_padding_left = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_padding_right = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_padding_top = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_pressed_z = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_stroke_size = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_text_size = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_btn_z = global::Kakemons.Droid.Resource.Dimension.mtrl_btn_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_card_elevation = global::Kakemons.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_card_spacing = global::Kakemons.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Kakemons.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_chip_text_size = global::Kakemons.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_fab_elevation = global::Kakemons.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::Kakemons.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed = global::Kakemons.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_navigation_elevation = global::Kakemons.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::Kakemons.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding = global::Kakemons.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Kakemons.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_snackbar_margin = global::Kakemons.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::Kakemons.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::Kakemons.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::Kakemons.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::Kakemons.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_padding_end = global::Kakemons.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::Kakemons.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::Kakemons.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::Kakemons.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::PanCardView.Droid.Resource.Dimension.mtrl_toolbar_default_height = global::Kakemons.Droid.Resource.Dimension.mtrl_toolbar_default_height;
 			global::PanCardView.Droid.Resource.Dimension.notification_action_icon_size = global::Kakemons.Droid.Resource.Dimension.notification_action_icon_size;
 			global::PanCardView.Droid.Resource.Dimension.notification_action_text_size = global::Kakemons.Droid.Resource.Dimension.notification_action_text_size;
 			global::PanCardView.Droid.Resource.Dimension.notification_big_circle_margin = global::Kakemons.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -704,6 +925,10 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Dimension.notification_subtext_size = global::Kakemons.Droid.Resource.Dimension.notification_subtext_size;
 			global::PanCardView.Droid.Resource.Dimension.notification_top_pad = global::Kakemons.Droid.Resource.Dimension.notification_top_pad;
 			global::PanCardView.Droid.Resource.Dimension.notification_top_pad_large_text = global::Kakemons.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::PanCardView.Droid.Resource.Dimension.subtitle_corner_radius = global::Kakemons.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::PanCardView.Droid.Resource.Dimension.subtitle_outline_width = global::Kakemons.Droid.Resource.Dimension.subtitle_outline_width;
+			global::PanCardView.Droid.Resource.Dimension.subtitle_shadow_offset = global::Kakemons.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::PanCardView.Droid.Resource.Dimension.subtitle_shadow_radius = global::Kakemons.Droid.Resource.Dimension.subtitle_shadow_radius;
 			global::PanCardView.Droid.Resource.Dimension.tooltip_corner_radius = global::Kakemons.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::PanCardView.Droid.Resource.Dimension.tooltip_horizontal_padding = global::Kakemons.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::PanCardView.Droid.Resource.Dimension.tooltip_margin = global::Kakemons.Droid.Resource.Dimension.tooltip_margin;
@@ -752,6 +977,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::Kakemons.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
 			global::PanCardView.Droid.Resource.Drawable.abc_item_background_holo_dark = global::Kakemons.Droid.Resource.Drawable.abc_item_background_holo_dark;
 			global::PanCardView.Droid.Resource.Drawable.abc_item_background_holo_light = global::Kakemons.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::PanCardView.Droid.Resource.Drawable.abc_list_divider_material = global::Kakemons.Droid.Resource.Drawable.abc_list_divider_material;
 			global::PanCardView.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Kakemons.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
 			global::PanCardView.Droid.Resource.Drawable.abc_list_focused_holo = global::Kakemons.Droid.Resource.Drawable.abc_list_focused_holo;
 			global::PanCardView.Droid.Resource.Drawable.abc_list_longpressed_holo = global::Kakemons.Droid.Resource.Drawable.abc_list_longpressed_holo;
@@ -974,6 +1200,9 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::Kakemons.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
 			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::Kakemons.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
 			global::PanCardView.Droid.Resource.Drawable.ic_mr_button_grey = global::Kakemons.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::PanCardView.Droid.Resource.Drawable.ic_mtrl_chip_checked_black = global::Kakemons.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::PanCardView.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle = global::Kakemons.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::PanCardView.Droid.Resource.Drawable.ic_mtrl_chip_close_circle = global::Kakemons.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
 			global::PanCardView.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::Kakemons.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
 			global::PanCardView.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::Kakemons.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
 			global::PanCardView.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::Kakemons.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
@@ -1000,6 +1229,8 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Drawable.mr_media_stop_light = global::Kakemons.Droid.Resource.Drawable.mr_media_stop_light;
 			global::PanCardView.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::Kakemons.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
 			global::PanCardView.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::Kakemons.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::PanCardView.Droid.Resource.Drawable.mtrl_snackbar_background = global::Kakemons.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::PanCardView.Droid.Resource.Drawable.mtrl_tabs_default_indicator = global::Kakemons.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::PanCardView.Droid.Resource.Drawable.navigation_empty_icon = global::Kakemons.Droid.Resource.Drawable.navigation_empty_icon;
 			global::PanCardView.Droid.Resource.Drawable.notification_action_background = global::Kakemons.Droid.Resource.Drawable.notification_action_background;
 			global::PanCardView.Droid.Resource.Drawable.notification_bg = global::Kakemons.Droid.Resource.Drawable.notification_bg;
@@ -1047,6 +1278,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Id.checkbox = global::Kakemons.Droid.Resource.Id.checkbox;
 			global::PanCardView.Droid.Resource.Id.chronometer = global::Kakemons.Droid.Resource.Id.chronometer;
 			global::PanCardView.Droid.Resource.Id.container = global::Kakemons.Droid.Resource.Id.container;
+			global::PanCardView.Droid.Resource.Id.content = global::Kakemons.Droid.Resource.Id.content;
 			global::PanCardView.Droid.Resource.Id.contentPanel = global::Kakemons.Droid.Resource.Id.contentPanel;
 			global::PanCardView.Droid.Resource.Id.coordinator = global::Kakemons.Droid.Resource.Id.coordinator;
 			global::PanCardView.Droid.Resource.Id.custom = global::Kakemons.Droid.Resource.Id.custom;
@@ -1064,9 +1296,11 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Id.expand_activities_button = global::Kakemons.Droid.Resource.Id.expand_activities_button;
 			global::PanCardView.Droid.Resource.Id.expanded_menu = global::Kakemons.Droid.Resource.Id.expanded_menu;
 			global::PanCardView.Droid.Resource.Id.fill = global::Kakemons.Droid.Resource.Id.fill;
+			global::PanCardView.Droid.Resource.Id.filled = global::Kakemons.Droid.Resource.Id.filled;
 			global::PanCardView.Droid.Resource.Id.@fixed = global::Kakemons.Droid.Resource.Id.@fixed;
 			global::PanCardView.Droid.Resource.Id.forever = global::Kakemons.Droid.Resource.Id.forever;
 			global::PanCardView.Droid.Resource.Id.ghost_view = global::Kakemons.Droid.Resource.Id.ghost_view;
+			global::PanCardView.Droid.Resource.Id.group_divider = global::Kakemons.Droid.Resource.Id.group_divider;
 			global::PanCardView.Droid.Resource.Id.home = global::Kakemons.Droid.Resource.Id.home;
 			global::PanCardView.Droid.Resource.Id.icon = global::Kakemons.Droid.Resource.Id.icon;
 			global::PanCardView.Droid.Resource.Id.icon_group = global::Kakemons.Droid.Resource.Id.icon_group;
@@ -1074,6 +1308,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Id.info = global::Kakemons.Droid.Resource.Id.info;
 			global::PanCardView.Droid.Resource.Id.italic = global::Kakemons.Droid.Resource.Id.italic;
 			global::PanCardView.Droid.Resource.Id.item_touch_helper_previous_elevation = global::Kakemons.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::PanCardView.Droid.Resource.Id.labeled = global::Kakemons.Droid.Resource.Id.labeled;
 			global::PanCardView.Droid.Resource.Id.largeLabel = global::Kakemons.Droid.Resource.Id.largeLabel;
 			global::PanCardView.Droid.Resource.Id.left = global::Kakemons.Droid.Resource.Id.left;
 			global::PanCardView.Droid.Resource.Id.line1 = global::Kakemons.Droid.Resource.Id.line1;
@@ -1085,6 +1320,20 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Id.message = global::Kakemons.Droid.Resource.Id.message;
 			global::PanCardView.Droid.Resource.Id.mini = global::Kakemons.Droid.Resource.Id.mini;
 			global::PanCardView.Droid.Resource.Id.mr_art = global::Kakemons.Droid.Resource.Id.mr_art;
+			global::PanCardView.Droid.Resource.Id.mr_cast_checkbox = global::Kakemons.Droid.Resource.Id.mr_cast_checkbox;
+			global::PanCardView.Droid.Resource.Id.mr_cast_close_button = global::Kakemons.Droid.Resource.Id.mr_cast_close_button;
+			global::PanCardView.Droid.Resource.Id.mr_cast_group_icon = global::Kakemons.Droid.Resource.Id.mr_cast_group_icon;
+			global::PanCardView.Droid.Resource.Id.mr_cast_group_name = global::Kakemons.Droid.Resource.Id.mr_cast_group_name;
+			global::PanCardView.Droid.Resource.Id.mr_cast_list = global::Kakemons.Droid.Resource.Id.mr_cast_list;
+			global::PanCardView.Droid.Resource.Id.mr_cast_meta = global::Kakemons.Droid.Resource.Id.mr_cast_meta;
+			global::PanCardView.Droid.Resource.Id.mr_cast_meta_art = global::Kakemons.Droid.Resource.Id.mr_cast_meta_art;
+			global::PanCardView.Droid.Resource.Id.mr_cast_meta_subtitle = global::Kakemons.Droid.Resource.Id.mr_cast_meta_subtitle;
+			global::PanCardView.Droid.Resource.Id.mr_cast_meta_title = global::Kakemons.Droid.Resource.Id.mr_cast_meta_title;
+			global::PanCardView.Droid.Resource.Id.mr_cast_route_icon = global::Kakemons.Droid.Resource.Id.mr_cast_route_icon;
+			global::PanCardView.Droid.Resource.Id.mr_cast_route_name = global::Kakemons.Droid.Resource.Id.mr_cast_route_name;
+			global::PanCardView.Droid.Resource.Id.mr_cast_stop_button = global::Kakemons.Droid.Resource.Id.mr_cast_stop_button;
+			global::PanCardView.Droid.Resource.Id.mr_cast_volume_layout = global::Kakemons.Droid.Resource.Id.mr_cast_volume_layout;
+			global::PanCardView.Droid.Resource.Id.mr_cast_volume_slider = global::Kakemons.Droid.Resource.Id.mr_cast_volume_slider;
 			global::PanCardView.Droid.Resource.Id.mr_chooser_list = global::Kakemons.Droid.Resource.Id.mr_chooser_list;
 			global::PanCardView.Droid.Resource.Id.mr_chooser_route_desc = global::Kakemons.Droid.Resource.Id.mr_chooser_route_desc;
 			global::PanCardView.Droid.Resource.Id.mr_chooser_route_icon = global::Kakemons.Droid.Resource.Id.mr_chooser_route_icon;
@@ -1099,16 +1348,25 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Id.mr_custom_control = global::Kakemons.Droid.Resource.Id.mr_custom_control;
 			global::PanCardView.Droid.Resource.Id.mr_default_control = global::Kakemons.Droid.Resource.Id.mr_default_control;
 			global::PanCardView.Droid.Resource.Id.mr_dialog_area = global::Kakemons.Droid.Resource.Id.mr_dialog_area;
+			global::PanCardView.Droid.Resource.Id.mr_dialog_header_name = global::Kakemons.Droid.Resource.Id.mr_dialog_header_name;
 			global::PanCardView.Droid.Resource.Id.mr_expandable_area = global::Kakemons.Droid.Resource.Id.mr_expandable_area;
 			global::PanCardView.Droid.Resource.Id.mr_group_expand_collapse = global::Kakemons.Droid.Resource.Id.mr_group_expand_collapse;
+			global::PanCardView.Droid.Resource.Id.mr_group_volume_route_name = global::Kakemons.Droid.Resource.Id.mr_group_volume_route_name;
+			global::PanCardView.Droid.Resource.Id.mr_group_volume_slider = global::Kakemons.Droid.Resource.Id.mr_group_volume_slider;
 			global::PanCardView.Droid.Resource.Id.mr_media_main_control = global::Kakemons.Droid.Resource.Id.mr_media_main_control;
 			global::PanCardView.Droid.Resource.Id.mr_name = global::Kakemons.Droid.Resource.Id.mr_name;
+			global::PanCardView.Droid.Resource.Id.mr_picker_close_button = global::Kakemons.Droid.Resource.Id.mr_picker_close_button;
+			global::PanCardView.Droid.Resource.Id.mr_picker_list = global::Kakemons.Droid.Resource.Id.mr_picker_list;
+			global::PanCardView.Droid.Resource.Id.mr_picker_route_icon = global::Kakemons.Droid.Resource.Id.mr_picker_route_icon;
+			global::PanCardView.Droid.Resource.Id.mr_picker_route_name = global::Kakemons.Droid.Resource.Id.mr_picker_route_name;
 			global::PanCardView.Droid.Resource.Id.mr_playback_control = global::Kakemons.Droid.Resource.Id.mr_playback_control;
 			global::PanCardView.Droid.Resource.Id.mr_title_bar = global::Kakemons.Droid.Resource.Id.mr_title_bar;
 			global::PanCardView.Droid.Resource.Id.mr_volume_control = global::Kakemons.Droid.Resource.Id.mr_volume_control;
 			global::PanCardView.Droid.Resource.Id.mr_volume_group_list = global::Kakemons.Droid.Resource.Id.mr_volume_group_list;
 			global::PanCardView.Droid.Resource.Id.mr_volume_item_icon = global::Kakemons.Droid.Resource.Id.mr_volume_item_icon;
 			global::PanCardView.Droid.Resource.Id.mr_volume_slider = global::Kakemons.Droid.Resource.Id.mr_volume_slider;
+			global::PanCardView.Droid.Resource.Id.mtrl_child_content_container = global::Kakemons.Droid.Resource.Id.mtrl_child_content_container;
+			global::PanCardView.Droid.Resource.Id.mtrl_internal_children_alpha_tag = global::Kakemons.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
 			global::PanCardView.Droid.Resource.Id.multiply = global::Kakemons.Droid.Resource.Id.multiply;
 			global::PanCardView.Droid.Resource.Id.navigation_header_container = global::Kakemons.Droid.Resource.Id.navigation_header_container;
 			global::PanCardView.Droid.Resource.Id.none = global::Kakemons.Droid.Resource.Id.none;
@@ -1116,6 +1374,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Id.notification_background = global::Kakemons.Droid.Resource.Id.notification_background;
 			global::PanCardView.Droid.Resource.Id.notification_main_column = global::Kakemons.Droid.Resource.Id.notification_main_column;
 			global::PanCardView.Droid.Resource.Id.notification_main_column_container = global::Kakemons.Droid.Resource.Id.notification_main_column_container;
+			global::PanCardView.Droid.Resource.Id.outline = global::Kakemons.Droid.Resource.Id.outline;
 			global::PanCardView.Droid.Resource.Id.parallax = global::Kakemons.Droid.Resource.Id.parallax;
 			global::PanCardView.Droid.Resource.Id.parentPanel = global::Kakemons.Droid.Resource.Id.parentPanel;
 			global::PanCardView.Droid.Resource.Id.parent_matrix = global::Kakemons.Droid.Resource.Id.parent_matrix;
@@ -1145,6 +1404,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Id.search_src_text = global::Kakemons.Droid.Resource.Id.search_src_text;
 			global::PanCardView.Droid.Resource.Id.search_voice_btn = global::Kakemons.Droid.Resource.Id.search_voice_btn;
 			global::PanCardView.Droid.Resource.Id.select_dialog_listview = global::Kakemons.Droid.Resource.Id.select_dialog_listview;
+			global::PanCardView.Droid.Resource.Id.selected = global::Kakemons.Droid.Resource.Id.selected;
 			global::PanCardView.Droid.Resource.Id.shortcut = global::Kakemons.Droid.Resource.Id.shortcut;
 			global::PanCardView.Droid.Resource.Id.smallLabel = global::Kakemons.Droid.Resource.Id.smallLabel;
 			global::PanCardView.Droid.Resource.Id.snackbar_action = global::Kakemons.Droid.Resource.Id.snackbar_action;
@@ -1156,10 +1416,13 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Id.src_over = global::Kakemons.Droid.Resource.Id.src_over;
 			global::PanCardView.Droid.Resource.Id.start = global::Kakemons.Droid.Resource.Id.start;
 			global::PanCardView.Droid.Resource.Id.status_bar_latest_event_content = global::Kakemons.Droid.Resource.Id.status_bar_latest_event_content;
+			global::PanCardView.Droid.Resource.Id.stretch = global::Kakemons.Droid.Resource.Id.stretch;
 			global::PanCardView.Droid.Resource.Id.submenuarrow = global::Kakemons.Droid.Resource.Id.submenuarrow;
 			global::PanCardView.Droid.Resource.Id.submit_area = global::Kakemons.Droid.Resource.Id.submit_area;
 			global::PanCardView.Droid.Resource.Id.tabMode = global::Kakemons.Droid.Resource.Id.tabMode;
 			global::PanCardView.Droid.Resource.Id.tag_transition_group = global::Kakemons.Droid.Resource.Id.tag_transition_group;
+			global::PanCardView.Droid.Resource.Id.tag_unhandled_key_event_manager = global::Kakemons.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::PanCardView.Droid.Resource.Id.tag_unhandled_key_listeners = global::Kakemons.Droid.Resource.Id.tag_unhandled_key_listeners;
 			global::PanCardView.Droid.Resource.Id.text = global::Kakemons.Droid.Resource.Id.text;
 			global::PanCardView.Droid.Resource.Id.text2 = global::Kakemons.Droid.Resource.Id.text2;
 			global::PanCardView.Droid.Resource.Id.textSpacerNoButtons = global::Kakemons.Droid.Resource.Id.textSpacerNoButtons;
@@ -1167,6 +1430,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Id.text_input_password_toggle = global::Kakemons.Droid.Resource.Id.text_input_password_toggle;
 			global::PanCardView.Droid.Resource.Id.textinput_counter = global::Kakemons.Droid.Resource.Id.textinput_counter;
 			global::PanCardView.Droid.Resource.Id.textinput_error = global::Kakemons.Droid.Resource.Id.textinput_error;
+			global::PanCardView.Droid.Resource.Id.textinput_helper_text = global::Kakemons.Droid.Resource.Id.textinput_helper_text;
 			global::PanCardView.Droid.Resource.Id.time = global::Kakemons.Droid.Resource.Id.time;
 			global::PanCardView.Droid.Resource.Id.title = global::Kakemons.Droid.Resource.Id.title;
 			global::PanCardView.Droid.Resource.Id.titleDividerNoCustom = global::Kakemons.Droid.Resource.Id.titleDividerNoCustom;
@@ -1180,6 +1444,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Id.transition_scene_layoutid_cache = global::Kakemons.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::PanCardView.Droid.Resource.Id.transition_transform = global::Kakemons.Droid.Resource.Id.transition_transform;
 			global::PanCardView.Droid.Resource.Id.uniform = global::Kakemons.Droid.Resource.Id.uniform;
+			global::PanCardView.Droid.Resource.Id.unlabeled = global::Kakemons.Droid.Resource.Id.unlabeled;
 			global::PanCardView.Droid.Resource.Id.up = global::Kakemons.Droid.Resource.Id.up;
 			global::PanCardView.Droid.Resource.Id.view_offset_helper = global::Kakemons.Droid.Resource.Id.view_offset_helper;
 			global::PanCardView.Droid.Resource.Id.visible = global::Kakemons.Droid.Resource.Id.visible;
@@ -1192,14 +1457,24 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Integer.cancel_button_image_alpha = global::Kakemons.Droid.Resource.Integer.cancel_button_image_alpha;
 			global::PanCardView.Droid.Resource.Integer.config_tooltipAnimTime = global::Kakemons.Droid.Resource.Integer.config_tooltipAnimTime;
 			global::PanCardView.Droid.Resource.Integer.design_snackbar_text_max_lines = global::Kakemons.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::PanCardView.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms = global::Kakemons.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
 			global::PanCardView.Droid.Resource.Integer.hide_password_duration = global::Kakemons.Droid.Resource.Integer.hide_password_duration;
 			global::PanCardView.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::Kakemons.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
 			global::PanCardView.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::Kakemons.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
 			global::PanCardView.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::Kakemons.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::PanCardView.Droid.Resource.Integer.mr_update_routes_delay_ms = global::Kakemons.Droid.Resource.Integer.mr_update_routes_delay_ms;
+			global::PanCardView.Droid.Resource.Integer.mtrl_btn_anim_delay_ms = global::Kakemons.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::PanCardView.Droid.Resource.Integer.mtrl_btn_anim_duration_ms = global::Kakemons.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::PanCardView.Droid.Resource.Integer.mtrl_chip_anim_duration = global::Kakemons.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::PanCardView.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::Kakemons.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::PanCardView.Droid.Resource.Integer.show_password_duration = global::Kakemons.Droid.Resource.Integer.show_password_duration;
 			global::PanCardView.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::Kakemons.Droid.Resource.Integer.status_bar_notification_info_maxnum;
 			global::PanCardView.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::Kakemons.Droid.Resource.Interpolator.mr_fast_out_slow_in;
 			global::PanCardView.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::Kakemons.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::PanCardView.Droid.Resource.Interpolator.mtrl_fast_out_linear_in = global::Kakemons.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::PanCardView.Droid.Resource.Interpolator.mtrl_fast_out_slow_in = global::Kakemons.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::PanCardView.Droid.Resource.Interpolator.mtrl_linear = global::Kakemons.Droid.Resource.Interpolator.mtrl_linear;
+			global::PanCardView.Droid.Resource.Interpolator.mtrl_linear_out_slow_in = global::Kakemons.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
 			global::PanCardView.Droid.Resource.Layout.abc_action_bar_title_item = global::Kakemons.Droid.Resource.Layout.abc_action_bar_title_item;
 			global::PanCardView.Droid.Resource.Layout.abc_action_bar_up_container = global::Kakemons.Droid.Resource.Layout.abc_action_bar_up_container;
 			global::PanCardView.Droid.Resource.Layout.abc_action_menu_item_layout = global::Kakemons.Droid.Resource.Layout.abc_action_menu_item_layout;
@@ -1211,6 +1486,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::Kakemons.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
 			global::PanCardView.Droid.Resource.Layout.abc_alert_dialog_material = global::Kakemons.Droid.Resource.Layout.abc_alert_dialog_material;
 			global::PanCardView.Droid.Resource.Layout.abc_alert_dialog_title_material = global::Kakemons.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::PanCardView.Droid.Resource.Layout.abc_cascading_menu_item_layout = global::Kakemons.Droid.Resource.Layout.abc_cascading_menu_item_layout;
 			global::PanCardView.Droid.Resource.Layout.abc_dialog_title_material = global::Kakemons.Droid.Resource.Layout.abc_dialog_title_material;
 			global::PanCardView.Droid.Resource.Layout.abc_expanded_menu_layout = global::Kakemons.Droid.Resource.Layout.abc_expanded_menu_layout;
 			global::PanCardView.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::Kakemons.Droid.Resource.Layout.abc_list_menu_item_checkbox;
@@ -1226,6 +1502,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Kakemons.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
 			global::PanCardView.Droid.Resource.Layout.abc_search_view = global::Kakemons.Droid.Resource.Layout.abc_search_view;
 			global::PanCardView.Droid.Resource.Layout.abc_select_dialog_material = global::Kakemons.Droid.Resource.Layout.abc_select_dialog_material;
+			global::PanCardView.Droid.Resource.Layout.abc_tooltip = global::Kakemons.Droid.Resource.Layout.abc_tooltip;
 			global::PanCardView.Droid.Resource.Layout.design_bottom_navigation_item = global::Kakemons.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::PanCardView.Droid.Resource.Layout.design_bottom_sheet_dialog = global::Kakemons.Droid.Resource.Layout.design_bottom_sheet_dialog;
 			global::PanCardView.Droid.Resource.Layout.design_layout_snackbar = global::Kakemons.Droid.Resource.Layout.design_layout_snackbar;
@@ -1240,12 +1517,22 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Layout.design_navigation_menu = global::Kakemons.Droid.Resource.Layout.design_navigation_menu;
 			global::PanCardView.Droid.Resource.Layout.design_navigation_menu_item = global::Kakemons.Droid.Resource.Layout.design_navigation_menu_item;
 			global::PanCardView.Droid.Resource.Layout.design_text_input_password_icon = global::Kakemons.Droid.Resource.Layout.design_text_input_password_icon;
+			global::PanCardView.Droid.Resource.Layout.mr_cast_dialog = global::Kakemons.Droid.Resource.Layout.mr_cast_dialog;
+			global::PanCardView.Droid.Resource.Layout.mr_cast_group_item = global::Kakemons.Droid.Resource.Layout.mr_cast_group_item;
+			global::PanCardView.Droid.Resource.Layout.mr_cast_group_volume_item = global::Kakemons.Droid.Resource.Layout.mr_cast_group_volume_item;
+			global::PanCardView.Droid.Resource.Layout.mr_cast_media_metadata = global::Kakemons.Droid.Resource.Layout.mr_cast_media_metadata;
+			global::PanCardView.Droid.Resource.Layout.mr_cast_route_item = global::Kakemons.Droid.Resource.Layout.mr_cast_route_item;
 			global::PanCardView.Droid.Resource.Layout.mr_chooser_dialog = global::Kakemons.Droid.Resource.Layout.mr_chooser_dialog;
 			global::PanCardView.Droid.Resource.Layout.mr_chooser_list_item = global::Kakemons.Droid.Resource.Layout.mr_chooser_list_item;
 			global::PanCardView.Droid.Resource.Layout.mr_controller_material_dialog_b = global::Kakemons.Droid.Resource.Layout.mr_controller_material_dialog_b;
 			global::PanCardView.Droid.Resource.Layout.mr_controller_volume_item = global::Kakemons.Droid.Resource.Layout.mr_controller_volume_item;
+			global::PanCardView.Droid.Resource.Layout.mr_dialog_header_item = global::Kakemons.Droid.Resource.Layout.mr_dialog_header_item;
+			global::PanCardView.Droid.Resource.Layout.mr_picker_dialog = global::Kakemons.Droid.Resource.Layout.mr_picker_dialog;
+			global::PanCardView.Droid.Resource.Layout.mr_picker_route_item = global::Kakemons.Droid.Resource.Layout.mr_picker_route_item;
 			global::PanCardView.Droid.Resource.Layout.mr_playback_control = global::Kakemons.Droid.Resource.Layout.mr_playback_control;
 			global::PanCardView.Droid.Resource.Layout.mr_volume_control = global::Kakemons.Droid.Resource.Layout.mr_volume_control;
+			global::PanCardView.Droid.Resource.Layout.mtrl_layout_snackbar = global::Kakemons.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::PanCardView.Droid.Resource.Layout.mtrl_layout_snackbar_include = global::Kakemons.Droid.Resource.Layout.mtrl_layout_snackbar_include;
 			global::PanCardView.Droid.Resource.Layout.notification_action = global::Kakemons.Droid.Resource.Layout.notification_action;
 			global::PanCardView.Droid.Resource.Layout.notification_action_tombstone = global::Kakemons.Droid.Resource.Layout.notification_action_tombstone;
 			global::PanCardView.Droid.Resource.Layout.notification_media_action = global::Kakemons.Droid.Resource.Layout.notification_media_action;
@@ -1285,6 +1572,16 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.String.abc_font_family_menu_material = global::Kakemons.Droid.Resource.String.abc_font_family_menu_material;
 			global::PanCardView.Droid.Resource.String.abc_font_family_subhead_material = global::Kakemons.Droid.Resource.String.abc_font_family_subhead_material;
 			global::PanCardView.Droid.Resource.String.abc_font_family_title_material = global::Kakemons.Droid.Resource.String.abc_font_family_title_material;
+			global::PanCardView.Droid.Resource.String.abc_menu_alt_shortcut_label = global::Kakemons.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_ctrl_shortcut_label = global::Kakemons.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_delete_shortcut_label = global::Kakemons.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_enter_shortcut_label = global::Kakemons.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_function_shortcut_label = global::Kakemons.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_meta_shortcut_label = global::Kakemons.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_shift_shortcut_label = global::Kakemons.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_space_shortcut_label = global::Kakemons.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_menu_sym_shortcut_label = global::Kakemons.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::PanCardView.Droid.Resource.String.abc_prepend_shortcut_label = global::Kakemons.Droid.Resource.String.abc_prepend_shortcut_label;
 			global::PanCardView.Droid.Resource.String.abc_search_hint = global::Kakemons.Droid.Resource.String.abc_search_hint;
 			global::PanCardView.Droid.Resource.String.abc_searchview_description_clear = global::Kakemons.Droid.Resource.String.abc_searchview_description_clear;
 			global::PanCardView.Droid.Resource.String.abc_searchview_description_query = global::Kakemons.Droid.Resource.String.abc_searchview_description_query;
@@ -1296,12 +1593,17 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.String.abc_toolbar_collapse_description = global::Kakemons.Droid.Resource.String.abc_toolbar_collapse_description;
 			global::PanCardView.Droid.Resource.String.appbar_scrolling_view_behavior = global::Kakemons.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::PanCardView.Droid.Resource.String.bottom_sheet_behavior = global::Kakemons.Droid.Resource.String.bottom_sheet_behavior;
+			global::PanCardView.Droid.Resource.String.character_counter_content_description = global::Kakemons.Droid.Resource.String.character_counter_content_description;
 			global::PanCardView.Droid.Resource.String.character_counter_pattern = global::Kakemons.Droid.Resource.String.character_counter_pattern;
+			global::PanCardView.Droid.Resource.String.fab_transformation_scrim_behavior = global::Kakemons.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::PanCardView.Droid.Resource.String.fab_transformation_sheet_behavior = global::Kakemons.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::PanCardView.Droid.Resource.String.hide_bottom_view_on_scroll_behavior = global::Kakemons.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
 			global::PanCardView.Droid.Resource.String.library_name = global::Kakemons.Droid.Resource.String.library_name;
 			global::PanCardView.Droid.Resource.String.mr_button_content_description = global::Kakemons.Droid.Resource.String.mr_button_content_description;
 			global::PanCardView.Droid.Resource.String.mr_cast_button_connected = global::Kakemons.Droid.Resource.String.mr_cast_button_connected;
 			global::PanCardView.Droid.Resource.String.mr_cast_button_connecting = global::Kakemons.Droid.Resource.String.mr_cast_button_connecting;
 			global::PanCardView.Droid.Resource.String.mr_cast_button_disconnected = global::Kakemons.Droid.Resource.String.mr_cast_button_disconnected;
+			global::PanCardView.Droid.Resource.String.mr_cast_dialog_title_view_placeholder = global::Kakemons.Droid.Resource.String.mr_cast_dialog_title_view_placeholder;
 			global::PanCardView.Droid.Resource.String.mr_chooser_searching = global::Kakemons.Droid.Resource.String.mr_chooser_searching;
 			global::PanCardView.Droid.Resource.String.mr_chooser_title = global::Kakemons.Droid.Resource.String.mr_chooser_title;
 			global::PanCardView.Droid.Resource.String.mr_controller_album_art = global::Kakemons.Droid.Resource.String.mr_controller_album_art;
@@ -1317,8 +1619,11 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.String.mr_controller_stop = global::Kakemons.Droid.Resource.String.mr_controller_stop;
 			global::PanCardView.Droid.Resource.String.mr_controller_stop_casting = global::Kakemons.Droid.Resource.String.mr_controller_stop_casting;
 			global::PanCardView.Droid.Resource.String.mr_controller_volume_slider = global::Kakemons.Droid.Resource.String.mr_controller_volume_slider;
+			global::PanCardView.Droid.Resource.String.mr_dialog_device_header = global::Kakemons.Droid.Resource.String.mr_dialog_device_header;
+			global::PanCardView.Droid.Resource.String.mr_dialog_route_header = global::Kakemons.Droid.Resource.String.mr_dialog_route_header;
 			global::PanCardView.Droid.Resource.String.mr_system_route_name = global::Kakemons.Droid.Resource.String.mr_system_route_name;
 			global::PanCardView.Droid.Resource.String.mr_user_route_category_name = global::Kakemons.Droid.Resource.String.mr_user_route_category_name;
+			global::PanCardView.Droid.Resource.String.mtrl_chip_close_icon_content_description = global::Kakemons.Droid.Resource.String.mtrl_chip_close_icon_content_description;
 			global::PanCardView.Droid.Resource.String.password_toggle_content_description = global::Kakemons.Droid.Resource.String.password_toggle_content_description;
 			global::PanCardView.Droid.Resource.String.path_password_eye = global::Kakemons.Droid.Resource.String.path_password_eye;
 			global::PanCardView.Droid.Resource.String.path_password_eye_mask_strike_through = global::Kakemons.Droid.Resource.String.path_password_eye_mask_strike_through;
@@ -1402,6 +1707,23 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Kakemons.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
 			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Kakemons.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
 			global::PanCardView.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Kakemons.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents = global::Kakemons.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::Kakemons.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::Kakemons.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::Kakemons.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::Kakemons.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::Kakemons.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::Kakemons.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::Kakemons.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light = global::Kakemons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::Kakemons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::Kakemons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Kakemons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::Kakemons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::Kakemons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::Kakemons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::Kakemons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::Kakemons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::Kakemons.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
 			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Kakemons.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
 			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Kakemons.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
@@ -1409,6 +1731,17 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Kakemons.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
 			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Kakemons.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
 			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Kakemons.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::Kakemons.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Kakemons.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents = global::Kakemons.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::Kakemons.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::Kakemons.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::Kakemons.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::Kakemons.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Kakemons.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::PanCardView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::Kakemons.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::Kakemons.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Kakemons.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
 			global::PanCardView.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::Kakemons.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::PanCardView.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Kakemons.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
 			global::PanCardView.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Kakemons.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
@@ -1421,6 +1754,8 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::Kakemons.Droid.Resource.Style.Base_V26_Theme_AppCompat;
 			global::PanCardView.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Kakemons.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
 			global::PanCardView.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Kakemons.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::PanCardView.Droid.Resource.Style.Base_V28_Theme_AppCompat = global::Kakemons.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::PanCardView.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light = global::Kakemons.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
 			global::PanCardView.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::Kakemons.Droid.Resource.Style.Base_V7_Theme_AppCompat;
 			global::PanCardView.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Kakemons.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
 			global::PanCardView.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Kakemons.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
@@ -1487,11 +1822,18 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Kakemons.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::PanCardView.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Kakemons.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
 			global::PanCardView.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::Kakemons.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip = global::Kakemons.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::Kakemons.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::PanCardView.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::Kakemons.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
 			global::PanCardView.Droid.Resource.Style.CardView = global::Kakemons.Droid.Resource.Style.CardView;
 			global::PanCardView.Droid.Resource.Style.CardView_Dark = global::Kakemons.Droid.Resource.Style.CardView_Dark;
 			global::PanCardView.Droid.Resource.Style.CardView_Light = global::Kakemons.Droid.Resource.Style.CardView_Light;
 			global::PanCardView.Droid.Resource.Style.Platform_AppCompat = global::Kakemons.Droid.Resource.Style.Platform_AppCompat;
 			global::PanCardView.Droid.Resource.Style.Platform_AppCompat_Light = global::Kakemons.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.Platform_MaterialComponents = global::Kakemons.Droid.Resource.Style.Platform_MaterialComponents;
+			global::PanCardView.Droid.Resource.Style.Platform_MaterialComponents_Dialog = global::Kakemons.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Platform_MaterialComponents_Light = global::Kakemons.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::PanCardView.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::Kakemons.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
 			global::PanCardView.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Kakemons.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
 			global::PanCardView.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Kakemons.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
 			global::PanCardView.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Kakemons.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
@@ -1505,7 +1847,10 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Kakemons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
 			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Kakemons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
 			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Kakemons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::Kakemons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::Kakemons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
 			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Kakemons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::Kakemons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
 			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Kakemons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
 			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Kakemons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
 			global::PanCardView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Kakemons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
@@ -1576,9 +1921,25 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Counter = global::Kakemons.Droid.Resource.Style.TextAppearance_Design_Counter;
 			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Kakemons.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
 			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Error = global::Kakemons.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_HelperText = global::Kakemons.Droid.Resource.Style.TextAppearance_Design_HelperText;
 			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Hint = global::Kakemons.Droid.Resource.Style.TextAppearance_Design_Hint;
 			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Kakemons.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
 			global::PanCardView.Droid.Resource.Style.TextAppearance_Design_Tab = global::Kakemons.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::Kakemons.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::Kakemons.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Button = global::Kakemons.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption = global::Kakemons.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip = global::Kakemons.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::Kakemons.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::Kakemons.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::Kakemons.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::Kakemons.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::Kakemons.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::Kakemons.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline = global::Kakemons.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::Kakemons.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::Kakemons.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::PanCardView.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab = global::Kakemons.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
 			global::PanCardView.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::Kakemons.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
 			global::PanCardView.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::Kakemons.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
 			global::PanCardView.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::Kakemons.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
@@ -1612,6 +1973,27 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Kakemons.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
 			global::PanCardView.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::Kakemons.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
 			global::PanCardView.Droid.Resource.Style.Theme_Design_NoActionBar = global::Kakemons.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Bridge = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Dialog = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::PanCardView.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::Kakemons.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
 			global::PanCardView.Droid.Resource.Style.Theme_MediaRouter = global::Kakemons.Droid.Resource.Style.Theme_MediaRouter;
 			global::PanCardView.Droid.Resource.Style.Theme_MediaRouter_Light = global::Kakemons.Droid.Resource.Style.Theme_MediaRouter_Light;
 			global::PanCardView.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::Kakemons.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
@@ -1623,6 +2005,18 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Kakemons.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::PanCardView.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Kakemons.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::PanCardView.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::Kakemons.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents = global::Kakemons.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::Kakemons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::Kakemons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::Kakemons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::Kakemons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::Kakemons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::Kakemons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::Kakemons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::Kakemons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Kakemons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::Kakemons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Kakemons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
 			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::Kakemons.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
 			global::PanCardView.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::Kakemons.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
 			global::PanCardView.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::Kakemons.Droid.Resource.Style.Widget_AppCompat_ActionBar;
@@ -1709,8 +2103,45 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Style.Widget_Design_Snackbar = global::Kakemons.Droid.Resource.Style.Widget_Design_Snackbar;
 			global::PanCardView.Droid.Resource.Style.Widget_Design_TabLayout = global::Kakemons.Droid.Resource.Style.Widget_Design_TabLayout;
 			global::PanCardView.Droid.Resource.Style.Widget_Design_TextInputLayout = global::Kakemons.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_CardView = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_NavigationView = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Snackbar = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TabLayout = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::PanCardView.Droid.Resource.Style.Widget_MaterialComponents_Toolbar = global::Kakemons.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
 			global::PanCardView.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::Kakemons.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
 			global::PanCardView.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::Kakemons.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::PanCardView.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::Kakemons.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::PanCardView.Droid.Resource.Styleable.ActionBar = global::Kakemons.Droid.Resource.Styleable.ActionBar;
 			global::PanCardView.Droid.Resource.Styleable.ActionBar_background = global::Kakemons.Droid.Resource.Styleable.ActionBar_background;
 			global::PanCardView.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::Kakemons.Droid.Resource.Styleable.ActionBar_backgroundSplit;
@@ -1758,21 +2189,40 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Kakemons.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
 			global::PanCardView.Droid.Resource.Styleable.AlertDialog = global::Kakemons.Droid.Resource.Styleable.AlertDialog;
 			global::PanCardView.Droid.Resource.Styleable.AlertDialog_android_layout = global::Kakemons.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::PanCardView.Droid.Resource.Styleable.AlertDialog_buttonIconDimen = global::Kakemons.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
 			global::PanCardView.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Kakemons.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
 			global::PanCardView.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::Kakemons.Droid.Resource.Styleable.AlertDialog_listItemLayout;
 			global::PanCardView.Droid.Resource.Styleable.AlertDialog_listLayout = global::Kakemons.Droid.Resource.Styleable.AlertDialog_listLayout;
 			global::PanCardView.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Kakemons.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
 			global::PanCardView.Droid.Resource.Styleable.AlertDialog_showTitle = global::Kakemons.Droid.Resource.Styleable.AlertDialog_showTitle;
 			global::PanCardView.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Kakemons.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat = global::Kakemons.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::Kakemons.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::Kakemons.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::Kakemons.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::Kakemons.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::Kakemons.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::Kakemons.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableItem = global::Kakemons.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::Kakemons.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::Kakemons.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition = global::Kakemons.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::Kakemons.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::Kakemons.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::Kakemons.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::PanCardView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::Kakemons.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
 			global::PanCardView.Droid.Resource.Styleable.AppBarLayout = global::Kakemons.Droid.Resource.Styleable.AppBarLayout;
 			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_android_background = global::Kakemons.Droid.Resource.Styleable.AppBarLayout_android_background;
 			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::Kakemons.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
 			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::Kakemons.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
 			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_elevation = global::Kakemons.Droid.Resource.Styleable.AppBarLayout_elevation;
 			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_expanded = global::Kakemons.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_liftOnScroll = global::Kakemons.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
 			global::PanCardView.Droid.Resource.Styleable.AppBarLayoutStates = global::Kakemons.Droid.Resource.Styleable.AppBarLayoutStates;
 			global::PanCardView.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Kakemons.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
 			global::PanCardView.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Kakemons.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable = global::Kakemons.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::PanCardView.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted = global::Kakemons.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
 			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_Layout = global::Kakemons.Droid.Resource.Styleable.AppBarLayout_Layout;
 			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Kakemons.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
 			global::PanCardView.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Kakemons.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
@@ -1801,7 +2251,10 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Kakemons.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Kakemons.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Kakemons.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Kakemons.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::Kakemons.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::Kakemons.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_lineHeight = global::Kakemons.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::Kakemons.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
@@ -1863,6 +2316,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
@@ -1913,6 +2367,7 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
@@ -1923,13 +2378,26 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::PanCardView.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Kakemons.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar = global::Kakemons.Droid.Resource.Styleable.BottomAppBar;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_backgroundTint = global::Kakemons.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::Kakemons.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin = global::Kakemons.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::Kakemons.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::Kakemons.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::PanCardView.Droid.Resource.Styleable.BottomAppBar_hideOnScroll = global::Kakemons.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
 			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView = global::Kakemons.Droid.Resource.Styleable.BottomNavigationView;
 			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_elevation = global::Kakemons.Droid.Resource.Styleable.BottomNavigationView_elevation;
 			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::Kakemons.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::Kakemons.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemIconSize = global::Kakemons.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
 			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::Kakemons.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::Kakemons.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::Kakemons.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
 			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::Kakemons.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::Kakemons.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
 			global::PanCardView.Droid.Resource.Styleable.BottomNavigationView_menu = global::Kakemons.Droid.Resource.Styleable.BottomNavigationView_menu;
 			global::PanCardView.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::Kakemons.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::PanCardView.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::Kakemons.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
 			global::PanCardView.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Kakemons.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
 			global::PanCardView.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Kakemons.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
 			global::PanCardView.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Kakemons.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
@@ -1949,6 +2417,48 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::Kakemons.Droid.Resource.Styleable.CardView_contentPaddingLeft;
 			global::PanCardView.Droid.Resource.Styleable.CardView_contentPaddingRight = global::Kakemons.Droid.Resource.Styleable.CardView_contentPaddingRight;
 			global::PanCardView.Droid.Resource.Styleable.CardView_contentPaddingTop = global::Kakemons.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::PanCardView.Droid.Resource.Styleable.Chip = global::Kakemons.Droid.Resource.Styleable.Chip;
+			global::PanCardView.Droid.Resource.Styleable.Chip_android_checkable = global::Kakemons.Droid.Resource.Styleable.Chip_android_checkable;
+			global::PanCardView.Droid.Resource.Styleable.Chip_android_ellipsize = global::Kakemons.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::PanCardView.Droid.Resource.Styleable.Chip_android_maxWidth = global::Kakemons.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::PanCardView.Droid.Resource.Styleable.Chip_android_text = global::Kakemons.Droid.Resource.Styleable.Chip_android_text;
+			global::PanCardView.Droid.Resource.Styleable.Chip_android_textAppearance = global::Kakemons.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::PanCardView.Droid.Resource.Styleable.Chip_checkedIcon = global::Kakemons.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::PanCardView.Droid.Resource.Styleable.Chip_checkedIconEnabled = global::Kakemons.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::PanCardView.Droid.Resource.Styleable.Chip_checkedIconVisible = global::Kakemons.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipBackgroundColor = global::Kakemons.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipCornerRadius = global::Kakemons.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipEndPadding = global::Kakemons.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipIcon = global::Kakemons.Droid.Resource.Styleable.Chip_chipIcon;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipIconEnabled = global::Kakemons.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipIconSize = global::Kakemons.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipIconTint = global::Kakemons.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipIconVisible = global::Kakemons.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipMinHeight = global::Kakemons.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipStartPadding = global::Kakemons.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipStrokeColor = global::Kakemons.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::PanCardView.Droid.Resource.Styleable.Chip_chipStrokeWidth = global::Kakemons.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIcon = global::Kakemons.Droid.Resource.Styleable.Chip_closeIcon;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconEnabled = global::Kakemons.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconEndPadding = global::Kakemons.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconSize = global::Kakemons.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconStartPadding = global::Kakemons.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconTint = global::Kakemons.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::PanCardView.Droid.Resource.Styleable.Chip_closeIconVisible = global::Kakemons.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::PanCardView.Droid.Resource.Styleable.Chip_hideMotionSpec = global::Kakemons.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::PanCardView.Droid.Resource.Styleable.Chip_iconEndPadding = global::Kakemons.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_iconStartPadding = global::Kakemons.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_rippleColor = global::Kakemons.Droid.Resource.Styleable.Chip_rippleColor;
+			global::PanCardView.Droid.Resource.Styleable.Chip_showMotionSpec = global::Kakemons.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::PanCardView.Droid.Resource.Styleable.Chip_textEndPadding = global::Kakemons.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::PanCardView.Droid.Resource.Styleable.Chip_textStartPadding = global::Kakemons.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup = global::Kakemons.Droid.Resource.Styleable.ChipGroup;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_checkedChip = global::Kakemons.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_chipSpacing = global::Kakemons.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::Kakemons.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical = global::Kakemons.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_singleLine = global::Kakemons.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::PanCardView.Droid.Resource.Styleable.ChipGroup_singleSelection = global::Kakemons.Droid.Resource.Styleable.ChipGroup_singleSelection;
 			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout = global::Kakemons.Droid.Resource.Styleable.CollapsingToolbarLayout;
 			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Kakemons.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
 			global::PanCardView.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Kakemons.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
@@ -2005,12 +2515,20 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Kakemons.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
 			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::Kakemons.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
 			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_elevation = global::Kakemons.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize = global::Kakemons.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
 			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::Kakemons.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::Kakemons.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::Kakemons.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_maxImageSize = global::Kakemons.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
 			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Kakemons.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
 			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::Kakemons.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec = global::Kakemons.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
 			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Kakemons.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
 			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Kakemons.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
 			global::PanCardView.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Kakemons.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::PanCardView.Droid.Resource.Styleable.FlowLayout = global::Kakemons.Droid.Resource.Styleable.FlowLayout;
+			global::PanCardView.Droid.Resource.Styleable.FlowLayout_itemSpacing = global::Kakemons.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::PanCardView.Droid.Resource.Styleable.FlowLayout_lineSpacing = global::Kakemons.Droid.Resource.Styleable.FlowLayout_lineSpacing;
 			global::PanCardView.Droid.Resource.Styleable.FontFamily = global::Kakemons.Droid.Resource.Styleable.FontFamily;
 			global::PanCardView.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::Kakemons.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
 			global::PanCardView.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::Kakemons.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
@@ -2021,14 +2539,34 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont = global::Kakemons.Droid.Resource.Styleable.FontFamilyFont;
 			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_android_font = global::Kakemons.Droid.Resource.Styleable.FontFamilyFont_android_font;
 			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Kakemons.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Kakemons.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
 			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Kakemons.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Kakemons.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
 			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_font = global::Kakemons.Droid.Resource.Styleable.FontFamilyFont_font;
 			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::Kakemons.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Kakemons.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
 			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::Kakemons.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::PanCardView.Droid.Resource.Styleable.FontFamilyFont_ttcIndex = global::Kakemons.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
 			global::PanCardView.Droid.Resource.Styleable.ForegroundLinearLayout = global::Kakemons.Droid.Resource.Styleable.ForegroundLinearLayout;
 			global::PanCardView.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Kakemons.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::PanCardView.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Kakemons.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
 			global::PanCardView.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Kakemons.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor = global::Kakemons.Droid.Resource.Styleable.GradientColor;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_centerColor = global::Kakemons.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_centerX = global::Kakemons.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_centerY = global::Kakemons.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_endColor = global::Kakemons.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_endX = global::Kakemons.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_endY = global::Kakemons.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_gradientRadius = global::Kakemons.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_startColor = global::Kakemons.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_startX = global::Kakemons.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_startY = global::Kakemons.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_tileMode = global::Kakemons.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::PanCardView.Droid.Resource.Styleable.GradientColor_android_type = global::Kakemons.Droid.Resource.Styleable.GradientColor_android_type;
+			global::PanCardView.Droid.Resource.Styleable.GradientColorItem = global::Kakemons.Droid.Resource.Styleable.GradientColorItem;
+			global::PanCardView.Droid.Resource.Styleable.GradientColorItem_android_color = global::Kakemons.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::PanCardView.Droid.Resource.Styleable.GradientColorItem_android_offset = global::Kakemons.Droid.Resource.Styleable.GradientColorItem_android_offset;
 			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat = global::Kakemons.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Kakemons.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::PanCardView.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Kakemons.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -2047,6 +2585,59 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Styleable.ListPopupWindow = global::Kakemons.Droid.Resource.Styleable.ListPopupWindow;
 			global::PanCardView.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Kakemons.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::PanCardView.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Kakemons.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton = global::Kakemons.Droid.Resource.Styleable.MaterialButton;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_android_insetBottom = global::Kakemons.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_android_insetLeft = global::Kakemons.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_android_insetRight = global::Kakemons.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_android_insetTop = global::Kakemons.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_backgroundTint = global::Kakemons.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_backgroundTintMode = global::Kakemons.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_cornerRadius = global::Kakemons.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_icon = global::Kakemons.Droid.Resource.Styleable.MaterialButton_icon;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_iconGravity = global::Kakemons.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_iconPadding = global::Kakemons.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_iconSize = global::Kakemons.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_iconTint = global::Kakemons.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_iconTintMode = global::Kakemons.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_rippleColor = global::Kakemons.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_strokeColor = global::Kakemons.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::PanCardView.Droid.Resource.Styleable.MaterialButton_strokeWidth = global::Kakemons.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::PanCardView.Droid.Resource.Styleable.MaterialCardView = global::Kakemons.Droid.Resource.Styleable.MaterialCardView;
+			global::PanCardView.Droid.Resource.Styleable.MaterialCardView_strokeColor = global::Kakemons.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::PanCardView.Droid.Resource.Styleable.MaterialCardView_strokeWidth = global::Kakemons.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::PanCardView.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::Kakemons.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
 			global::PanCardView.Droid.Resource.Styleable.MediaRouteButton = global::Kakemons.Droid.Resource.Styleable.MediaRouteButton;
 			global::PanCardView.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::Kakemons.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
 			global::PanCardView.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::Kakemons.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
@@ -2100,6 +2691,8 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Styleable.NavigationView_elevation = global::Kakemons.Droid.Resource.Styleable.NavigationView_elevation;
 			global::PanCardView.Droid.Resource.Styleable.NavigationView_headerLayout = global::Kakemons.Droid.Resource.Styleable.NavigationView_headerLayout;
 			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemBackground = global::Kakemons.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding = global::Kakemons.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemIconPadding = global::Kakemons.Droid.Resource.Styleable.NavigationView_itemIconPadding;
 			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemIconTint = global::Kakemons.Droid.Resource.Styleable.NavigationView_itemIconTint;
 			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::Kakemons.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
 			global::PanCardView.Droid.Resource.Styleable.NavigationView_itemTextColor = global::Kakemons.Droid.Resource.Styleable.NavigationView_itemTextColor;
@@ -2147,6 +2740,9 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Styleable.SearchView_submitBackground = global::Kakemons.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::PanCardView.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::Kakemons.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::PanCardView.Droid.Resource.Styleable.SearchView_voiceIcon = global::Kakemons.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::PanCardView.Droid.Resource.Styleable.Snackbar = global::Kakemons.Droid.Resource.Styleable.Snackbar;
+			global::PanCardView.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle = global::Kakemons.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::PanCardView.Droid.Resource.Styleable.Snackbar_snackbarStyle = global::Kakemons.Droid.Resource.Styleable.Snackbar_snackbarStyle;
 			global::PanCardView.Droid.Resource.Styleable.SnackbarLayout = global::Kakemons.Droid.Resource.Styleable.SnackbarLayout;
 			global::PanCardView.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Kakemons.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
 			global::PanCardView.Droid.Resource.Styleable.SnackbarLayout_elevation = global::Kakemons.Droid.Resource.Styleable.SnackbarLayout_elevation;
@@ -2157,6 +2753,15 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Styleable.Spinner_android_popupBackground = global::Kakemons.Droid.Resource.Styleable.Spinner_android_popupBackground;
 			global::PanCardView.Droid.Resource.Styleable.Spinner_android_prompt = global::Kakemons.Droid.Resource.Styleable.Spinner_android_prompt;
 			global::PanCardView.Droid.Resource.Styleable.Spinner_popupTheme = global::Kakemons.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable = global::Kakemons.Droid.Resource.Styleable.StateListDrawable;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_constantSize = global::Kakemons.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_dither = global::Kakemons.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::Kakemons.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::Kakemons.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::Kakemons.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawable_android_visible = global::Kakemons.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawableItem = global::Kakemons.Droid.Resource.Styleable.StateListDrawableItem;
+			global::PanCardView.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::Kakemons.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
 			global::PanCardView.Droid.Resource.Styleable.SwitchCompat = global::Kakemons.Droid.Resource.Styleable.SwitchCompat;
 			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::Kakemons.Droid.Resource.Styleable.SwitchCompat_android_textOff;
 			global::PanCardView.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::Kakemons.Droid.Resource.Styleable.SwitchCompat_android_textOn;
@@ -2180,8 +2785,15 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabBackground = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabBackground;
 			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabContentStart = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabContentStart;
 			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabGravity = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIconTint = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIconTintMode = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicator = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
 			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
 			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabInlineLabel = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
 			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
 			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabMinWidth;
 			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabMode = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabMode;
@@ -2190,9 +2802,11 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
 			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
 			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabRippleColor = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabRippleColor;
 			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
 			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
 			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabTextColor = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::PanCardView.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple = global::Kakemons.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
 			global::PanCardView.Droid.Resource.Styleable.TextAppearance = global::Kakemons.Droid.Resource.Styleable.TextAppearance;
 			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::Kakemons.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
 			global::PanCardView.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::Kakemons.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
@@ -2210,12 +2824,24 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Styleable.TextInputLayout = global::Kakemons.Droid.Resource.Styleable.TextInputLayout;
 			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_android_hint = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
 			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
 			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
 			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
 			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
 			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
 			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_helperText = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
 			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
 			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
 			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
@@ -2224,6 +2850,10 @@ namespace Kakemons.Droid
 			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
 			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
 			global::PanCardView.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Kakemons.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::PanCardView.Droid.Resource.Styleable.ThemeEnforcement = global::Kakemons.Droid.Resource.Styleable.ThemeEnforcement;
+			global::PanCardView.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::Kakemons.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::PanCardView.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::Kakemons.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::PanCardView.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::Kakemons.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
 			global::PanCardView.Droid.Resource.Styleable.Toolbar = global::Kakemons.Droid.Resource.Styleable.Toolbar;
 			global::PanCardView.Droid.Resource.Styleable.Toolbar_android_gravity = global::Kakemons.Droid.Resource.Styleable.Toolbar_android_gravity;
 			global::PanCardView.Droid.Resource.Styleable.Toolbar_android_minHeight = global::Kakemons.Droid.Resource.Styleable.Toolbar_android_minHeight;
@@ -5016,17 +5646,17 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x7F010010
 			public const int design_snackbar_out = 2130771984;
 			
-			// aapt resource value: 0x7F110018
-			public const int EnterFromLeft = 2131820568;
+			// aapt resource value: 0x7F120018
+			public const int EnterFromLeft = 2131886104;
 			
-			// aapt resource value: 0x7F110019
-			public const int EnterFromRight = 2131820569;
+			// aapt resource value: 0x7F120019
+			public const int EnterFromRight = 2131886105;
 			
-			// aapt resource value: 0x7F110020
-			public const int ExitToLeft = 2131820576;
+			// aapt resource value: 0x7F120020
+			public const int ExitToLeft = 2131886112;
 			
-			// aapt resource value: 0x7F110021
-			public const int ExitToRight = 2131820577;
+			// aapt resource value: 0x7F120021
+			public const int ExitToRight = 2131886113;
 			
 			static Animation()
 			{
@@ -5214,41 +5844,41 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x1
 			public const int adUnitId = 1;
 			
-			// aapt resource value: 0x7F080005
-			public const int ahBarColor = 2131230725;
+			// aapt resource value: 0x7F100005
+			public const int ahBarColor = 2131755013;
 			
-			// aapt resource value: 0x7F080013
-			public const int ahBarLength = 2131230739;
+			// aapt resource value: 0x7F100013
+			public const int ahBarLength = 2131755027;
 			
-			// aapt resource value: 0x7F080012
-			public const int ahBarWidth = 2131230738;
+			// aapt resource value: 0x7F100012
+			public const int ahBarWidth = 2131755026;
 			
-			// aapt resource value: 0x7F080010
-			public const int ahCircleColor = 2131230736;
+			// aapt resource value: 0x7F100010
+			public const int ahCircleColor = 2131755024;
 			
-			// aapt resource value: 0x7F080009
-			public const int ahDelayMillis = 2131230729;
+			// aapt resource value: 0x7F100009
+			public const int ahDelayMillis = 2131755017;
 			
-			// aapt resource value: 0x7F080011
-			public const int ahRadius = 2131230737;
+			// aapt resource value: 0x7F100011
+			public const int ahRadius = 2131755025;
 			
-			// aapt resource value: 0x7F080006
-			public const int ahRimColor = 2131230726;
+			// aapt resource value: 0x7F100006
+			public const int ahRimColor = 2131755014;
 			
-			// aapt resource value: 0x7F080007
-			public const int ahRimWidth = 2131230727;
+			// aapt resource value: 0x7F100007
+			public const int ahRimWidth = 2131755015;
 			
-			// aapt resource value: 0x7F080008
-			public const int ahSpinSpeed = 2131230728;
+			// aapt resource value: 0x7F100008
+			public const int ahSpinSpeed = 2131755016;
 			
-			// aapt resource value: 0x7F080002
-			public const int ahText = 2131230722;
+			// aapt resource value: 0x7F100002
+			public const int ahText = 2131755010;
 			
-			// aapt resource value: 0x7F080003
-			public const int ahTextColor = 2131230723;
+			// aapt resource value: 0x7F100003
+			public const int ahTextColor = 2131755011;
 			
-			// aapt resource value: 0x7F080004
-			public const int ahTextSize = 2131230724;
+			// aapt resource value: 0x7F100004
+			public const int ahTextSize = 2131755012;
 			
 			// aapt resource value: 0x7F040023
 			public const int alertDialogButtonGroupStyle = 2130968611;
@@ -5409,8 +6039,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x7F040054
 			public const int buttonPanelSideLayout = 2130968660;
 			
-			// aapt resource value: 0x7F080508
-			public const int buttonSize = 2131232008;
+			// aapt resource value: 0x7F100508
+			public const int buttonSize = 2131756296;
 			
 			// aapt resource value: 0x7F040055
 			public const int buttonStyle = 2130968661;
@@ -5640,8 +6270,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x7F040077
 			public const int chipStyle = 2130968695;
 			
-			// aapt resource value: 0x7F080507
-			public const int circleCrop = 2131232007;
+			// aapt resource value: 0x7F100507
+			public const int circleCrop = 2131756295;
 			
 			// aapt resource value: 0x7F040078
 			public const int closeIcon = 2130968696;
@@ -5709,8 +6339,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x7F04008D
 			public const int colorPrimaryDark = 2130968717;
 			
-			// aapt resource value: 0x7F080509
-			public const int colorScheme = 2131232009;
+			// aapt resource value: 0x7F100509
+			public const int colorScheme = 2131756297;
 			
 			// aapt resource value: 0x7F04008E
 			public const int colorSecondary = 2130968718;
@@ -6060,11 +6690,11 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x7F0400F4
 			public const int iconTintMode = 2130968820;
 			
-			// aapt resource value: 0x7F080506
-			public const int imageAspectRatio = 2131232006;
+			// aapt resource value: 0x7F100506
+			public const int imageAspectRatio = 2131756294;
 			
-			// aapt resource value: 0x7F080505
-			public const int imageAspectRatioAdjust = 2131232005;
+			// aapt resource value: 0x7F100505
+			public const int imageAspectRatioAdjust = 2131756293;
 			
 			// aapt resource value: 0x7F0400F6
 			public const int imageButtonStyle = 2130968822;
@@ -6435,8 +7065,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x1
 			public const int schemaOrgType = 1;
 			
-			// aapt resource value: 0x7F080510
-			public const int scopeUris = 2131232016;
+			// aapt resource value: 0x7F100510
+			public const int scopeUris = 2131756304;
 			
 			// aapt resource value: 0x7F04014F
 			public const int scrimAnimationDuration = 2130968911;
@@ -7058,6 +7688,15 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x7F060018
 			public const int abc_tint_switch_track = 2131099672;
 			
+			// aapt resource value: 0x7F050005
+			public const int accentColor = 2131034117;
+			
+			// aapt resource value: 0x7F050006
+			public const int accentDarkColor = 2131034118;
+			
+			// aapt resource value: 0x7F050007
+			public const int accentLightColor = 2131034119;
+			
 			// aapt resource value: 0x7F060019
 			public const int accent_material_dark = 2131099673;
 			
@@ -7157,47 +7796,38 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x1
 			public const int cast_libraries_material_featurehighlight_text_header_color = 1;
 			
-			// aapt resource value: 0x7F050005
-			public const int colorAccent = 2131034117;
-			
-			// aapt resource value: 0x7F050003
-			public const int colorPrimary = 2131034115;
-			
-			// aapt resource value: 0x7F050004
-			public const int colorPrimaryDark = 2131034116;
-			
-			// aapt resource value: 0x7F050138
-			public const int common_google_signin_btn_text_dark = 2131034424;
-			
-			// aapt resource value: 0x7F050141
-			public const int common_google_signin_btn_text_dark_default = 2131034433;
-			
-			// aapt resource value: 0x7F050142
-			public const int common_google_signin_btn_text_dark_disabled = 2131034434;
-			
 			// aapt resource value: 0x7F050143
-			public const int common_google_signin_btn_text_dark_focused = 2131034435;
-			
-			// aapt resource value: 0x7F050144
-			public const int common_google_signin_btn_text_dark_pressed = 2131034436;
-			
-			// aapt resource value: 0x7F050139
-			public const int common_google_signin_btn_text_light = 2131034425;
-			
-			// aapt resource value: 0x7F050145
-			public const int common_google_signin_btn_text_light_default = 2131034437;
+			public const int common_google_signin_btn_text_dark = 2131034435;
 			
 			// aapt resource value: 0x7F050146
-			public const int common_google_signin_btn_text_light_disabled = 2131034438;
+			public const int common_google_signin_btn_text_dark_default = 2131034438;
 			
 			// aapt resource value: 0x7F050147
-			public const int common_google_signin_btn_text_light_focused = 2131034439;
+			public const int common_google_signin_btn_text_dark_disabled = 2131034439;
 			
 			// aapt resource value: 0x7F050148
-			public const int common_google_signin_btn_text_light_pressed = 2131034440;
+			public const int common_google_signin_btn_text_dark_focused = 2131034440;
 			
-			// aapt resource value: 0x7F050140
-			public const int common_google_signin_btn_tint = 2131034432;
+			// aapt resource value: 0x7F050149
+			public const int common_google_signin_btn_text_dark_pressed = 2131034441;
+			
+			// aapt resource value: 0x7F050144
+			public const int common_google_signin_btn_text_light = 2131034436;
+			
+			// aapt resource value: 0x7F050150
+			public const int common_google_signin_btn_text_light_default = 2131034448;
+			
+			// aapt resource value: 0x7F050151
+			public const int common_google_signin_btn_text_light_disabled = 2131034449;
+			
+			// aapt resource value: 0x7F050152
+			public const int common_google_signin_btn_text_light_focused = 2131034450;
+			
+			// aapt resource value: 0x7F050153
+			public const int common_google_signin_btn_text_light_pressed = 2131034451;
+			
+			// aapt resource value: 0x7F050145
+			public const int common_google_signin_btn_tint = 2131034437;
 			
 			// aapt resource value: 0x7F06002B
 			public const int design_bottom_navigation_shadow_color = 2131099691;
@@ -7268,8 +7898,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x7F060041
 			public const int highlighted_text_material_light = 2131099713;
 			
-			// aapt resource value: 0x7F050002
-			public const int launcher_background = 2131034114;
+			// aapt resource value: 0x7F050010
+			public const int ic_launcher_background = 2131034128;
 			
 			// aapt resource value: 0x7F060042
 			public const int material_blue_grey_800 = 2131099714;
@@ -7412,6 +8042,18 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x1
 			public const int place_autocomplete_separator = 1;
 			
+			// aapt resource value: 0x7F050002
+			public const int primaryColor = 2131034114;
+			
+			// aapt resource value: 0x7F050003
+			public const int primaryDarkColor = 2131034115;
+			
+			// aapt resource value: 0x7F050004
+			public const int primaryLightColor = 2131034116;
+			
+			// aapt resource value: 0x7F050008
+			public const int primaryTextColor = 2131034120;
+			
 			// aapt resource value: 0x7F06006A
 			public const int primary_dark_material_dark = 2131099754;
 			
@@ -7441,6 +8083,9 @@ namespace Kakemons.Droid
 			
 			// aapt resource value: 0x7F060003
 			public const int ripple_material_light = 2131099651;
+			
+			// aapt resource value: 0x7F050009
+			public const int secondaryTextColor = 2131034121;
 			
 			// aapt resource value: 0x7F060074
 			public const int secondary_text_default_material_dark = 2131099764;
@@ -8054,6 +8699,21 @@ namespace Kakemons.Droid
 			
 			// aapt resource value: 0x7F080090
 			public const int item_touch_helper_swipe_escape_velocity = 2131230864;
+			
+			// aapt resource value: 0x7F060006
+			public const int margin_huge = 2131099654;
+			
+			// aapt resource value: 0x7F060005
+			public const int margin_large = 2131099653;
+			
+			// aapt resource value: 0x7F060004
+			public const int margin_medium = 2131099652;
+			
+			// aapt resource value: 0x7F060003
+			public const int margin_small = 2131099651;
+			
+			// aapt resource value: 0x7F060002
+			public const int margin_tiny = 2131099650;
 			
 			// aapt resource value: 0x7F080062
 			public const int mr_controller_volume_group_list_item_height = 2131230818;
@@ -8761,62 +9421,62 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x1
 			public const int cast_skip_ad_label_border = 1;
 			
+			// aapt resource value: 0x7F010346
+			public const int common_full_open_on_phone = 2130772806;
+			
 			// aapt resource value: 0x7F010332
-			public const int common_full_open_on_phone = 2130772786;
-			
-			// aapt resource value: 0x7F010318
-			public const int common_google_signin_btn_icon_dark = 2130772760;
-			
-			// aapt resource value: 0x7F010319
-			public const int common_google_signin_btn_icon_dark_focused = 2130772761;
-			
-			// aapt resource value: 0x7F010320
-			public const int common_google_signin_btn_icon_dark_normal = 2130772768;
+			public const int common_google_signin_btn_icon_dark = 2130772786;
 			
 			// aapt resource value: 0x7F010333
-			public const int common_google_signin_btn_icon_dark_normal_background = 2130772787;
-			
-			// aapt resource value: 0x7F010321
-			public const int common_google_signin_btn_icon_disabled = 2130772769;
-			
-			// aapt resource value: 0x7F010322
-			public const int common_google_signin_btn_icon_light = 2130772770;
-			
-			// aapt resource value: 0x7F010323
-			public const int common_google_signin_btn_icon_light_focused = 2130772771;
-			
-			// aapt resource value: 0x7F010324
-			public const int common_google_signin_btn_icon_light_normal = 2130772772;
+			public const int common_google_signin_btn_icon_dark_focused = 2130772787;
 			
 			// aapt resource value: 0x7F010334
-			public const int common_google_signin_btn_icon_light_normal_background = 2130772788;
+			public const int common_google_signin_btn_icon_dark_normal = 2130772788;
 			
-			// aapt resource value: 0x7F010325
-			public const int common_google_signin_btn_text_dark = 2130772773;
-			
-			// aapt resource value: 0x7F010326
-			public const int common_google_signin_btn_text_dark_focused = 2130772774;
-			
-			// aapt resource value: 0x7F010327
-			public const int common_google_signin_btn_text_dark_normal = 2130772775;
+			// aapt resource value: 0x7F010347
+			public const int common_google_signin_btn_icon_dark_normal_background = 2130772807;
 			
 			// aapt resource value: 0x7F010335
-			public const int common_google_signin_btn_text_dark_normal_background = 2130772789;
-			
-			// aapt resource value: 0x7F010328
-			public const int common_google_signin_btn_text_disabled = 2130772776;
-			
-			// aapt resource value: 0x7F010329
-			public const int common_google_signin_btn_text_light = 2130772777;
-			
-			// aapt resource value: 0x7F010330
-			public const int common_google_signin_btn_text_light_focused = 2130772784;
-			
-			// aapt resource value: 0x7F010331
-			public const int common_google_signin_btn_text_light_normal = 2130772785;
+			public const int common_google_signin_btn_icon_disabled = 2130772789;
 			
 			// aapt resource value: 0x7F010336
-			public const int common_google_signin_btn_text_light_normal_background = 2130772790;
+			public const int common_google_signin_btn_icon_light = 2130772790;
+			
+			// aapt resource value: 0x7F010337
+			public const int common_google_signin_btn_icon_light_focused = 2130772791;
+			
+			// aapt resource value: 0x7F010338
+			public const int common_google_signin_btn_icon_light_normal = 2130772792;
+			
+			// aapt resource value: 0x7F010348
+			public const int common_google_signin_btn_icon_light_normal_background = 2130772808;
+			
+			// aapt resource value: 0x7F010339
+			public const int common_google_signin_btn_text_dark = 2130772793;
+			
+			// aapt resource value: 0x7F010340
+			public const int common_google_signin_btn_text_dark_focused = 2130772800;
+			
+			// aapt resource value: 0x7F010341
+			public const int common_google_signin_btn_text_dark_normal = 2130772801;
+			
+			// aapt resource value: 0x7F010349
+			public const int common_google_signin_btn_text_dark_normal_background = 2130772809;
+			
+			// aapt resource value: 0x7F010342
+			public const int common_google_signin_btn_text_disabled = 2130772802;
+			
+			// aapt resource value: 0x7F010343
+			public const int common_google_signin_btn_text_light = 2130772803;
+			
+			// aapt resource value: 0x7F010344
+			public const int common_google_signin_btn_text_light_focused = 2130772804;
+			
+			// aapt resource value: 0x7F010345
+			public const int common_google_signin_btn_text_light_normal = 2130772805;
+			
+			// aapt resource value: 0x7F010350
+			public const int common_google_signin_btn_text_light_normal_background = 2130772816;
 			
 			// aapt resource value: 0x7F090057
 			public const int design_bottom_navigation_item_background = 2131296343;
@@ -8836,11 +9496,35 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x7F09005C
 			public const int design_snackbar_background = 2131296348;
 			
-			// aapt resource value: 0x7F010337
-			public const int googleg_disabled_color_18 = 2130772791;
+			// aapt resource value: 0x7F010002
+			public const int fblogo_small = 2130771970;
 			
-			// aapt resource value: 0x7F010338
-			public const int googleg_standard_color_18 = 2130772792;
+			// aapt resource value: 0x7F010003
+			public const int gear = 2130771971;
+			
+			// aapt resource value: 0x7F010351
+			public const int googleg_disabled_color_18 = 2130772817;
+			
+			// aapt resource value: 0x7F010352
+			public const int googleg_standard_color_18 = 2130772818;
+			
+			// aapt resource value: 0x7F010004
+			public const int google_logo_small = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int grid = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int heart = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int home = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int homeflyout = 2130771976;
+			
+			// aapt resource value: 0x7F010016
+			public const int iconXamarin = 2130771990;
 			
 			// aapt resource value: 0x7F090055
 			public const int ic_audiotrack_dark = 2131296341;
@@ -8854,8 +9538,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x7F090058
 			public const int ic_dialog_close_light = 2131296344;
 			
-			// aapt resource value: 0x7F010007
-			public const int ic_errorstatus = 2130771975;
+			// aapt resource value: 0x7F010021
+			public const int ic_errorstatus = 2130772001;
 			
 			// aapt resource value: 0x7F090059
 			public const int ic_group_collapse_00 = 2131296345;
@@ -8952,6 +9636,9 @@ namespace Kakemons.Droid
 			
 			// aapt resource value: 0x7F090078
 			public const int ic_group_expand_15 = 2131296376;
+			
+			// aapt resource value: 0x7F010009
+			public const int ic_launcher_foreground = 2130771977;
 			
 			// aapt resource value: 0x7F090079
 			public const int ic_media_pause_dark = 2131296377;
@@ -9367,6 +10054,9 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x7F09005F
 			public const int ic_mtrl_chip_close_circle = 2131296351;
 			
+			// aapt resource value: 0x7F010017
+			public const int ic_mvvmcross_logo = 2130771991;
+			
 			// aapt resource value: 0x1
 			public const int ic_plusone_medium_off_client = 1;
 			
@@ -9379,8 +10069,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x1
 			public const int ic_plusone_tall_off_client = 1;
 			
-			// aapt resource value: 0x7F010008
-			public const int ic_successstatus = 2130771976;
+			// aapt resource value: 0x7F010022
+			public const int ic_successstatus = 2130772002;
 			
 			// aapt resource value: 0x7F090100
 			public const int ic_vol_type_speaker_dark = 2131296512;
@@ -9504,6 +10194,9 @@ namespace Kakemons.Droid
 			
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
+			
+			// aapt resource value: 0x7F010018
+			public const int photo = 2130771992;
 			
 			// aapt resource value: 0x1
 			public const int places_ic_clear = 1;
@@ -9640,17 +10333,23 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x1
 			public const int quantum_ic_volume_up_white_36 = 1;
 			
-			// aapt resource value: 0x7F010005
-			public const int roundedbg = 2130771973;
+			// aapt resource value: 0x7F010019
+			public const int roundedbg = 2130771993;
 			
-			// aapt resource value: 0x7F010006
-			public const int roundedbgdark = 2130771974;
+			// aapt resource value: 0x7F010020
+			public const int roundedbgdark = 2130772000;
 			
-			// aapt resource value: 0x7F010002
-			public const int tab_about = 2130771970;
+			// aapt resource value: 0x7F010010
+			public const int search = 2130771984;
 			
-			// aapt resource value: 0x7F010003
-			public const int tab_feed = 2130771971;
+			// aapt resource value: 0x7F010011
+			public const int splash_screen = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int tab_about = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int tab_feed = 2130771987;
 			
 			// aapt resource value: 0x7F09006F
 			public const int tooltip_frame_dark = 2131296367;
@@ -9658,8 +10357,11 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x7F090070
 			public const int tooltip_frame_light = 2131296368;
 			
-			// aapt resource value: 0x7F010004
-			public const int xamarin_logo = 2130771972;
+			// aapt resource value: 0x7F010014
+			public const int usercircle = 2130771988;
+			
+			// aapt resource value: 0x7F010015
+			public const int xamarin_logo = 2130771989;
 			
 			static Drawable()
 			{
@@ -11318,6 +12020,15 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x7F150028
 			public const int appbar_scrolling_view_behavior = 2132082728;
 			
+			// aapt resource value: 0x7F070004
+			public const int app_message = 2131165188;
+			
+			// aapt resource value: 0x7F070002
+			public const int app_name = 2131165186;
+			
+			// aapt resource value: 0x7F070003
+			public const int app_welcome_message = 2131165187;
+			
 			// aapt resource value: 0x7F150029
 			public const int bottom_sheet_behavior = 2132082729;
 			
@@ -11447,56 +12158,56 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x7F15002B
 			public const int character_counter_pattern = 2132082731;
 			
-			// aapt resource value: 0x7F090081
-			public const int common_google_play_services_enable_button = 2131296385;
+			// aapt resource value: 0x7F070084
+			public const int common_google_play_services_enable_button = 2131165316;
 			
-			// aapt resource value: 0x7F090082
-			public const int common_google_play_services_enable_text = 2131296386;
+			// aapt resource value: 0x7F070085
+			public const int common_google_play_services_enable_text = 2131165317;
 			
-			// aapt resource value: 0x7F090083
-			public const int common_google_play_services_enable_title = 2131296387;
+			// aapt resource value: 0x7F070086
+			public const int common_google_play_services_enable_title = 2131165318;
 			
-			// aapt resource value: 0x7F090084
-			public const int common_google_play_services_install_button = 2131296388;
+			// aapt resource value: 0x7F070087
+			public const int common_google_play_services_install_button = 2131165319;
 			
-			// aapt resource value: 0x7F090085
-			public const int common_google_play_services_install_text = 2131296389;
+			// aapt resource value: 0x7F070088
+			public const int common_google_play_services_install_text = 2131165320;
 			
-			// aapt resource value: 0x7F090086
-			public const int common_google_play_services_install_title = 2131296390;
+			// aapt resource value: 0x7F070089
+			public const int common_google_play_services_install_title = 2131165321;
 			
-			// aapt resource value: 0x7F090087
-			public const int common_google_play_services_notification_ticker = 2131296391;
+			// aapt resource value: 0x7F070090
+			public const int common_google_play_services_notification_ticker = 2131165328;
 			
 			// aapt resource value: 0x1
 			public const int common_google_play_services_unknown_issue = 1;
 			
-			// aapt resource value: 0x7F090088
-			public const int common_google_play_services_unsupported_text = 2131296392;
+			// aapt resource value: 0x7F070091
+			public const int common_google_play_services_unsupported_text = 2131165329;
 			
-			// aapt resource value: 0x7F090089
-			public const int common_google_play_services_update_button = 2131296393;
+			// aapt resource value: 0x7F070092
+			public const int common_google_play_services_update_button = 2131165330;
 			
-			// aapt resource value: 0x7F090090
-			public const int common_google_play_services_update_text = 2131296400;
+			// aapt resource value: 0x7F070093
+			public const int common_google_play_services_update_text = 2131165331;
 			
-			// aapt resource value: 0x7F090091
-			public const int common_google_play_services_update_title = 2131296401;
+			// aapt resource value: 0x7F070094
+			public const int common_google_play_services_update_title = 2131165332;
 			
-			// aapt resource value: 0x7F090092
-			public const int common_google_play_services_updating_text = 2131296402;
+			// aapt resource value: 0x7F070095
+			public const int common_google_play_services_updating_text = 2131165333;
 			
-			// aapt resource value: 0x7F090093
-			public const int common_google_play_services_wear_update_text = 2131296403;
+			// aapt resource value: 0x7F070096
+			public const int common_google_play_services_wear_update_text = 2131165334;
 			
-			// aapt resource value: 0x7F090094
-			public const int common_open_on_phone = 2131296404;
+			// aapt resource value: 0x7F070097
+			public const int common_open_on_phone = 2131165335;
 			
-			// aapt resource value: 0x7F090095
-			public const int common_signin_button_text = 2131296405;
+			// aapt resource value: 0x7F070098
+			public const int common_signin_button_text = 2131165336;
 			
-			// aapt resource value: 0x7F090096
-			public const int common_signin_button_text_long = 2131296406;
+			// aapt resource value: 0x7F070099
+			public const int common_signin_button_text_long = 2131165337;
 			
 			// aapt resource value: 0x7F15002C
 			public const int fab_transformation_scrim_behavior = 2132082732;
@@ -11513,8 +12224,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x7F15002E
 			public const int hide_bottom_view_on_scroll_behavior = 2132082734;
 			
-			// aapt resource value: 0x7F090002
-			public const int library_name = 2131296258;
+			// aapt resource value: 0x7F070005
+			public const int library_name = 2131165189;
 			
 			// aapt resource value: 0x1
 			public const int license_content_error = 1;
@@ -11691,8 +12402,17 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x7F160006
 			public const int Animation_Design_BottomSheetDialog = 2132148230;
 			
-			// aapt resource value: 0x7F060004
-			public const int AppCompatDialogStyle = 2131099652;
+			// aapt resource value: 0x7F080003
+			public const int AppTheme = 2131230723;
+			
+			// aapt resource value: 0x7F080002
+			public const int AppTheme_Base = 2131230722;
+			
+			// aapt resource value: 0x7F080005
+			public const int AppTheme_Splash = 2131230725;
+			
+			// aapt resource value: 0x7F080004
+			public const int AppTheme_Splash_Base = 2131230724;
 			
 			// aapt resource value: 0x7F160007
 			public const int Base_AlertDialog_AppCompat = 2132148231;
@@ -12278,12 +12998,6 @@ namespace Kakemons.Droid
 			
 			// aapt resource value: 0x1
 			public const int CustomCastTheme = 1;
-			
-			// aapt resource value: 0x7F060002
-			public const int MainTheme = 2131099650;
-			
-			// aapt resource value: 0x7F060003
-			public const int MainTheme_Base = 2131099651;
 			
 			// aapt resource value: 0x7F1600C6
 			public const int Platform_AppCompat = 2132148422;
@@ -13307,11 +14021,11 @@ namespace Kakemons.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F070095
-			public const int ActionBarLayout_android_layout_gravity = 2131165333;
+			// aapt resource value: 0x7F090095
+			public const int ActionBarLayout_android_layout_gravity = 2131296405;
 			
-			// aapt resource value: 0x7F070065
-			public const int ActionBar_background = 2131165285;
+			// aapt resource value: 0x7F090065
+			public const int ActionBar_background = 2131296357;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -13400,8 +14114,8 @@ namespace Kakemons.Droid
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F070097
-			public const int ActionMenuItemView_android_minWidth = 2131165335;
+			// aapt resource value: 0x7F090097
+			public const int ActionMenuItemView_android_minWidth = 2131296407;
 			
 			public static int[] ActionMenuView = new int[] {
 					0};
@@ -13414,8 +14128,8 @@ namespace Kakemons.Droid
 					2130968951,
 					2130969030};
 			
-			// aapt resource value: 0x7F070099
-			public const int ActionMode_background = 2131165337;
+			// aapt resource value: 0x7F090099
+			public const int ActionMode_background = 2131296409;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -13436,8 +14150,8 @@ namespace Kakemons.Droid
 					2130968763,
 					2130968824};
 			
-			// aapt resource value: 0x7F070106
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131165446;
+			// aapt resource value: 0x7F090106
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131296518;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -13447,8 +14161,8 @@ namespace Kakemons.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F070780
-			public const int AdsAttrs_adSize = 2131167104;
+			// aapt resource value: 0x7F090780
+			public const int AdsAttrs_adSize = 2131298176;
 			
 			// aapt resource value: 0x1
 			public const int AdsAttrs_adSizes = 1;
@@ -13466,8 +14180,8 @@ namespace Kakemons.Droid
 					2130968924,
 					2130968925};
 			
-			// aapt resource value: 0x7F070109
-			public const int AlertDialog_android_layout = 2131165449;
+			// aapt resource value: 0x7F090109
+			public const int AlertDialog_android_layout = 2131296521;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonIconDimen = 1;
@@ -13498,8 +14212,8 @@ namespace Kakemons.Droid
 					16843157,
 					16843156};
 			
-			// aapt resource value: 0x7F070743
-			public const int AnimatedStateListDrawableCompat_android_constantSize = 2131167043;
+			// aapt resource value: 0x7F090743
+			public const int AnimatedStateListDrawableCompat_android_constantSize = 2131298115;
 			
 			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableCompat_android_dither = 1;
@@ -13520,8 +14234,8 @@ namespace Kakemons.Droid
 					16843161,
 					16842960};
 			
-			// aapt resource value: 0x7F070750
-			public const int AnimatedStateListDrawableItem_android_drawable = 2131167056;
+			// aapt resource value: 0x7F090750
+			public const int AnimatedStateListDrawableItem_android_drawable = 2131298128;
 			
 			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableItem_android_id = 1;
@@ -13532,8 +14246,8 @@ namespace Kakemons.Droid
 					16843851,
 					16843849};
 			
-			// aapt resource value: 0x7F070753
-			public const int AnimatedStateListDrawableTransition_android_drawable = 2131167059;
+			// aapt resource value: 0x7F090753
+			public const int AnimatedStateListDrawableTransition_android_drawable = 2131298131;
 			
 			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableTransition_android_fromId = 1;
@@ -13558,8 +14272,8 @@ namespace Kakemons.Droid
 					2130968940,
 					2130968941};
 			
-			// aapt resource value: 0x7F070125
-			public const int AppBarLayoutStates_state_collapsed = 2131165477;
+			// aapt resource value: 0x7F090125
+			public const int AppBarLayoutStates_state_collapsed = 2131296549;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
@@ -13570,8 +14284,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x3
 			public const int AppBarLayoutStates_state_lifted = 3;
 			
-			// aapt resource value: 0x7F070118
-			public const int AppBarLayout_android_background = 2131165464;
+			// aapt resource value: 0x7F090118
+			public const int AppBarLayout_android_background = 2131296536;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -13589,8 +14303,8 @@ namespace Kakemons.Droid
 					2130968852,
 					2130968853};
 			
-			// aapt resource value: 0x7F070130
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131165488;
+			// aapt resource value: 0x7F090130
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131296560;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -13604,8 +14318,8 @@ namespace Kakemons.Droid
 					2130969018,
 					2130969019};
 			
-			// aapt resource value: 0x7F070133
-			public const int AppCompatImageView_android_src = 2131165491;
+			// aapt resource value: 0x7F090133
+			public const int AppCompatImageView_android_src = 2131296563;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -13622,8 +14336,8 @@ namespace Kakemons.Droid
 					2130969016,
 					2130969017};
 			
-			// aapt resource value: 0x7F070138
-			public const int AppCompatSeekBar_android_thumb = 2131165496;
+			// aapt resource value: 0x7F090138
+			public const int AppCompatSeekBar_android_thumb = 2131296568;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -13643,8 +14357,8 @@ namespace Kakemons.Droid
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F070143
-			public const int AppCompatTextHelper_android_drawableBottom = 2131165507;
+			// aapt resource value: 0x7F090143
+			public const int AppCompatTextHelper_android_drawableBottom = 2131296579;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -13677,8 +14391,8 @@ namespace Kakemons.Droid
 					2130968855,
 					2130968983};
 			
-			// aapt resource value: 0x7F070151
-			public const int AppCompatTextView_android_textAppearance = 2131165521;
+			// aapt resource value: 0x7F090151
+			public const int AppCompatTextView_android_textAppearance = 2131296593;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -13833,8 +14547,8 @@ namespace Kakemons.Droid
 					2130969052,
 					2130969053};
 			
-			// aapt resource value: 0x7F070163
-			public const int AppCompatTheme_actionBarDivider = 2131165539;
+			// aapt resource value: 0x7F090163
+			public const int AppCompatTheme_actionBarDivider = 2131296611;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -14207,8 +14921,8 @@ namespace Kakemons.Droid
 					2130968775,
 					2130968806};
 			
-			// aapt resource value: 0x7F070285
-			public const int BottomAppBar_backgroundTint = 2131165829;
+			// aapt resource value: 0x7F090285
+			public const int BottomAppBar_backgroundTint = 2131296901;
 			
 			// aapt resource value: 0x1
 			public const int BottomAppBar_fabAlignmentMode = 1;
@@ -14237,8 +14951,8 @@ namespace Kakemons.Droid
 					2130968840,
 					2130968876};
 			
-			// aapt resource value: 0x7F070292
-			public const int BottomNavigationView_elevation = 2131165842;
+			// aapt resource value: 0x7F090292
+			public const int BottomNavigationView_elevation = 2131296914;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -14273,8 +14987,8 @@ namespace Kakemons.Droid
 					2130968636,
 					2130968637};
 			
-			// aapt resource value: 0x7F070303
-			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 2131165955;
+			// aapt resource value: 0x7F090303
+			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 2131297027;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_hideable = 1;
@@ -14288,8 +15002,8 @@ namespace Kakemons.Droid
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F070308
-			public const int ButtonBarLayout_allowStacking = 2131165960;
+			// aapt resource value: 0x7F090308
+			public const int ButtonBarLayout_allowStacking = 2131297032;
 			
 			public static int[] CardView = new int[] {
 					16843072,
@@ -14306,8 +15020,8 @@ namespace Kakemons.Droid
 					2130968731,
 					2130968732};
 			
-			// aapt resource value: 0x7F070310
-			public const int CardView_android_minHeight = 2131165968;
+			// aapt resource value: 0x7F090310
+			public const int CardView_android_minHeight = 2131297040;
 			
 			// aapt resource value: 0x1
 			public const int CardView_android_minWidth = 1;
@@ -14384,8 +15098,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x9
 			public const int CastExpandedController_castRewind30ButtonDrawable = 9;
 			
-			// aapt resource value: 0x7F070793
-			public const int CastExpandedController_castSeekBarProgressDrawable = 2131167123;
+			// aapt resource value: 0x7F090793
+			public const int CastExpandedController_castSeekBarProgressDrawable = 2131298195;
 			
 			// aapt resource value: 0x1
 			public const int CastExpandedController_castSeekBarThumbDrawable = 1;
@@ -14407,8 +15121,8 @@ namespace Kakemons.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F070799
-			public const int CastIntroOverlay_castBackgroundColor = 2131167129;
+			// aapt resource value: 0x7F090799
+			public const int CastIntroOverlay_castBackgroundColor = 2131298201;
 			
 			// aapt resource value: 0x1
 			public const int CastIntroOverlay_castButtonBackgroundColor = 1;
@@ -14500,8 +15214,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x2
 			public const int CastMiniController_castSubtitleTextAppearance = 2;
 			
-			// aapt resource value: 0x7F070824
-			public const int CastMiniController_castTitleTextAppearance = 2131167268;
+			// aapt resource value: 0x7F090824
+			public const int CastMiniController_castTitleTextAppearance = 2131298340;
 			
 			public static int[] Chip = new int[] {
 					16843237,
@@ -14547,8 +15261,8 @@ namespace Kakemons.Droid
 					2130968926,
 					2130968927};
 			
-			// aapt resource value: 0x7F070359
-			public const int ChipGroup_checkedChip = 2131166041;
+			// aapt resource value: 0x7F090359
+			public const int ChipGroup_checkedChip = 2131297113;
 			
 			// aapt resource value: 0x1
 			public const int ChipGroup_chipSpacing = 1;
@@ -14565,8 +15279,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x5
 			public const int ChipGroup_singleSelection = 5;
 			
-			// aapt resource value: 0x7F070324
-			public const int Chip_android_checkable = 2131165988;
+			// aapt resource value: 0x7F090324
+			public const int Chip_android_checkable = 2131297060;
 			
 			// aapt resource value: 0x1
 			public const int Chip_android_ellipsize = 1;
@@ -14685,8 +15399,8 @@ namespace Kakemons.Droid
 					2130969021,
 					2130969031};
 			
-			// aapt resource value: 0x7F070366
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131166054;
+			// aapt resource value: 0x7F090366
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131297126;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -14719,8 +15433,8 @@ namespace Kakemons.Droid
 					2130968847,
 					2130968848};
 			
-			// aapt resource value: 0x7F070383
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131166083;
+			// aapt resource value: 0x7F090383
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131297155;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -14748,8 +15462,8 @@ namespace Kakemons.Droid
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F070016
-			public const int ColorStateListItem_alpha = 2131165206;
+			// aapt resource value: 0x7F090016
+			public const int ColorStateListItem_alpha = 2131296278;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -14762,8 +15476,8 @@ namespace Kakemons.Droid
 					2130968663,
 					2130968664};
 			
-			// aapt resource value: 0x7F070386
-			public const int CompoundButton_android_button = 2131166086;
+			// aapt resource value: 0x7F090386
+			public const int CompoundButton_android_button = 2131297158;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -14775,8 +15489,8 @@ namespace Kakemons.Droid
 					2130968589,
 					2130968596};
 			
-			// aapt resource value: 0x7F070054
-			public const int CoordinatorLayout_keylines = 2131165268;
+			// aapt resource value: 0x7F090054
+			public const int CoordinatorLayout_keylines = 2131296340;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -14787,8 +15501,8 @@ namespace Kakemons.Droid
 					2130968594,
 					2130968595};
 			
-			// aapt resource value: 0x7F070057
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131165271;
+			// aapt resource value: 0x7F090057
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131296343;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -14824,8 +15538,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x2
 			public const int Corpus_contentProviderUri = 2;
 			
-			// aapt resource value: 0x7F070827
-			public const int Corpus_corpusId = 2131167271;
+			// aapt resource value: 0x7F090827
+			public const int Corpus_corpusId = 2131298343;
 			
 			// aapt resource value: 0x1
 			public const int Corpus_corpusVersion = 1;
@@ -14853,8 +15567,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x2
 			public const int CustomCastTheme_castExpandedControllerStyle = 2;
 			
-			// aapt resource value: 0x7F070836
-			public const int CustomCastTheme_castIntroOverlayStyle = 2131167286;
+			// aapt resource value: 0x7F090836
+			public const int CustomCastTheme_castIntroOverlayStyle = 2131298358;
 			
 			// aapt resource value: 0x1
 			public const int CustomCastTheme_castMiniControllerStyle = 1;
@@ -14866,15 +15580,15 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x1
 			public const int CustomWalletTheme_toolbarTextColorStyle = 1;
 			
-			// aapt resource value: 0x7F070840
-			public const int CustomWalletTheme_windowTransitionStyle = 2131167296;
+			// aapt resource value: 0x7F090840
+			public const int CustomWalletTheme_windowTransitionStyle = 2131298368;
 			
 			public static int[] DesignTheme = new int[] {
 					2130968642,
 					2130968643};
 			
-			// aapt resource value: 0x7F070390
-			public const int DesignTheme_bottomSheetDialogTheme = 2131166096;
+			// aapt resource value: 0x7F090390
+			public const int DesignTheme_bottomSheetDialogTheme = 2131297168;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -14889,8 +15603,8 @@ namespace Kakemons.Droid
 					2130968931,
 					2130969011};
 			
-			// aapt resource value: 0x7F070393
-			public const int DrawerArrowToggle_arrowHeadLength = 2131166099;
+			// aapt resource value: 0x7F090393
+			public const int DrawerArrowToggle_arrowHeadLength = 2131297171;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -14917,8 +15631,8 @@ namespace Kakemons.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F070842
-			public const int FeatureParam_paramName = 2131167298;
+			// aapt resource value: 0x7F090842
+			public const int FeatureParam_paramName = 2131298370;
 			
 			// aapt resource value: 0x1
 			public const int FeatureParam_paramValue = 1;
@@ -14938,8 +15652,8 @@ namespace Kakemons.Droid
 					2130968922,
 					2130969041};
 			
-			// aapt resource value: 0x7F070402
-			public const int FloatingActionButton_backgroundTint = 2131166210;
+			// aapt resource value: 0x7F090402
+			public const int FloatingActionButton_backgroundTint = 2131297282;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -14947,8 +15661,8 @@ namespace Kakemons.Droid
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F070416
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131166230;
+			// aapt resource value: 0x7F090416
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131297302;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -14987,8 +15701,8 @@ namespace Kakemons.Droid
 					2130968834,
 					2130968856};
 			
-			// aapt resource value: 0x7F070418
-			public const int FlowLayout_itemSpacing = 2131166232;
+			// aapt resource value: 0x7F090418
+			public const int FlowLayout_itemSpacing = 2131297304;
 			
 			// aapt resource value: 0x1
 			public const int FlowLayout_lineSpacing = 1;
@@ -15013,8 +15727,8 @@ namespace Kakemons.Droid
 					2130968587,
 					2130968588};
 			
-			// aapt resource value: 0x7F070027
-			public const int FontFamilyFont_android_font = 2131165223;
+			// aapt resource value: 0x7F090027
+			public const int FontFamilyFont_android_font = 2131296295;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -15043,8 +15757,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x9
 			public const int FontFamilyFont_ttcIndex = 9;
 			
-			// aapt resource value: 0x7F070020
-			public const int FontFamily_fontProviderAuthority = 2131165216;
+			// aapt resource value: 0x7F090020
+			public const int FontFamily_fontProviderAuthority = 2131296288;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -15066,8 +15780,8 @@ namespace Kakemons.Droid
 					16843264,
 					2130968796};
 			
-			// aapt resource value: 0x7F070421
-			public const int ForegroundLinearLayout_android_foreground = 2131166241;
+			// aapt resource value: 0x7F090421
+			public const int ForegroundLinearLayout_android_foreground = 2131297313;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -15086,8 +15800,8 @@ namespace Kakemons.Droid
 			public static int[] GlobalSearchCorpus = new int[] {
 					1};
 			
-			// aapt resource value: 0x7F070852
-			public const int GlobalSearchCorpus_allowShortcuts = 2131167314;
+			// aapt resource value: 0x7F090852
+			public const int GlobalSearchCorpus_allowShortcuts = 2131298386;
 			
 			public static int[] GlobalSearchSection = new int[] {
 					1,
@@ -15096,8 +15810,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x1
 			public const int GlobalSearchSection_sectionContent = 1;
 			
-			// aapt resource value: 0x7F070855
-			public const int GlobalSearchSection_sectionType = 2131167317;
+			// aapt resource value: 0x7F090855
+			public const int GlobalSearchSection_sectionType = 2131298389;
 			
 			// aapt resource value: 0x3
 			public const int GlobalSearch_defaultIntentAction = 3;
@@ -15108,8 +15822,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x4
 			public const int GlobalSearch_defaultIntentData = 4;
 			
-			// aapt resource value: 0x7F070848
-			public const int GlobalSearch_searchEnabled = 2131167304;
+			// aapt resource value: 0x7F090848
+			public const int GlobalSearch_searchEnabled = 2131298376;
 			
 			// aapt resource value: 0x1
 			public const int GlobalSearch_searchLabel = 1;
@@ -15135,14 +15849,14 @@ namespace Kakemons.Droid
 					16843173,
 					16844052};
 			
-			// aapt resource value: 0x7F070051
-			public const int GradientColorItem_android_color = 2131165265;
+			// aapt resource value: 0x7F090051
+			public const int GradientColorItem_android_color = 2131296337;
 			
 			// aapt resource value: 0x1
 			public const int GradientColorItem_android_offset = 1;
 			
-			// aapt resource value: 0x7F070038
-			public const int GradientColor_android_centerColor = 2131165240;
+			// aapt resource value: 0x7F090038
+			public const int GradientColor_android_centerColor = 2131296312;
 			
 			// aapt resource value: 0x1
 			public const int GradientColor_android_centerX = 1;
@@ -15185,8 +15899,8 @@ namespace Kakemons.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F070857
-			public const int IMECorpus_inputEnabled = 2131167319;
+			// aapt resource value: 0x7F090857
+			public const int IMECorpus_inputEnabled = 2131298391;
 			
 			// aapt resource value: 0x1
 			public const int IMECorpus_sourceClass = 1;
@@ -15214,8 +15928,8 @@ namespace Kakemons.Droid
 					2130968875,
 					2130968921};
 			
-			// aapt resource value: 0x7F070425
-			public const int LinearLayoutCompat_android_baselineAligned = 2131166245;
+			// aapt resource value: 0x7F090425
+			public const int LinearLayoutCompat_android_baselineAligned = 2131297317;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -15241,8 +15955,8 @@ namespace Kakemons.Droid
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F070435
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131166261;
+			// aapt resource value: 0x7F090435
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131297333;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -15263,8 +15977,8 @@ namespace Kakemons.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F070440
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131166272;
+			// aapt resource value: 0x7F090440
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131297344;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -15274,14 +15988,14 @@ namespace Kakemons.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F070773
-			public const int LoadingImageView_circleCrop = 2131167091;
+			// aapt resource value: 0x7F090773
+			public const int LoadingImageView_circleCrop = 2131298163;
 			
-			// aapt resource value: 0x7F070772
-			public const int LoadingImageView_imageAspectRatio = 2131167090;
+			// aapt resource value: 0x7F090772
+			public const int LoadingImageView_imageAspectRatio = 2131298162;
 			
-			// aapt resource value: 0x7F070771
-			public const int LoadingImageView_imageAspectRatioAdjust = 2131167089;
+			// aapt resource value: 0x7F090771
+			public const int LoadingImageView_imageAspectRatioAdjust = 2131298161;
 			
 			public static int[] MapAttrs = new int[] {
 					1,
@@ -15347,8 +16061,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x6
 			public const int MapAttrs_liteMode = 6;
 			
-			// aapt resource value: 0x7F070877
-			public const int MapAttrs_mapType = 2131167351;
+			// aapt resource value: 0x7F090877
+			public const int MapAttrs_mapType = 2131298423;
 			
 			// aapt resource value: 0x7
 			public const int MapAttrs_uiCompass = 7;
@@ -15395,8 +16109,8 @@ namespace Kakemons.Droid
 					2130968944,
 					2130968945};
 			
-			// aapt resource value: 0x7F070443
-			public const int MaterialButton_android_insetBottom = 2131166275;
+			// aapt resource value: 0x7F090443
+			public const int MaterialButton_android_insetBottom = 2131297347;
 			
 			// aapt resource value: 0x1
 			public const int MaterialButton_android_insetLeft = 1;
@@ -15447,8 +16161,8 @@ namespace Kakemons.Droid
 					2130968944,
 					2130968945};
 			
-			// aapt resource value: 0x7F070460
-			public const int MaterialCardView_strokeColor = 2131166304;
+			// aapt resource value: 0x7F090460
+			public const int MaterialCardView_strokeColor = 2131297376;
 			
 			// aapt resource value: 0x1
 			public const int MaterialCardView_strokeWidth = 1;
@@ -15487,8 +16201,8 @@ namespace Kakemons.Droid
 					2130969004,
 					2130969008};
 			
-			// aapt resource value: 0x7F070463
-			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 2131166307;
+			// aapt resource value: 0x7F090463
+			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 2131297379;
 			
 			// aapt resource value: 0x1
 			public const int MaterialComponentsTheme_bottomSheetStyle = 1;
@@ -15589,8 +16303,8 @@ namespace Kakemons.Droid
 					2130968691,
 					2130968752};
 			
-			// aapt resource value: 0x7F070767
-			public const int MediaRouteButton_android_minHeight = 2131167079;
+			// aapt resource value: 0x7F090767
+			public const int MediaRouteButton_android_minHeight = 2131298151;
 			
 			// aapt resource value: 0x1
 			public const int MediaRouteButton_android_minWidth = 1;
@@ -15609,8 +16323,8 @@ namespace Kakemons.Droid
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F070496
-			public const int MenuGroup_android_checkableBehavior = 2131166358;
+			// aapt resource value: 0x7F090496
+			public const int MenuGroup_android_checkableBehavior = 2131297430;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -15652,8 +16366,8 @@ namespace Kakemons.Droid
 					2130968920,
 					2130969036};
 			
-			// aapt resource value: 0x7F070503
-			public const int MenuItem_actionLayout = 2131166467;
+			// aapt resource value: 0x7F090503
+			public const int MenuItem_actionLayout = 2131297539;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -15732,8 +16446,8 @@ namespace Kakemons.Droid
 					2130968899,
 					2130968946};
 			
-			// aapt resource value: 0x7F070527
-			public const int MenuView_android_headerBackground = 2131166503;
+			// aapt resource value: 0x7F090527
+			public const int MenuView_android_headerBackground = 2131297575;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -15773,8 +16487,8 @@ namespace Kakemons.Droid
 					2130968838,
 					2130968876};
 			
-			// aapt resource value: 0x7F070537
-			public const int NavigationView_android_background = 2131166519;
+			// aapt resource value: 0x7F090537
+			public const int NavigationView_android_background = 2131297591;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -15817,11 +16531,11 @@ namespace Kakemons.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968937};
 			
-			// aapt resource value: 0x7F070554
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131166548;
+			// aapt resource value: 0x7F090554
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131297620;
 			
-			// aapt resource value: 0x7F070550
-			public const int PopupWindow_android_popupAnimationStyle = 2131166544;
+			// aapt resource value: 0x7F090550
+			public const int PopupWindow_android_popupAnimationStyle = 2131297616;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -15843,48 +16557,48 @@ namespace Kakemons.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F070005
-			public const int ProgressWheel_ahBarColor = 2131165189;
+			// aapt resource value: 0x7F090005
+			public const int ProgressWheel_ahBarColor = 2131296261;
 			
-			// aapt resource value: 0x7F070013
-			public const int ProgressWheel_ahBarLength = 2131165203;
+			// aapt resource value: 0x7F090013
+			public const int ProgressWheel_ahBarLength = 2131296275;
 			
-			// aapt resource value: 0x7F070012
-			public const int ProgressWheel_ahBarWidth = 2131165202;
+			// aapt resource value: 0x7F090012
+			public const int ProgressWheel_ahBarWidth = 2131296274;
 			
-			// aapt resource value: 0x7F070010
-			public const int ProgressWheel_ahCircleColor = 2131165200;
+			// aapt resource value: 0x7F090010
+			public const int ProgressWheel_ahCircleColor = 2131296272;
 			
-			// aapt resource value: 0x7F070009
-			public const int ProgressWheel_ahDelayMillis = 2131165193;
+			// aapt resource value: 0x7F090009
+			public const int ProgressWheel_ahDelayMillis = 2131296265;
 			
-			// aapt resource value: 0x7F070011
-			public const int ProgressWheel_ahRadius = 2131165201;
+			// aapt resource value: 0x7F090011
+			public const int ProgressWheel_ahRadius = 2131296273;
 			
-			// aapt resource value: 0x7F070006
-			public const int ProgressWheel_ahRimColor = 2131165190;
+			// aapt resource value: 0x7F090006
+			public const int ProgressWheel_ahRimColor = 2131296262;
 			
-			// aapt resource value: 0x7F070007
-			public const int ProgressWheel_ahRimWidth = 2131165191;
+			// aapt resource value: 0x7F090007
+			public const int ProgressWheel_ahRimWidth = 2131296263;
 			
-			// aapt resource value: 0x7F070008
-			public const int ProgressWheel_ahSpinSpeed = 2131165192;
+			// aapt resource value: 0x7F090008
+			public const int ProgressWheel_ahSpinSpeed = 2131296264;
 			
-			// aapt resource value: 0x7F070002
-			public const int ProgressWheel_ahText = 2131165186;
+			// aapt resource value: 0x7F090002
+			public const int ProgressWheel_ahText = 2131296258;
 			
-			// aapt resource value: 0x7F070003
-			public const int ProgressWheel_ahTextColor = 2131165187;
+			// aapt resource value: 0x7F090003
+			public const int ProgressWheel_ahTextColor = 2131296259;
 			
-			// aapt resource value: 0x7F070004
-			public const int ProgressWheel_ahTextSize = 2131165188;
+			// aapt resource value: 0x7F090004
+			public const int ProgressWheel_ahTextSize = 2131296260;
 			
 			public static int[] RecycleListView = new int[] {
 					2130968884,
 					2130968887};
 			
-			// aapt resource value: 0x7F070556
-			public const int RecycleListView_paddingBottomNoButtons = 2131166550;
+			// aapt resource value: 0x7F090556
+			public const int RecycleListView_paddingBottomNoButtons = 2131297622;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -15902,8 +16616,8 @@ namespace Kakemons.Droid
 					2130968930,
 					2130968936};
 			
-			// aapt resource value: 0x7F070559
-			public const int RecyclerView_android_descendantFocusability = 2131166553;
+			// aapt resource value: 0x7F090559
+			public const int RecyclerView_android_descendantFocusability = 2131297625;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -15938,14 +16652,14 @@ namespace Kakemons.Droid
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968825};
 			
-			// aapt resource value: 0x7F070571
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131166577;
+			// aapt resource value: 0x7F090571
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131297649;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968635};
 			
-			// aapt resource value: 0x7F070573
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131166579;
+			// aapt resource value: 0x7F090573
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131297651;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -15966,8 +16680,8 @@ namespace Kakemons.Droid
 					2130968952,
 					2130969043};
 			
-			// aapt resource value: 0x7F070575
-			public const int SearchView_android_focusable = 2131166581;
+			// aapt resource value: 0x7F090575
+			public const int SearchView_android_focusable = 2131297653;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -16029,8 +16743,8 @@ namespace Kakemons.Droid
 			public static int[] SectionFeature = new int[] {
 					1};
 			
-			// aapt resource value: 0x7F070896
-			public const int SectionFeature_featureType = 2131167382;
+			// aapt resource value: 0x7F090896
+			public const int SectionFeature_featureType = 2131298454;
 			
 			// aapt resource value: 0x4
 			public const int Section_indexPrefixes = 4;
@@ -16044,8 +16758,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x1
 			public const int Section_sectionFormat = 1;
 			
-			// aapt resource value: 0x7F070892
-			public const int Section_sectionId = 2131167378;
+			// aapt resource value: 0x7F090892
+			public const int Section_sectionId = 2131298450;
 			
 			// aapt resource value: 0x3
 			public const int Section_sectionWeight = 3;
@@ -16058,14 +16772,14 @@ namespace Kakemons.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F070775
-			public const int SignInButton_buttonSize = 2131167093;
+			// aapt resource value: 0x7F090775
+			public const int SignInButton_buttonSize = 2131298165;
 			
-			// aapt resource value: 0x7F070776
-			public const int SignInButton_colorScheme = 2131167094;
+			// aapt resource value: 0x7F090776
+			public const int SignInButton_colorScheme = 2131298166;
 			
-			// aapt resource value: 0x7F070777
-			public const int SignInButton_scopeUris = 2131167095;
+			// aapt resource value: 0x7F090777
+			public const int SignInButton_scopeUris = 2131298167;
 			
 			public static int[] Snackbar = new int[] {
 					2130968928,
@@ -16076,8 +16790,8 @@ namespace Kakemons.Droid
 					2130968758,
 					2130968872};
 			
-			// aapt resource value: 0x7F070596
-			public const int SnackbarLayout_android_maxWidth = 2131166614;
+			// aapt resource value: 0x7F090596
+			public const int SnackbarLayout_android_maxWidth = 2131297686;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -16085,8 +16799,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x2
 			public const int SnackbarLayout_maxActionInlineWidth = 2;
 			
-			// aapt resource value: 0x7F070593
-			public const int Snackbar_snackbarButtonStyle = 2131166611;
+			// aapt resource value: 0x7F090593
+			public const int Snackbar_snackbarButtonStyle = 2131297683;
 			
 			// aapt resource value: 0x1
 			public const int Snackbar_snackbarStyle = 1;
@@ -16098,8 +16812,8 @@ namespace Kakemons.Droid
 					16843131,
 					2130968897};
 			
-			// aapt resource value: 0x7F070600
-			public const int Spinner_android_dropDownWidth = 2131166720;
+			// aapt resource value: 0x7F090600
+			public const int Spinner_android_dropDownWidth = 2131297792;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -16124,11 +16838,11 @@ namespace Kakemons.Droid
 			public static int[] StateListDrawableItem = new int[] {
 					16843161};
 			
-			// aapt resource value: 0x7F070765
-			public const int StateListDrawableItem_android_drawable = 2131167077;
+			// aapt resource value: 0x7F090765
+			public const int StateListDrawableItem_android_drawable = 2131298149;
 			
-			// aapt resource value: 0x7F070758
-			public const int StateListDrawable_android_constantSize = 2131167064;
+			// aapt resource value: 0x7F090758
+			public const int StateListDrawable_android_constantSize = 2131298136;
 			
 			// aapt resource value: 0x1
 			public const int StateListDrawable_android_dither = 1;
@@ -16161,8 +16875,8 @@ namespace Kakemons.Droid
 					2130969038,
 					2130969039};
 			
-			// aapt resource value: 0x7F070606
-			public const int SwitchCompat_android_textOff = 2131166726;
+			// aapt resource value: 0x7F090606
+			public const int SwitchCompat_android_textOff = 2131297798;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -16208,8 +16922,8 @@ namespace Kakemons.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F070621
-			public const int TabItem_android_icon = 2131166753;
+			// aapt resource value: 0x7F090621
+			public const int TabItem_android_icon = 2131297825;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -16244,8 +16958,8 @@ namespace Kakemons.Droid
 					2130968981,
 					2130968982};
 			
-			// aapt resource value: 0x7F070625
-			public const int TabLayout_tabBackground = 2131166757;
+			// aapt resource value: 0x7F090625
+			public const int TabLayout_tabBackground = 2131297829;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -16334,8 +17048,8 @@ namespace Kakemons.Droid
 					2130968786,
 					2130968983};
 			
-			// aapt resource value: 0x7F070651
-			public const int TextAppearance_android_fontFamily = 2131166801;
+			// aapt resource value: 0x7F090651
+			public const int TextAppearance_android_fontFamily = 2131297873;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -16403,8 +17117,8 @@ namespace Kakemons.Droid
 					2130968894,
 					2130968895};
 			
-			// aapt resource value: 0x7F070665
-			public const int TextInputLayout_android_hint = 2131166821;
+			// aapt resource value: 0x7F090665
+			public const int TextInputLayout_android_hint = 2131297893;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -16492,8 +17206,8 @@ namespace Kakemons.Droid
 					2130968759,
 					2130968760};
 			
-			// aapt resource value: 0x7F070694
-			public const int ThemeEnforcement_android_textAppearance = 2131166868;
+			// aapt resource value: 0x7F090694
+			public const int ThemeEnforcement_android_textAppearance = 2131297940;
 			
 			// aapt resource value: 0x1
 			public const int ThemeEnforcement_enforceMaterialTheme = 1;
@@ -16532,8 +17246,8 @@ namespace Kakemons.Droid
 					2130969028,
 					2130969029};
 			
-			// aapt resource value: 0x7F070698
-			public const int Toolbar_android_gravity = 2131166872;
+			// aapt resource value: 0x7F090698
+			public const int Toolbar_android_gravity = 2131297944;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -16631,8 +17345,8 @@ namespace Kakemons.Droid
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F070734
-			public const int ViewBackgroundHelper_android_background = 2131167028;
+			// aapt resource value: 0x7F090734
+			public const int ViewBackgroundHelper_android_background = 2131298100;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -16645,8 +17359,8 @@ namespace Kakemons.Droid
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F070738
-			public const int ViewStubCompat_android_id = 2131167032;
+			// aapt resource value: 0x7F090738
+			public const int ViewStubCompat_android_id = 2131298104;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -16654,8 +17368,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F070728
-			public const int View_android_focusable = 2131167016;
+			// aapt resource value: 0x7F090728
+			public const int View_android_focusable = 2131298088;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;
@@ -16675,8 +17389,8 @@ namespace Kakemons.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F070898
-			public const int WalletFragmentOptions_appTheme = 2131167384;
+			// aapt resource value: 0x7F090898
+			public const int WalletFragmentOptions_appTheme = 2131298456;
 			
 			// aapt resource value: 0x1
 			public const int WalletFragmentOptions_environment = 1;
@@ -16703,8 +17417,8 @@ namespace Kakemons.Droid
 			// aapt resource value: 0x3
 			public const int WalletFragmentStyle_buyButtonAppearance = 3;
 			
-			// aapt resource value: 0x7F070904
-			public const int WalletFragmentStyle_buyButtonHeight = 2131167492;
+			// aapt resource value: 0x7F090904
+			public const int WalletFragmentStyle_buyButtonHeight = 2131298564;
 			
 			// aapt resource value: 0x2
 			public const int WalletFragmentStyle_buyButtonText = 2;
@@ -16746,8 +17460,8 @@ namespace Kakemons.Droid
 		public partial class Xml
 		{
 			
-			// aapt resource value: 0x7F100002
-			public const int xamarin_essentials_fileprovider_file_paths = 2131755010;
+			// aapt resource value: 0x7F110002
+			public const int xamarin_essentials_fileprovider_file_paths = 2131820546;
 			
 			static Xml()
 			{

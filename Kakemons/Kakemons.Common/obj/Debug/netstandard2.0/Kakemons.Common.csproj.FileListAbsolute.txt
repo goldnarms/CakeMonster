@@ -10,9 +10,9 @@ C:\Dev\Kakemons\src\Kakemons.Common\obj\Debug\netstandard2.0\Kakemons.Common.pdb
 C:\Dev\CakeMonster\Kakemons\Kakemons.Common\bin\Debug\netstandard2.0\Kakemons.Common.deps.json
 C:\Dev\CakeMonster\Kakemons\Kakemons.Common\bin\Debug\netstandard2.0\Kakemons.Common.dll
 C:\Dev\CakeMonster\Kakemons\Kakemons.Common\bin\Debug\netstandard2.0\Kakemons.Common.pdb
-C:\Dev\CakeMonster\Kakemons\Kakemons.Common\obj\Debug\netstandard2.0\Kakemons.Common.csprojAssemblyReference.cache
 C:\Dev\CakeMonster\Kakemons\Kakemons.Common\obj\Debug\netstandard2.0\Kakemons.Common.csproj.CoreCompileInputs.cache
 C:\Dev\CakeMonster\Kakemons\Kakemons.Common\obj\Debug\netstandard2.0\Kakemons.Common.AssemblyInfoInputs.cache
 C:\Dev\CakeMonster\Kakemons\Kakemons.Common\obj\Debug\netstandard2.0\Kakemons.Common.AssemblyInfo.cs
 C:\Dev\CakeMonster\Kakemons\Kakemons.Common\obj\Debug\netstandard2.0\Kakemons.Common.dll
 C:\Dev\CakeMonster\Kakemons\Kakemons.Common\obj\Debug\netstandard2.0\Kakemons.Common.pdb
+C:\Dev\CakeMonster\Kakemons\Kakemons.Common\obj\Debug\netstandard2.0\Kakemons.Common.csprojAssemblyReference.cache

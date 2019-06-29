@@ -134,28 +134,28 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="akavache">
-      <Version>6.5.1</Version>
+      <Version>6.5.9</Version>
     </PackageReference>
     <PackageReference Include="AutoMapper">
-      <Version>8.1.0</Version>
+      <Version>8.1.1</Version>
     </PackageReference>
     <PackageReference Include="CardsView">
-      <Version>2.1.2</Version>
+      <Version>2.1.5</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AppCenter">
-      <Version>2.0.0</Version>
+      <Version>2.1.1</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AppCenter.Analytics">
-      <Version>2.0.0</Version>
+      <Version>2.1.1</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AppCenter.Crashes">
-      <Version>2.0.0</Version>
+      <Version>2.1.1</Version>
     </PackageReference>
     <PackageReference Include="ReactiveUI">
-      <Version>9.16.1</Version>
+      <Version>9.18.2</Version>
     </PackageReference>
     <PackageReference Include="ReactiveUI.XamForms">
-      <Version>9.16.1</Version>
+      <Version>9.18.2</Version>
     </PackageReference>
     <PackageReference Include="Serilog">
       <Version>2.8.0</Version>
@@ -169,10 +169,10 @@
     <PackageReference Include="Xamarin.FFImageLoading.Transformations">
       <Version>2.4.11.982</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="4.0.0.425677" />
+    <PackageReference Include="Xamarin.Forms" Version="4.0.0.540366" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
     <PackageReference Include="Xamarin.Forms.Maps">
-      <Version>4.0.0.425677</Version>
+      <Version>4.0.0.540366</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

@@ -11,57 +11,56 @@
           "lib/netstandard2.0/Acr.UserDialogs.dll": {}
         }
       },
-      "akavache/6.0.30": {
+      "akavache/6.5.9": {
         "type": "package",
         "dependencies": {
-          "akavache.core": "6.0.30",
-          "akavache.sqlite3": "6.0.30"
+          "SQLitePCLRaw.bundle_e_sqlite3": "1.1.14",
+          "akavache.core": "6.5.9",
+          "akavache.sqlite3": "6.5.9"
+        },
+        "compile": {
+          "lib/netstandard2.0/Akavache.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Akavache.dll": {}
         }
       },
-      "akavache.core/6.0.30": {
+      "akavache.core/6.5.9": {
         "type": "package",
         "dependencies": {
-          "Newtonsoft.Json": "10.0.3",
-          "Splat": "4.0.2",
+          "Newtonsoft.Json": "12.0.2",
+          "Newtonsoft.Json.Bson": "1.0.2",
+          "Splat": "7.2.1",
           "System.ComponentModel": "4.3.0",
           "System.Diagnostics.Contracts": "4.3.0",
           "System.Dynamic.Runtime": "4.3.0",
-          "System.Reactive": "4.0.0",
+          "System.Reactive": "4.1.5",
           "System.Runtime.Serialization.Primitives": "4.3.0",
           "System.Security.Cryptography.ProtectedData": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/Akavache.dll": {}
+          "lib/netstandard2.0/Akavache.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Akavache.dll": {}
+          "lib/netstandard2.0/Akavache.Core.dll": {}
         }
       },
-      "akavache.sqlite3/6.0.30": {
+      "akavache.sqlite3/6.5.9": {
         "type": "package",
         "dependencies": {
-          "Newtonsoft.Json": "10.0.3",
-          "SQLitePCLRaw.bundle_e_sqlite3": "1.1.11",
-          "SQLitePCLRaw.core": "1.1.11",
-          "Splat": "4.0.2",
-          "System.Reactive": "4.0.0",
-          "akavache.core": "6.0.30"
+          "SQLitePCLRaw.core": "1.1.14",
+          "Splat": "7.2.1",
+          "System.Reactive": "4.1.5",
+          "akavache.core": "6.5.9"
         },
         "compile": {
           "lib/netstandard2.0/Akavache.Sqlite3.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Akavache.Sqlite3.dll": {}
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
         }
       },
-      "AutoMapper/8.1.0": {
+      "AutoMapper/8.1.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
@@ -74,10 +73,10 @@
           "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
-      "DynamicData/6.9.1.2588": {
+      "DynamicData/6.10.0.2604": {
         "type": "package",
         "dependencies": {
-          "System.Reactive": "4.0.0"
+          "System.Reactive": "4.1.5"
         },
         "compile": {
           "lib/netstandard2.0/DynamicData.dll": {}
@@ -86,7 +85,7 @@
           "lib/netstandard2.0/DynamicData.dll": {}
         }
       },
-      "Microsoft.AppCenter/2.0.0": {
+      "Microsoft.AppCenter/2.1.1": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/Microsoft.AppCenter.dll": {}
@@ -95,10 +94,10 @@
           "lib/netstandard1.0/Microsoft.AppCenter.dll": {}
         }
       },
-      "Microsoft.AppCenter.Analytics/2.0.0": {
+      "Microsoft.AppCenter.Analytics/2.1.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AppCenter": "2.0.0"
+          "Microsoft.AppCenter": "2.1.1"
         },
         "compile": {
           "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll": {}
@@ -107,10 +106,10 @@
           "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll": {}
         }
       },
-      "Microsoft.AppCenter.Crashes/2.0.0": {
+      "Microsoft.AppCenter.Crashes/2.1.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AppCenter": "2.0.0"
+          "Microsoft.AppCenter": "2.1.1"
         },
         "compile": {
           "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll": {}
@@ -175,7 +174,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -184,11 +183,23 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "ReactiveUI/9.16.1": {
+      "Newtonsoft.Json.Bson/1.0.2": {
         "type": "package",
         "dependencies": {
-          "DynamicData": "6.9.1.2588",
-          "Splat": "7.2.1",
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
+        }
+      },
+      "ReactiveUI/9.18.2": {
+        "type": "package",
+        "dependencies": {
+          "DynamicData": "6.10.0.2604",
+          "Splat": "7.3.7",
           "System.ComponentModel": "4.3.0",
           "System.Diagnostics.Contracts": "4.3.0",
           "System.Dynamic.Runtime": "4.3.0",
@@ -202,10 +213,10 @@
           "lib/netstandard2.0/ReactiveUI.dll": {}
         }
       },
-      "Refit/4.6.58": {
+      "Refit/4.7.9": {
         "type": "package",
         "dependencies": {
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "12.0.1"
         },
         "compile": {
           "lib/netstandard2.0/Refit.dll": {}
@@ -214,7 +225,7 @@
           "lib/netstandard2.0/Refit.dll": {}
         },
         "build": {
-          "build/netstandard1.4/_._": {}
+          "buildTransitive/netstandard1.4/refit.targets": {}
         }
       },
       "Serilog/2.8.0": {
@@ -229,7 +240,7 @@
           "lib/netstandard2.0/Serilog.dll": {}
         }
       },
-      "Splat/7.2.1": {
+      "Splat/7.3.7": {
         "type": "package",
         "dependencies": {
           "System.Diagnostics.Contracts": "4.3.0",
@@ -243,11 +254,11 @@
           "lib/netstandard2.0/Splat.dll": {}
         }
       },
-      "SQLitePCLRaw.bundle_e_sqlite3/1.1.11": {
+      "SQLitePCLRaw.bundle_e_sqlite3/1.1.14": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0",
-          "SQLitePCLRaw.core": "1.1.11"
+          "SQLitePCLRaw.core": "1.1.14"
         },
         "compile": {
           "lib/netstandard1.1/SQLitePCLRaw.batteries_e_sqlite3.dll": {},
@@ -258,7 +269,7 @@
           "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/1.1.11": {
+      "SQLitePCLRaw.core/1.1.14": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0"
@@ -727,7 +738,7 @@
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
       },
-      "Xamarin.Essentials/1.0.0": {
+      "Xamarin.Essentials/1.1.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -743,8 +754,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.0.0",
-          "akavache": "6.0.30"
+          "Xamarin.Essentials": "1.1.0",
+          "akavache": "6.5.9"
         },
         "compile": {
           "bin/placeholder/Kakemons.Common.dll": {}
@@ -758,7 +769,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Kakemons.Common": "1.0.0",
-          "Refit": "4.6.58",
+          "Refit": "4.7.9",
           "Serilog": "2.8.0"
         },
         "compile": {
@@ -799,74 +810,89 @@
         "lib/xamarinios10/Acr.UserDialogs.pdb"
       ]
     },
-    "akavache/6.0.30": {
-      "sha512": "MmzqluoB9Jie3U3IULNLdfphx3eEuRD+7NxhuJ+/wUay4IqHtLOrZtufF3IHjSFzJsuzjEIPoqM6S1K2RhmNCw==",
+    "akavache/6.5.9": {
+      "sha512": "nMmQdMmMnNqsnr6mLMF62VN5WY9xlWEBNbcxGehwvQwT0lXNDzuDymcQIiztTKH7b6TqsEPKwVhGdZ2+ysI2Ag==",
       "type": "package",
-      "path": "akavache/6.0.30",
+      "path": "akavache/6.5.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "akavache.6.0.30.nupkg.sha512",
-        "akavache.nuspec"
-      ]
-    },
-    "akavache.core/6.0.30": {
-      "sha512": "4oUUhdDPEDZ3PN0mgOFOQwdma1zGHgW652N07AFYdQzbaVDGLFABgUNCaDbWtM/Qpj8zVJMvDpr/LdEvki1nMQ==",
-      "type": "package",
-      "path": "akavache.core/6.0.30",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "akavache.core.6.0.30.nupkg.sha512",
-        "akavache.core.nuspec",
+        "LICENSE/LICENSE",
+        "akavache.6.5.9.nupkg.sha512",
+        "akavache.nuspec",
         "lib/monoandroid80/Akavache.dll",
-        "lib/monoandroid80/Akavache.pdb",
         "lib/monoandroid80/Akavache.xml",
         "lib/net461/Akavache.dll",
-        "lib/net461/Akavache.pdb",
         "lib/net461/Akavache.xml",
         "lib/netcoreapp2.0/Akavache.dll",
-        "lib/netcoreapp2.0/Akavache.pdb",
         "lib/netcoreapp2.0/Akavache.xml",
         "lib/netstandard2.0/Akavache.dll",
-        "lib/netstandard2.0/Akavache.pdb",
         "lib/netstandard2.0/Akavache.xml",
-        "lib/uap10.0.16299/Akavache.dll",
-        "lib/uap10.0.16299/Akavache.pdb",
-        "lib/uap10.0.16299/Akavache.pri",
-        "lib/uap10.0.16299/Akavache.xml",
+        "lib/uap10.0.17763/Akavache.dll",
+        "lib/uap10.0.17763/Akavache.pri",
+        "lib/uap10.0.17763/Akavache.xml",
         "lib/xamarinios10/Akavache.dll",
-        "lib/xamarinios10/Akavache.pdb",
         "lib/xamarinios10/Akavache.xml",
         "lib/xamarinmac20/Akavache.dll",
-        "lib/xamarinmac20/Akavache.pdb",
         "lib/xamarinmac20/Akavache.xml"
       ]
     },
-    "akavache.sqlite3/6.0.30": {
-      "sha512": "pFU/vgCBzDf6MPyuL8oosA/TcKPszVjmrVYO41G1HydDFKsCVZDHIFsbAxMk0c2EBUP+6gt24e4cxozvPrpbHw==",
+    "akavache.core/6.5.9": {
+      "sha512": "oKhujBc34i7Uxj5JZmsHGgW5ZkSzKoQlb1NG+CIiYLuVYv5m3NEw+HOR/DlOu5nKgugxV1ogWQnOzo6LuaJE+w==",
       "type": "package",
-      "path": "akavache.sqlite3/6.0.30",
+      "path": "akavache.core/6.5.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "akavache.sqlite3.6.0.30.nupkg.sha512",
-        "akavache.sqlite3.nuspec",
-        "content/AkavacheSqliteLinkerOverride.cs.pp",
-        "contentFiles/cs/any/AkavacheSqliteLinkerOverride.cs.pp",
-        "lib/netstandard2.0/Akavache.Sqlite3.dll",
-        "lib/netstandard2.0/Akavache.Sqlite3.pdb",
-        "lib/netstandard2.0/Akavache.Sqlite3.xml"
+        "LICENSE/LICENSE",
+        "akavache.core.6.5.9.nupkg.sha512",
+        "akavache.core.nuspec",
+        "lib/monoandroid80/Akavache.Core.dll",
+        "lib/monoandroid80/Akavache.Core.xml",
+        "lib/net461/Akavache.Core.dll",
+        "lib/net461/Akavache.Core.xml",
+        "lib/netcoreapp2.0/Akavache.Core.dll",
+        "lib/netcoreapp2.0/Akavache.Core.xml",
+        "lib/netstandard2.0/Akavache.Core.dll",
+        "lib/netstandard2.0/Akavache.Core.xml",
+        "lib/tizen40/Akavache.Core.dll",
+        "lib/tizen40/Akavache.Core.xml",
+        "lib/uap10.0.17763/Akavache.Core.dll",
+        "lib/uap10.0.17763/Akavache.Core.pri",
+        "lib/uap10.0.17763/Akavache.Core.xml",
+        "lib/xamarinios10/Akavache.Core.dll",
+        "lib/xamarinios10/Akavache.Core.xml",
+        "lib/xamarinmac20/Akavache.Core.dll",
+        "lib/xamarinmac20/Akavache.Core.xml"
       ]
     },
-    "AutoMapper/8.1.0": {
-      "sha512": "Go75WXHE7p/8CtRaxZnvVEfcSh7xpE6zx9wkgN4I1BxvlzP0hoiTLHSXDYXgv9CoxaRj4ahwzCA/iwdpvyQyOA==",
+    "akavache.sqlite3/6.5.9": {
+      "sha512": "H3YUFCA6F41rsy6pwcYPQsxkTSA7HxSifLwfHiBoFKSufFHR9goghie+ZJxhD39ReB7ag9xLUPKPgClT3U4I5w==",
       "type": "package",
-      "path": "automapper/8.1.0",
+      "path": "akavache.sqlite3/6.5.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "automapper.8.1.0.nupkg.sha512",
+        "LICENSE/LICENSE",
+        "akavache.sqlite3.6.5.9.nupkg.sha512",
+        "akavache.sqlite3.nuspec",
+        "lib/net461/Akavache.Sqlite3.dll",
+        "lib/net461/Akavache.Sqlite3.xml",
+        "lib/netstandard2.0/Akavache.Sqlite3.dll",
+        "lib/netstandard2.0/Akavache.Sqlite3.xml",
+        "lib/uap10.0.17763/Akavache.Sqlite3.dll",
+        "lib/uap10.0.17763/Akavache.Sqlite3.pri",
+        "lib/uap10.0.17763/Akavache.Sqlite3.xml"
+      ]
+    },
+    "AutoMapper/8.1.1": {
+      "sha512": "GKBliBukkLG0z/U0T4Jy+yEpr5bKDImQ9nEy/T8jqNulwNkWDjiEWa9TL4yCxIhleDbmVmw2xYSaJ3Eb2OcSUg==",
+      "type": "package",
+      "path": "automapper/8.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.8.1.1.nupkg.sha512",
         "automapper.nuspec",
         "lib/net461/AutoMapper.dll",
         "lib/net461/AutoMapper.pdb",
@@ -876,14 +902,14 @@
         "lib/netstandard2.0/AutoMapper.xml"
       ]
     },
-    "DynamicData/6.9.1.2588": {
-      "sha512": "3aYbxP8l66/VBKzmtGoDXQ9UQBIXGEMqCT6pjBxwIjMkad4NQipUTAtmNys2ixHhmMIUYmroJ+cV4YjFqspTwQ==",
+    "DynamicData/6.10.0.2604": {
+      "sha512": "6V+W0dKJbUHIogo58OfvQUExlCoRwiokfMhz1PUAvmdwiLb6BR2DNnbXIIsn8Gbt5glqvPdRKrMCV64J8Z9dpw==",
       "type": "package",
-      "path": "dynamicdata/6.9.1.2588",
+      "path": "dynamicdata/6.10.0.2604",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "dynamicdata.6.9.1.2588.nupkg.sha512",
+        "dynamicdata.6.10.0.2604.nupkg.sha512",
         "dynamicdata.nuspec",
         "lib/net46/DynamicData.dll",
         "lib/net46/DynamicData.xml",
@@ -897,10 +923,10 @@
         "lib/uap10.0/DynamicData.xml"
       ]
     },
-    "Microsoft.AppCenter/2.0.0": {
-      "sha512": "aotwBhk12zF2g4jz6Ruouqe0fEM2EJMzxFVvNK7XQkGZFpAjmHohlGkBBiA2hYyhVSylsxVHTkCiPfwf8Z/abg==",
+    "Microsoft.AppCenter/2.1.1": {
+      "sha512": "gvhXGfZCwXtUXT5SZaYeqR6eGgndMKOCpgVPRc0KQtOw7aI4Rx/sOBwWWDvFcBzP4dXo9FBMH9PJdyub5X79Og==",
       "type": "package",
-      "path": "microsoft.appcenter/2.0.0",
+      "path": "microsoft.appcenter/2.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -916,14 +942,14 @@
         "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.xml",
         "lib/uap10.0/Microsoft.AppCenter.dll",
         "lib/uap10.0/Microsoft.AppCenter.xml",
-        "microsoft.appcenter.2.0.0.nupkg.sha512",
+        "microsoft.appcenter.2.1.1.nupkg.sha512",
         "microsoft.appcenter.nuspec"
       ]
     },
-    "Microsoft.AppCenter.Analytics/2.0.0": {
-      "sha512": "qxFUPnBujhCYmqxv3OUTM0xa4OBUXlX8v3NSPxZ1r4Y44swMyx1EIEtOWlGj99BGKw5rlR2whActePw2h1X4Ng==",
+    "Microsoft.AppCenter.Analytics/2.1.1": {
+      "sha512": "cmA+aDgztT1iRKE9HgdRwT3KgzOFMJFrsL4vIf0OP7Ijgud9CZ1XnvM49/JZDKY5qu38UnaZMMpN77uQRI7sow==",
       "type": "package",
-      "path": "microsoft.appcenter.analytics/2.0.0",
+      "path": "microsoft.appcenter.analytics/2.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -939,14 +965,14 @@
         "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Analytics.xml",
         "lib/uap10.0/Microsoft.AppCenter.Analytics.dll",
         "lib/uap10.0/Microsoft.AppCenter.Analytics.xml",
-        "microsoft.appcenter.analytics.2.0.0.nupkg.sha512",
+        "microsoft.appcenter.analytics.2.1.1.nupkg.sha512",
         "microsoft.appcenter.analytics.nuspec"
       ]
     },
-    "Microsoft.AppCenter.Crashes/2.0.0": {
-      "sha512": "wO4pH5xoiJ7SJLkwZ6qgrg0viGUyGUtuWr4QC2ay6wMSrTS//fSCzM+6dj3WqTSV1NnEz5KScqbuKjJCoACmYg==",
+    "Microsoft.AppCenter.Crashes/2.1.1": {
+      "sha512": "MOyID2QqBFNbt/5tueEwCB4qC9fGFoEy34kUIzy3ai/mo56Xewyxux7hqoW6FjzbU8U9VgJpFOI6KeeAn2tiHA==",
       "type": "package",
-      "path": "microsoft.appcenter.crashes/2.0.0",
+      "path": "microsoft.appcenter.crashes/2.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -961,7 +987,7 @@
         "lib/netstandard1.0/Microsoft.AppCenter.Crashes.xml",
         "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Crashes.dll",
         "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Crashes.xml",
-        "microsoft.appcenter.crashes.2.0.0.nupkg.sha512",
+        "microsoft.appcenter.crashes.2.1.1.nupkg.sha512",
         "microsoft.appcenter.crashes.nuspec",
         "ref/uap10.0/Microsoft.AppCenter.Crashes.dll",
         "ref/uap10.0/Microsoft.AppCenter.Crashes.xml",
@@ -1206,12 +1232,13 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
       "type": "package",
-      "path": "newtonsoft.json/11.0.2",
+      "path": "newtonsoft.json/12.0.2",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -1231,19 +1258,41 @@
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
       ]
     },
-    "ReactiveUI/9.16.1": {
-      "sha512": "5giMFnCEfvkH/piUIWm6jZQ7P4Qnqhi2h07lS7gobG56uowvNi9BEqC4E1sTywPOrumDvgj3I08JDWla0MxSLw==",
+    "Newtonsoft.Json.Bson/1.0.2": {
+      "sha512": "QYFyxhaABwmq3p/21VrZNYvCg3DaEoN/wUuw5nmfAf0X3HLjgupwhkEWdgfb9nvGAUIv3osmZoD3kKl4jxEmYQ==",
       "type": "package",
-      "path": "reactiveui/9.16.1",
+      "path": "newtonsoft.json.bson/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net45/Newtonsoft.Json.Bson.dll",
+        "lib/net45/Newtonsoft.Json.Bson.pdb",
+        "lib/net45/Newtonsoft.Json.Bson.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.pdb",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.Bson.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.Bson.pdb",
+        "lib/netstandard2.0/Newtonsoft.Json.Bson.xml",
+        "newtonsoft.json.bson.1.0.2.nupkg.sha512",
+        "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "ReactiveUI/9.18.2": {
+      "sha512": "MbFSvyRDVonNnN1BwZamQOyaxhALYAWpb+bQsEAcEjk6tBwgksLyQf3g6wNH9qawcT8m6xmRtlpc8ChTFVqQiw==",
+      "type": "package",
+      "path": "reactiveui/9.18.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE/LICENSE",
         "lib/monoandroid81/ReactiveUI.dll",
+        "lib/monoandroid81/ReactiveUI.pdb",
         "lib/monoandroid81/ReactiveUI.xml",
         "lib/net461/ReactiveUI.dll",
         "lib/net461/ReactiveUI.xml",
@@ -1262,14 +1311,14 @@
         "lib/xamarinmac20/ReactiveUI.xml",
         "lib/xamarintvos10/ReactiveUI.dll",
         "lib/xamarintvos10/ReactiveUI.xml",
-        "reactiveui.9.16.1.nupkg.sha512",
+        "reactiveui.9.18.2.nupkg.sha512",
         "reactiveui.nuspec"
       ]
     },
-    "Refit/4.6.58": {
-      "sha512": "bkTC+ARz6bgcQmeRxzqln5xoVklUvoLMIZDoa0KUz04IWrtVYHlR46Fgfym6tuUc0i70DqRhSx3MsnbbmLpoLg==",
+    "Refit/4.7.9": {
+      "sha512": "LZ6FuPvBOPGIJMe+vWRg6M5/PuD8AYoPFziRPWbS7d4Dri+WVE+vuYYNApgZRxDREaO0yyA2HWdbBteuMxWvwA==",
       "type": "package",
-      "path": "refit/4.6.58",
+      "path": "refit/4.7.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1284,8 +1333,35 @@
         "build/MSBuildCore20/Microsoft.CodeAnalysis.CSharp.dll",
         "build/MSBuildCore20/Microsoft.CodeAnalysis.dll",
         "build/MSBuildCore20/Nustache.Core.dll",
-        "build/MSBuildCore20/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
-        "build/MSBuildCore20/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "build/MSBuildCore20/System.Runtime.CompilerServices.Unsafe.dll",
+        "build/MSBuildCore20/System.Text.Encoding.CodePages.dll",
+        "build/MSBuildCore20/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/cs/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/de/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/es/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/fr/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/it/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/ja/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/ko/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/pl/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/pt-BR/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/ru/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
+        "build/MSBuildCore20/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/tr/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
         "build/MSBuildFull46/GeneratedInterfaceStubTemplate.mustache",
         "build/MSBuildFull46/InterfaceStubGenerator.BuildTasks.dll",
         "build/MSBuildFull46/InterfaceStubGenerator.BuildTasks.pdb",
@@ -1293,51 +1369,151 @@
         "build/MSBuildFull46/InterfaceStubGenerator.Core.dll",
         "build/MSBuildFull46/InterfaceStubGenerator.Core.pdb",
         "build/MSBuildFull46/InterfaceStubGenerator.Core.xml",
-        "build/MSBuildFull46/Microsoft.Build.Framework.dll",
-        "build/MSBuildFull46/Microsoft.Build.Tasks.Core.dll",
-        "build/MSBuildFull46/Microsoft.Build.Utilities.Core.dll",
         "build/MSBuildFull46/Microsoft.CodeAnalysis.CSharp.dll",
         "build/MSBuildFull46/Microsoft.CodeAnalysis.dll",
+        "build/MSBuildFull46/Microsoft.Win32.Primitives.dll",
         "build/MSBuildFull46/Nustache.Core.dll",
         "build/MSBuildFull46/System.AppContext.dll",
+        "build/MSBuildFull46/System.Buffers.dll",
+        "build/MSBuildFull46/System.Collections.Concurrent.dll",
         "build/MSBuildFull46/System.Collections.Immutable.dll",
+        "build/MSBuildFull46/System.Collections.NonGeneric.dll",
+        "build/MSBuildFull46/System.Collections.Specialized.dll",
+        "build/MSBuildFull46/System.Collections.dll",
+        "build/MSBuildFull46/System.ComponentModel.EventBasedAsync.dll",
+        "build/MSBuildFull46/System.ComponentModel.Primitives.dll",
+        "build/MSBuildFull46/System.ComponentModel.TypeConverter.dll",
+        "build/MSBuildFull46/System.ComponentModel.dll",
         "build/MSBuildFull46/System.Console.dll",
+        "build/MSBuildFull46/System.Data.Common.dll",
+        "build/MSBuildFull46/System.Diagnostics.Contracts.dll",
+        "build/MSBuildFull46/System.Diagnostics.Debug.dll",
         "build/MSBuildFull46/System.Diagnostics.FileVersionInfo.dll",
+        "build/MSBuildFull46/System.Diagnostics.Process.dll",
         "build/MSBuildFull46/System.Diagnostics.StackTrace.dll",
+        "build/MSBuildFull46/System.Diagnostics.TextWriterTraceListener.dll",
+        "build/MSBuildFull46/System.Diagnostics.Tools.dll",
+        "build/MSBuildFull46/System.Diagnostics.TraceSource.dll",
+        "build/MSBuildFull46/System.Diagnostics.Tracing.dll",
+        "build/MSBuildFull46/System.Drawing.Primitives.dll",
+        "build/MSBuildFull46/System.Dynamic.Runtime.dll",
+        "build/MSBuildFull46/System.Globalization.Calendars.dll",
+        "build/MSBuildFull46/System.Globalization.Extensions.dll",
+        "build/MSBuildFull46/System.Globalization.dll",
+        "build/MSBuildFull46/System.IO.Compression.ZipFile.dll",
         "build/MSBuildFull46/System.IO.Compression.dll",
+        "build/MSBuildFull46/System.IO.FileSystem.DriveInfo.dll",
         "build/MSBuildFull46/System.IO.FileSystem.Primitives.dll",
+        "build/MSBuildFull46/System.IO.FileSystem.Watcher.dll",
         "build/MSBuildFull46/System.IO.FileSystem.dll",
+        "build/MSBuildFull46/System.IO.IsolatedStorage.dll",
+        "build/MSBuildFull46/System.IO.MemoryMappedFiles.dll",
+        "build/MSBuildFull46/System.IO.Pipes.dll",
+        "build/MSBuildFull46/System.IO.UnmanagedMemoryStream.dll",
+        "build/MSBuildFull46/System.IO.dll",
+        "build/MSBuildFull46/System.Linq.Expressions.dll",
+        "build/MSBuildFull46/System.Linq.Parallel.dll",
+        "build/MSBuildFull46/System.Linq.Queryable.dll",
+        "build/MSBuildFull46/System.Linq.dll",
+        "build/MSBuildFull46/System.Memory.dll",
+        "build/MSBuildFull46/System.Net.Http.dll",
+        "build/MSBuildFull46/System.Net.NameResolution.dll",
+        "build/MSBuildFull46/System.Net.NetworkInformation.dll",
+        "build/MSBuildFull46/System.Net.Ping.dll",
+        "build/MSBuildFull46/System.Net.Primitives.dll",
+        "build/MSBuildFull46/System.Net.Requests.dll",
+        "build/MSBuildFull46/System.Net.Security.dll",
+        "build/MSBuildFull46/System.Net.Sockets.dll",
+        "build/MSBuildFull46/System.Net.WebHeaderCollection.dll",
+        "build/MSBuildFull46/System.Net.WebSockets.Client.dll",
+        "build/MSBuildFull46/System.Net.WebSockets.dll",
+        "build/MSBuildFull46/System.Numerics.Vectors.dll",
+        "build/MSBuildFull46/System.ObjectModel.dll",
+        "build/MSBuildFull46/System.Reflection.Extensions.dll",
         "build/MSBuildFull46/System.Reflection.Metadata.dll",
+        "build/MSBuildFull46/System.Reflection.Primitives.dll",
+        "build/MSBuildFull46/System.Reflection.dll",
+        "build/MSBuildFull46/System.Resources.Reader.dll",
+        "build/MSBuildFull46/System.Resources.ResourceManager.dll",
+        "build/MSBuildFull46/System.Resources.Writer.dll",
+        "build/MSBuildFull46/System.Runtime.CompilerServices.Unsafe.dll",
+        "build/MSBuildFull46/System.Runtime.CompilerServices.VisualC.dll",
+        "build/MSBuildFull46/System.Runtime.Extensions.dll",
+        "build/MSBuildFull46/System.Runtime.Handles.dll",
+        "build/MSBuildFull46/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "build/MSBuildFull46/System.Runtime.InteropServices.dll",
+        "build/MSBuildFull46/System.Runtime.Numerics.dll",
+        "build/MSBuildFull46/System.Runtime.Serialization.Formatters.dll",
+        "build/MSBuildFull46/System.Runtime.Serialization.Json.dll",
+        "build/MSBuildFull46/System.Runtime.Serialization.Primitives.dll",
+        "build/MSBuildFull46/System.Runtime.Serialization.Xml.dll",
+        "build/MSBuildFull46/System.Runtime.dll",
+        "build/MSBuildFull46/System.Security.Claims.dll",
         "build/MSBuildFull46/System.Security.Cryptography.Algorithms.dll",
+        "build/MSBuildFull46/System.Security.Cryptography.Csp.dll",
         "build/MSBuildFull46/System.Security.Cryptography.Encoding.dll",
         "build/MSBuildFull46/System.Security.Cryptography.Primitives.dll",
         "build/MSBuildFull46/System.Security.Cryptography.X509Certificates.dll",
+        "build/MSBuildFull46/System.Security.Principal.dll",
+        "build/MSBuildFull46/System.Security.SecureString.dll",
         "build/MSBuildFull46/System.Text.Encoding.CodePages.dll",
+        "build/MSBuildFull46/System.Text.Encoding.Extensions.dll",
+        "build/MSBuildFull46/System.Text.Encoding.dll",
+        "build/MSBuildFull46/System.Text.RegularExpressions.dll",
+        "build/MSBuildFull46/System.Threading.Overlapped.dll",
+        "build/MSBuildFull46/System.Threading.Tasks.Extensions.dll",
+        "build/MSBuildFull46/System.Threading.Tasks.Parallel.dll",
+        "build/MSBuildFull46/System.Threading.Tasks.dll",
         "build/MSBuildFull46/System.Threading.Thread.dll",
+        "build/MSBuildFull46/System.Threading.ThreadPool.dll",
+        "build/MSBuildFull46/System.Threading.Timer.dll",
+        "build/MSBuildFull46/System.Threading.dll",
         "build/MSBuildFull46/System.ValueTuple.dll",
         "build/MSBuildFull46/System.Xml.ReaderWriter.dll",
+        "build/MSBuildFull46/System.Xml.XDocument.dll",
         "build/MSBuildFull46/System.Xml.XPath.XDocument.dll",
         "build/MSBuildFull46/System.Xml.XPath.dll",
         "build/MSBuildFull46/System.Xml.XmlDocument.dll",
-        "build/MSBuildFull46/runtimes/unix/lib/netstandard1.3/System.Diagnostics.FileVersionInfo.dll",
-        "build/MSBuildFull46/runtimes/unix/lib/netstandard1.3/System.IO.Compression.dll",
-        "build/MSBuildFull46/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll",
-        "build/MSBuildFull46/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
-        "build/MSBuildFull46/runtimes/win/lib/net46/System.Diagnostics.FileVersionInfo.dll",
-        "build/MSBuildFull46/runtimes/win/lib/net46/System.IO.Compression.dll",
-        "build/MSBuildFull46/runtimes/win/lib/net46/System.Security.Cryptography.Algorithms.dll",
-        "build/MSBuildFull46/runtimes/win/lib/net46/System.Security.Cryptography.Encoding.dll",
-        "build/MSBuildFull46/runtimes/win/lib/net46/System.Security.Cryptography.X509Certificates.dll",
-        "build/MSBuildFull46/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "build/MSBuildFull46/System.Xml.XmlSerializer.dll",
+        "build/MSBuildFull46/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/cs/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/de/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/es/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/fr/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/it/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/ja/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/ko/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/netstandard.dll",
+        "build/MSBuildFull46/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/pl/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/pt-BR/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/ru/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll",
+        "build/MSBuildFull46/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/tr/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
         "build/net461/refit.targets",
         "build/netstandard1.4/refit.targets",
+        "buildTransitive/net461/refit.targets",
+        "buildTransitive/netstandard1.4/refit.targets",
         "lib/net461/Refit.dll",
         "lib/net461/Refit.xml",
         "lib/netstandard1.4/Refit.dll",
         "lib/netstandard1.4/Refit.xml",
         "lib/netstandard2.0/Refit.dll",
         "lib/netstandard2.0/Refit.xml",
-        "refit.4.6.58.nupkg.sha512",
+        "refit.4.7.9.nupkg.sha512",
         "refit.nuspec"
       ]
     },
@@ -1367,15 +1543,16 @@
         "serilog.nuspec"
       ]
     },
-    "Splat/7.2.1": {
-      "sha512": "LycbyvThzbazBkp9yBe/TQoCCwzX3IYyxIC7ee4cbg0XJG6fdWw7+l5Yy0zlfbpWKORbnEyvvFUEv9ZngyfC7A==",
+    "Splat/7.3.7": {
+      "sha512": "rj99tEAH/zTcjbnRCA+uJgRXFZ0l37j4mE+1sACcdhT5GWqWmOP/iXqXiQlWaip3oAxdPZNDvzkdkmrBftHvKQ==",
       "type": "package",
-      "path": "splat/7.2.1",
+      "path": "splat/7.3.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE/LICENSE",
         "lib/monoandroid81/Splat.dll",
+        "lib/monoandroid81/Splat.pdb",
         "lib/monoandroid81/Splat.xml",
         "lib/net461/Splat.dll",
         "lib/net461/Splat.xml",
@@ -1394,16 +1571,17 @@
         "lib/xamarintvos10/Splat.xml",
         "lib/xamarinwatchos10/Splat.dll",
         "lib/xamarinwatchos10/Splat.xml",
-        "splat.7.2.1.nupkg.sha512",
+        "splat.7.3.7.nupkg.sha512",
         "splat.nuspec"
       ]
     },
-    "SQLitePCLRaw.bundle_e_sqlite3/1.1.11": {
-      "sha512": "YHsGGczG1vs6CMxqJ/CEK+waSos7PgYORSAtgcYSzgUz/VbH31ZKzMiH8EIj6woXAaxR7N8IiznVEdYVBwr/gw==",
+    "SQLitePCLRaw.bundle_e_sqlite3/1.1.14": {
+      "sha512": "pX2xb/yEoNHgCZa8ueS8WpwBnldN2bb7OdC75jLj/+MkSQnERH/BRpY44SWrAIGSHYQ7EtgrPIQ26Ko7YqfqEA==",
       "type": "package",
-      "path": "sqlitepclraw.bundle_e_sqlite3/1.1.11",
+      "path": "sqlitepclraw.bundle_e_sqlite3/1.1.14",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "build/wp8/SQLitePCLRaw.bundle_e_sqlite3.targets",
         "build/wp80/arm/SQLitePCLRaw.batteries_e_sqlite3.dll",
         "build/wp80/arm/SQLitePCLRaw.batteries_v2.dll",
@@ -1440,16 +1618,17 @@
         "lib/wp8/_._",
         "lib/wpa81/SQLitePCLRaw.batteries_e_sqlite3.dll",
         "lib/wpa81/SQLitePCLRaw.batteries_v2.dll",
-        "sqlitepclraw.bundle_e_sqlite3.1.1.11.nupkg.sha512",
+        "sqlitepclraw.bundle_e_sqlite3.1.1.14.nupkg.sha512",
         "sqlitepclraw.bundle_e_sqlite3.nuspec"
       ]
     },
-    "SQLitePCLRaw.core/1.1.11": {
-      "sha512": "QT17CyQAQIbTCu6pW5+uVA8BXqRzquiDI1tr5Un6c1YZcQydPmGPuYYng9xMs2UHUDYHbTu+JDkp55WR+qo9bQ==",
+    "SQLitePCLRaw.core/1.1.14": {
+      "sha512": "flixsHyhNt7L46t18LUBixlvikYanttCffu5a08D0rFc1nvTKnQKaXdx1qvASFqVB7RRCtBhGxW/+haGdSfQAw==",
       "type": "package",
-      "path": "sqlitepclraw.core/1.1.11",
+      "path": "sqlitepclraw.core/1.1.14",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid/SQLitePCLRaw.core.dll",
         "lib/Xamarin.Mac20/SQLitePCLRaw.core.dll",
         "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll",
@@ -1465,7 +1644,7 @@
         "lib/win8/SQLitePCLRaw.core.dll",
         "lib/win81/SQLitePCLRaw.core.dll",
         "lib/wpa81/SQLitePCLRaw.core.dll",
-        "sqlitepclraw.core.1.1.11.nupkg.sha512",
+        "sqlitepclraw.core.1.1.14.nupkg.sha512",
         "sqlitepclraw.core.nuspec"
       ]
     },
@@ -3411,13 +3590,19 @@
         "version.txt"
       ]
     },
-    "Xamarin.Essentials/1.0.0": {
-      "sha512": "uw51jV7jDW0TLVq/4X9gj6MkLjhGAJWvYL1r/zCQEofdGLZBHmFnXBD+1/dHLGIDktCPIVN7xDO7ZUR5KbfmYg==",
+    "Xamarin.Essentials/1.1.0": {
+      "sha512": "W0XOt1dNMAE2POcsVotoKDDy5FdAOnR0qULKl6WI4kQEMxQ1sp84DsSU5iacV7oQUMuPhUBAm/3ywks0HO1QrQ==",
       "type": "package",
-      "path": "xamarin.essentials/1.0.0",
+      "path": "xamarin.essentials/1.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "lib/monoandroid60/Xamarin.Essentials.dll",
+        "lib/monoandroid60/Xamarin.Essentials.pdb",
+        "lib/monoandroid60/Xamarin.Essentials.xml",
+        "lib/monoandroid70/Xamarin.Essentials.dll",
+        "lib/monoandroid70/Xamarin.Essentials.pdb",
+        "lib/monoandroid70/Xamarin.Essentials.xml",
         "lib/monoandroid71/Xamarin.Essentials.dll",
         "lib/monoandroid71/Xamarin.Essentials.pdb",
         "lib/monoandroid71/Xamarin.Essentials.xml",
@@ -3425,9 +3610,12 @@
         "lib/monoandroid80/Xamarin.Essentials.pdb",
         "lib/monoandroid80/Xamarin.Essentials.xml",
         "lib/monoandroid81/Xamarin.Essentials.dll",
-        "lib/monoandroid81/Xamarin.Essentials.dll.mdb",
         "lib/monoandroid81/Xamarin.Essentials.pdb",
         "lib/monoandroid81/Xamarin.Essentials.xml",
+        "lib/monoandroid90/Xamarin.Essentials.dll",
+        "lib/monoandroid90/Xamarin.Essentials.dll.mdb",
+        "lib/monoandroid90/Xamarin.Essentials.pdb",
+        "lib/monoandroid90/Xamarin.Essentials.xml",
         "lib/netstandard1.0/Xamarin.Essentials.dll",
         "lib/netstandard1.0/Xamarin.Essentials.pdb",
         "lib/netstandard1.0/Xamarin.Essentials.xml",
@@ -3442,7 +3630,7 @@
         "lib/xamarinios10/Xamarin.Essentials.pdb",
         "lib/xamarinios10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.0.0.nupkg.sha512",
+        "xamarin.essentials.1.1.0.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
@@ -3460,14 +3648,14 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Acr.UserDialogs >= 7.0.4",
-      "AutoMapper >= 8.1.0",
+      "AutoMapper >= 8.1.1",
       "Kakemons.Common >= 1.0.0",
       "Kakemons.SDK >= 1.0.0",
-      "Microsoft.AppCenter >= 2.0.0",
-      "Microsoft.AppCenter.Analytics >= 2.0.0",
-      "Microsoft.AppCenter.Crashes >= 2.0.0",
+      "Microsoft.AppCenter >= 2.1.1",
+      "Microsoft.AppCenter.Analytics >= 2.1.1",
+      "Microsoft.AppCenter.Crashes >= 2.1.1",
       "NETStandard.Library >= 2.0.3",
-      "ReactiveUI >= 9.16.1"
+      "ReactiveUI >= 9.18.2"
     ]
   },
   "packageFolders": {
@@ -3528,19 +3716,19 @@
           },
           "AutoMapper": {
             "target": "Package",
-            "version": "[8.1.0, )"
+            "version": "[8.1.1, )"
           },
           "Microsoft.AppCenter": {
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "[2.1.1, )"
           },
           "Microsoft.AppCenter.Analytics": {
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "[2.1.1, )"
           },
           "Microsoft.AppCenter.Crashes": {
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "[2.1.1, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
@@ -3550,7 +3738,7 @@
           },
           "ReactiveUI": {
             "target": "Package",
-            "version": "[9.16.1, )"
+            "version": "[9.18.2, )"
           }
         },
         "imports": [

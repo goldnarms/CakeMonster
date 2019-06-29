@@ -11,6 +11,7 @@
             <listViews:CakeList.ItemTemplate>
                 <DataTemplate>
                     <viewCells:CakeListViewCell 
+                        x:Name="CakeDetailView"
                         Cake="{Binding CakeModel}" 
                         IsFavorite="{Binding IsFavorite}"
                         GoToDetails="{Binding GoToDetailsCommand}"
