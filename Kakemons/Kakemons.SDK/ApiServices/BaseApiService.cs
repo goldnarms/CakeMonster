@@ -1,6 +1,7 @@
 using System.Net.Http;
 using Refit;
 using Serilog;
+//using Kakemons.Core.Services;
 
 namespace Kakemons.SDK.ApiServices
 {
@@ -8,7 +9,7 @@ namespace Kakemons.SDK.ApiServices
     {
         protected readonly T Api;
         protected ILogger Logger { get; }
-        public BaseApiService(ILogger logger)
+        public BaseApiService(ILogger logger, HttpClient client)
         {
             Api = RestService.For<T>(client);
             Logger = logger;

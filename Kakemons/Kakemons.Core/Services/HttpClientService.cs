@@ -2,8 +2,9 @@
 using System.Globalization;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Energihjem.Mobile.Core.Contracts;
 using Kakemons.Common.Models;
+using Kakemons.Core.Contracts;
+using Kakemons.SDK.Handlers;
 using Splat;
 using ILogger = Serilog.ILogger;
 

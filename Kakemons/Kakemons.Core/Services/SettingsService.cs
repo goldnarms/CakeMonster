@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Akavache;
 using DynamicData;
-using Energihjem.Mobile.Core.Contracts;
 using Kakemons.Common.Models;
 using Kakemons.Common.Responses;
+using Kakemons.Core.Contracts;
 using Kakemons.Core.Extensions;
 using Kakemons.SDK.ApiServices;
 using Microsoft.AppCenter;
@@ -40,6 +40,8 @@ namespace Kakemons.Core.Services
             _logger = logger ?? Locator.Current.GetService<ILogger>();
             _secureBlobCache = secureBlobCache ?? Locator.Current.GetService<ISecureBlobCache>();
             _localMachineCache = localMachineCache ?? Locator.Current.GetService<IBlobCache>();
+
+            BaseApiUrl = @"http://test.test.no/api";
             var log = _logger.ForContext<SettingsService>();
             log.Information($"Instantiated: {nameof(SettingsService)}");
 
@@ -54,9 +56,11 @@ namespace Kakemons.Core.Services
                 .Subscribe(newUser => IsNewUser = newUser);
         }
 
+        public string BaseApiUrl { get; }
+
         public async Task<AuthTokens> GetToken()
         {
-            string accessToken, refreshToken = "";
+            string accessToken = "", refreshToken = "";
             try
             {
                 if (string.IsNullOrEmpty(_accessToken))
@@ -71,13 +75,13 @@ namespace Kakemons.Core.Services
             }
             catch (Exception)
             {
-                var byteArray = Encoding.ASCII.GetBytes($"{Constants.App.ApiKeyUsername}:{Constants.App.ApiKeyPassword}");
-                var token = Convert.ToBase64String(byteArray);
-                return new AuthTokens()
-                {
-                    AccessToken = token,
-                    TokenType = "Basic"
-                };
+                //var byteArray = Encoding.ASCII.GetBytes($"{Constants.App.ApiKeyUsername}:{Constants.App.ApiKeyPassword}");
+                //var token = Convert.ToBase64String(byteArray);
+                //return new AuthTokens()
+                //{
+                //    AccessToken = token,
+                //    TokenType = "Basic"
+                //};
             }
 
             try
@@ -121,9 +125,8 @@ namespace Kakemons.Core.Services
                 _accessToken = string.Empty;
 
                 await _secureBlobCache.Invalidate(AccessTokenKey);
-                var newToken =
-                    await _accountApiService.RefreshToken(refreshToken, new Context() { { "Url", "RefreshToken" } });
-                await Login(newToken);
+                //var newToken = await _accountApiService.RefreshToken(refreshToken, new Context() { { "Url", "RefreshToken" } });
+                //await Login(newToken);
             }
             catch (Exception ex)
             {

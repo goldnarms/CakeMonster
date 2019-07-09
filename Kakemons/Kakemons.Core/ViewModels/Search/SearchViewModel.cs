@@ -41,12 +41,20 @@ namespace Kakemons.Core.ViewModels.Search
             IUserDialogs userDialogs = null,
             ILogger logger = null):base(hostScreen)
         {
-            _cakeModelService = cakeModelService ?? Locator.Current.GetService<ICakeModelService>();
-            _appUserModelService = appUserModelService ?? Locator.Current.GetService<IAppUserModelService>();
-            _dialogService = dialogService ?? Locator.Current.GetService<IDialogService>();
-            _userDialogs = userDialogs ?? Locator.Current.GetService<IUserDialogs>();
-            _logger = logger ?? Locator.Current.GetService<ILogger>();
-            _cd = new CompositeDisposable();
+            try
+            {
+                _cakeModelService = cakeModelService ?? Locator.Current.GetService<ICakeModelService>();
+                _appUserModelService = appUserModelService ?? Locator.Current.GetService<IAppUserModelService>();
+                _dialogService = dialogService ?? Locator.Current.GetService<IDialogService>();
+                _userDialogs = userDialogs ?? Locator.Current.GetService<IUserDialogs>();
+                _logger = logger ?? Locator.Current.GetService<ILogger>();
+                _cd = new CompositeDisposable();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
 
             var searchFilter = this.ObservableForProperty(vm => vm.Query)
                 .Value()
@@ -61,7 +69,7 @@ namespace Kakemons.Core.ViewModels.Search
                 .DistinctUntilChanged()
                 .Select(CakeTypePredicate);
 
-            var nearbyCakes = cakeModelService
+            var nearbyCakes = _cakeModelService
                 .Cakes
                 .Connect()
                 .SubscribeOn(RxApp.TaskpoolScheduler)

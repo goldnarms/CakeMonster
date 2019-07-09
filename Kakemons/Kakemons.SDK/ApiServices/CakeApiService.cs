@@ -14,7 +14,7 @@ namespace Kakemons.SDK.ApiServices
 {
     public class CakeApiService : BaseApiService<ICakeApi>, ICakeApiService
     {
-        public CakeApiService(ILogger logger):base(logger)
+        public CakeApiService(ILogger logger, HttpClient client):base(logger, client)
         {
         }
 
